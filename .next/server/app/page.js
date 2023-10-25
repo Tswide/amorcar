@@ -1,250 +1,87 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 931;
-exports.ids = [931];
+exports.id = "app/page";
+exports.ids = ["app/page"];
 exports.modules = {
 
-/***/ 252:
+/***/ "../../client/components/action-async-storage.external":
+/*!*******************************************************************************!*\
+  !*** external "next/dist/client/components/action-async-storage.external.js" ***!
+  \*******************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/cookie");
+module.exports = require("next/dist/client/components/action-async-storage.external.js");
 
 /***/ }),
 
-/***/ 7999:
+/***/ "./request-async-storage.external":
+/*!*****************************************************************************!*\
+  !*** external "next/dist/client/components/request-async-storage.external" ***!
+  \*****************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/path-to-regexp");
+module.exports = require("next/dist/client/components/request-async-storage.external");
 
 /***/ }),
 
-/***/ 8038:
+/***/ "../../client/components/request-async-storage.external":
+/*!********************************************************************************!*\
+  !*** external "next/dist/client/components/request-async-storage.external.js" ***!
+  \********************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react");
+module.exports = require("next/dist/client/components/request-async-storage.external.js");
 
 /***/ }),
 
-/***/ 8704:
+/***/ "./static-generation-async-storage.external":
+/*!***************************************************************************************!*\
+  !*** external "next/dist/client/components/static-generation-async-storage.external" ***!
+  \***************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
+module.exports = require("next/dist/client/components/static-generation-async-storage.external");
 
 /***/ }),
 
-/***/ 7897:
+/***/ "../../client/components/static-generation-async-storage.external":
+/*!******************************************************************************************!*\
+  !*** external "next/dist/client/components/static-generation-async-storage.external.js" ***!
+  \******************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
+module.exports = require("next/dist/client/components/static-generation-async-storage.external.js");
 
 /***/ }),
 
-/***/ 6786:
+/***/ "next/dist/compiled/next-server/app-page.runtime.dev.js":
+/*!*************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-page.runtime.dev.js" ***!
+  \*************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react/jsx-runtime");
+module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js");
 
 /***/ }),
 
-/***/ 1090:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/server/app-render/get-segment-param.js");
-
-/***/ }),
-
-/***/ 8652:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/server/future/helpers/interception-routes.js");
-
-/***/ }),
-
-/***/ 3918:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/amp-context.js");
-
-/***/ }),
-
-/***/ 5732:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/amp-mode.js");
-
-/***/ }),
-
-/***/ 3280:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/app-router-context.js");
-
-/***/ }),
-
-/***/ 2796:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/head-manager-context.js");
-
-/***/ }),
-
-/***/ 9274:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/hooks-client-context.js");
-
-/***/ }),
-
-/***/ 4486:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-blur-svg.js");
-
-/***/ }),
-
-/***/ 744:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-config-context.js");
-
-/***/ }),
-
-/***/ 5843:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-config.js");
-
-/***/ }),
-
-/***/ 9552:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-loader");
-
-/***/ }),
-
-/***/ 4964:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router-context.js");
-
-/***/ }),
-
-/***/ 1751:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
-
-/***/ }),
-
-/***/ 3938:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
-
-/***/ }),
-
-/***/ 1668:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll.js");
-
-/***/ }),
-
-/***/ 1897:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
-
-/***/ }),
-
-/***/ 1109:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/is-local-url.js");
-
-/***/ }),
-
-/***/ 8854:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
-
-/***/ }),
-
-/***/ 3297:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
-
-/***/ }),
-
-/***/ 7782:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/resolve-href.js");
-
-/***/ }),
-
-/***/ 3349:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/server-inserted-html.js");
-
-/***/ }),
-
-/***/ 2470:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/side-effect.js");
-
-/***/ }),
-
-/***/ 9232:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/utils.js");
-
-/***/ }),
-
-/***/ 618:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/utils/warn-once.js");
-
-/***/ }),
-
-/***/ 1017:
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
 /***/ ((module) => {
 
 "use strict";
@@ -252,7 +89,10 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 7310:
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
 /***/ ((module) => {
 
 "use strict";
@@ -260,1521 +100,250 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 9036:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "AppRouter": () => (/* reexport default from dynamic */ next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0___default.a),
-/* harmony export */   "GlobalError": () => (/* reexport default from dynamic */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3___default.a),
-/* harmony export */   "LayoutRouter": () => (/* reexport default from dynamic */ next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1___default.a),
-/* harmony export */   "RenderFromTemplateContext": () => (/* reexport default from dynamic */ next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2___default.a),
-/* harmony export */   "StaticGenerationSearchParamsBailoutProvider": () => (/* reexport default from dynamic */ next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8___default.a),
-/* harmony export */   "__next_app_webpack_require__": () => (/* binding */ __next_app_webpack_require__),
-/* harmony export */   "actionAsyncStorage": () => (/* reexport safe */ next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6__.actionAsyncStorage),
-/* harmony export */   "createSearchParamsBailoutProxy": () => (/* reexport safe */ next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9__.createSearchParamsBailoutProxy),
-/* harmony export */   "decodeAction": () => (/* reexport safe */ react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_11__.decodeAction),
-/* harmony export */   "decodeReply": () => (/* reexport safe */ react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_11__.decodeReply),
-/* harmony export */   "originalPathname": () => (/* binding */ originalPathname),
-/* harmony export */   "pages": () => (/* binding */ pages),
-/* harmony export */   "preconnect": () => (/* reexport safe */ next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__.preconnect),
-/* harmony export */   "preloadFont": () => (/* reexport safe */ next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__.preloadFont),
-/* harmony export */   "preloadStyle": () => (/* reexport safe */ next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__.preloadStyle),
-/* harmony export */   "renderToReadableStream": () => (/* reexport safe */ react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_11__.renderToReadableStream),
-/* harmony export */   "requestAsyncStorage": () => (/* reexport safe */ next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__.requestAsyncStorage),
-/* harmony export */   "serverHooks": () => (/* reexport module object */ next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10__),
-/* harmony export */   "staticGenerationAsyncStorage": () => (/* reexport safe */ next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__.staticGenerationAsyncStorage),
-/* harmony export */   "staticGenerationBailout": () => (/* reexport safe */ next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7__.staticGenerationBailout),
-/* harmony export */   "tree": () => (/* binding */ tree)
-/* harmony export */ });
-/* harmony import */ var next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8829);
-/* harmony import */ var next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5226);
-/* harmony import */ var next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2872);
-/* harmony import */ var next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8412);
-/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1839);
-/* harmony import */ var next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8214);
-/* harmony import */ var next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7797);
-/* harmony import */ var next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(9282);
-/* harmony import */ var next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(3785);
-/* harmony import */ var next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(5183);
-/* harmony import */ var next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(5815);
-/* harmony import */ var next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(6370);
-/* harmony import */ var next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(515);
-/* harmony import */ var next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__);
-
-    const tree = {
-        children: [
-        '',
-        {
-        children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8484)), "D:\\code\\sportmotor\\app\\page.tsx"],
-          metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4756))).default(props))],
-    apple: [],
-    openGraph: [],
-    twitter: [],
-    manifest: undefined
-  }
-        }]
-      },
-        {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5596)), "D:\\code\\sportmotor\\app\\layout.tsx"],
-          metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4756))).default(props))],
-    apple: [],
-    openGraph: [],
-    twitter: [],
-    manifest: undefined
-  }
-        }
-      ]
-      }.children;
-    const pages = ["D:\\code\\sportmotor\\app\\page.tsx"];
-
-    
-    
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-
-    
-    const __next_app_webpack_require__ = __webpack_require__
-    
-
-    const originalPathname = "/page"
-  
+module.exports = require("util");
 
 /***/ }),
 
-/***/ 386:
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   GlobalError: () => (/* reexport default from dynamic */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default.a),\n/* harmony export */   __next_app__: () => (/* binding */ __next_app__),\n/* harmony export */   originalPathname: () => (/* binding */ originalPathname),\n/* harmony export */   pages: () => (/* binding */ pages),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   tree: () => (/* binding */ tree)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/app-page/module.compiled */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js?5bc9\");\n/* harmony import */ var next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(rsc)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/client/components/error-boundary */ \"(rsc)/./node_modules/next/dist/client/components/error-boundary.js\");\n/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dist/server/app-render/entry-base */ \"(rsc)/./node_modules/next/dist/server/app-render/entry-base.js\");\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};\n/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__) if([\"default\",\"tree\",\"pages\",\"GlobalError\",\"originalPathname\",\"__next_app__\",\"routeModule\"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__[__WEBPACK_IMPORT_KEY__]\n/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);\n\n\n// We inject the tree and pages here so that we can use them in the route\n// module.\nconst tree = {\n        children: [\n        '',\n        {\n        children: ['__PAGE__', {}, {\n          page: [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/page.tsx */ \"(rsc)/./app/page.tsx\")), \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\"],\n          metadata: {\n    icon: [(async (props) => (await Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! next-metadata-image-loader?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__ */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__\"))).default(props))],\n    apple: [],\n    openGraph: [],\n    twitter: [],\n    manifest: undefined\n  }\n        }]\n      },\n        {\n        'layout': [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/layout.tsx */ \"(rsc)/./app/layout.tsx\")), \"/Users/gorudodjoulyane/code/AmorCar/app/layout.tsx\"],\n'not-found': [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/not-found-error */ \"(rsc)/./node_modules/next/dist/client/components/not-found-error.js\", 23)), \"next/dist/client/components/not-found-error\"],\n        metadata: {\n    icon: [(async (props) => (await Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! next-metadata-image-loader?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__ */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__\"))).default(props))],\n    apple: [],\n    openGraph: [],\n    twitter: [],\n    manifest: undefined\n  }\n      }\n      ]\n      }.children;\nconst pages = [\"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\"];\n\n\nconst __next_app_require__ = __webpack_require__\nconst __next_app_load_chunk__ = () => Promise.resolve()\nconst originalPathname = \"/page\";\nconst __next_app__ = {\n    require: __next_app_require__,\n    loadChunk: __next_app_load_chunk__\n};\n\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppPageRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_PAGE,\n        page: \"/page\",\n        pathname: \"/\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\",\n        appPaths: []\n    },\n    userland: {\n        loaderTree: tree\n    }\n});\n\n//# sourceMappingURL=app-page.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIuanM/bmFtZT1hcHAlMkZwYWdlJnBhZ2U9JTJGcGFnZSZhcHBQYXRocz0lMkZwYWdlJnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGcGFnZS50c3gmYXBwRGlyPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZhcHAmcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyZyb290RGlyPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXImaXNEZXY9dHJ1ZSZ0c2NvbmZpZ1BhdGg9dHNjb25maWcuanNvbiZiYXNlUGF0aD0mYXNzZXRQcmVmaXg9Jm5leHRDb25maWdPdXRwdXQ9JnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0QhIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBb0c7QUFDckM7QUFDL0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUNBQWlDO0FBQ2pDLHVCQUF1Qix3SUFBcUY7QUFDNUc7QUFDQSxvQ0FBb0MsOGVBQStPO0FBQ25SO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxTQUFTO0FBQ1QsT0FBTztBQUNQO0FBQ0EseUJBQXlCLDRJQUF1RjtBQUNoSCxvQkFBb0IsME5BQWdGO0FBQ3BHO0FBQ0Esb0NBQW9DLDhlQUErTztBQUNuUjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLE9BQU87QUFDUDtBQUN1QjtBQUM2RDtBQUNwRiw2QkFBNkIsbUJBQW1CO0FBQ2hEO0FBQ087QUFDQTtBQUNQO0FBQ0E7QUFDQTtBQUN1RDtBQUN2RDtBQUNPLHdCQUF3Qiw4R0FBa0I7QUFDakQ7QUFDQSxjQUFjLHlFQUFTO0FBQ3ZCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTDtBQUNBO0FBQ0E7QUFDQSxDQUFDOztBQUVEIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLz8zNWJkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEFwcFBhZ2VSb3V0ZU1vZHVsZSB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1tb2R1bGVzL2FwcC1wYWdlL21vZHVsZS5jb21waWxlZFwiO1xuaW1wb3J0IHsgUm91dGVLaW5kIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvZnV0dXJlL3JvdXRlLWtpbmRcIjtcbi8vIFdlIGluamVjdCB0aGUgdHJlZSBhbmQgcGFnZXMgaGVyZSBzbyB0aGF0IHdlIGNhbiB1c2UgdGhlbSBpbiB0aGUgcm91dGVcbi8vIG1vZHVsZS5cbmNvbnN0IHRyZWUgPSB7XG4gICAgICAgIGNoaWxkcmVuOiBbXG4gICAgICAgICcnLFxuICAgICAgICB7XG4gICAgICAgIGNoaWxkcmVuOiBbJ19fUEFHRV9fJywge30sIHtcbiAgICAgICAgICBwYWdlOiBbKCkgPT4gaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9hcHAvcGFnZS50c3hcIiksIFwiL1VzZXJzL2dvcnVkb2Rqb3VseWFuZS9jb2RlL0Ftb3JDYXIvYXBwL3BhZ2UudHN4XCJdLFxuICAgICAgICAgIG1ldGFkYXRhOiB7XG4gICAgaWNvbjogWyhhc3luYyAocHJvcHMpID0+IChhd2FpdCBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIm5leHQtbWV0YWRhdGEtaW1hZ2UtbG9hZGVyP3R5cGU9ZmF2aWNvbiZzZWdtZW50PSZiYXNlUGF0aD0mcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyEvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9hcHAvZmF2aWNvbi5pY28/X19uZXh0X21ldGFkYXRhX19cIikpLmRlZmF1bHQocHJvcHMpKV0sXG4gICAgYXBwbGU6IFtdLFxuICAgIG9wZW5HcmFwaDogW10sXG4gICAgdHdpdHRlcjogW10sXG4gICAgbWFuaWZlc3Q6IHVuZGVmaW5lZFxuICB9XG4gICAgICAgIH1dXG4gICAgICB9LFxuICAgICAgICB7XG4gICAgICAgICdsYXlvdXQnOiBbKCkgPT4gaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9hcHAvbGF5b3V0LnRzeFwiKSwgXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9hcHAvbGF5b3V0LnRzeFwiXSxcbidub3QtZm91bmQnOiBbKCkgPT4gaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJuZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvbm90LWZvdW5kLWVycm9yXCIpLCBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9ub3QtZm91bmQtZXJyb3JcIl0sXG4gICAgICAgIG1ldGFkYXRhOiB7XG4gICAgaWNvbjogWyhhc3luYyAocHJvcHMpID0+IChhd2FpdCBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIm5leHQtbWV0YWRhdGEtaW1hZ2UtbG9hZGVyP3R5cGU9ZmF2aWNvbiZzZWdtZW50PSZiYXNlUGF0aD0mcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyEvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9hcHAvZmF2aWNvbi5pY28/X19uZXh0X21ldGFkYXRhX19cIikpLmRlZmF1bHQocHJvcHMpKV0sXG4gICAgYXBwbGU6IFtdLFxuICAgIG9wZW5HcmFwaDogW10sXG4gICAgdHdpdHRlcjogW10sXG4gICAgbWFuaWZlc3Q6IHVuZGVmaW5lZFxuICB9XG4gICAgICB9XG4gICAgICBdXG4gICAgICB9LmNoaWxkcmVuO1xuY29uc3QgcGFnZXMgPSBbXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9hcHAvcGFnZS50c3hcIl07XG5leHBvcnQgeyB0cmVlLCBwYWdlcyB9O1xuZXhwb3J0IHsgZGVmYXVsdCBhcyBHbG9iYWxFcnJvciB9IGZyb20gXCJuZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvZXJyb3ItYm91bmRhcnlcIjtcbmNvbnN0IF9fbmV4dF9hcHBfcmVxdWlyZV9fID0gX193ZWJwYWNrX3JlcXVpcmVfX1xuY29uc3QgX19uZXh0X2FwcF9sb2FkX2NodW5rX18gPSAoKSA9PiBQcm9taXNlLnJlc29sdmUoKVxuZXhwb3J0IGNvbnN0IG9yaWdpbmFsUGF0aG5hbWUgPSBcIi9wYWdlXCI7XG5leHBvcnQgY29uc3QgX19uZXh0X2FwcF9fID0ge1xuICAgIHJlcXVpcmU6IF9fbmV4dF9hcHBfcmVxdWlyZV9fLFxuICAgIGxvYWRDaHVuazogX19uZXh0X2FwcF9sb2FkX2NodW5rX19cbn07XG5leHBvcnQgKiBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9hcHAtcmVuZGVyL2VudHJ5LWJhc2VcIjtcbi8vIENyZWF0ZSBhbmQgZXhwb3J0IHRoZSByb3V0ZSBtb2R1bGUgdGhhdCB3aWxsIGJlIGNvbnN1bWVkLlxuZXhwb3J0IGNvbnN0IHJvdXRlTW9kdWxlID0gbmV3IEFwcFBhZ2VSb3V0ZU1vZHVsZSh7XG4gICAgZGVmaW5pdGlvbjoge1xuICAgICAgICBraW5kOiBSb3V0ZUtpbmQuQVBQX1BBR0UsXG4gICAgICAgIHBhZ2U6IFwiL3BhZ2VcIixcbiAgICAgICAgcGF0aG5hbWU6IFwiL1wiLFxuICAgICAgICAvLyBUaGUgZm9sbG93aW5nIGFyZW4ndCB1c2VkIGluIHByb2R1Y3Rpb24uXG4gICAgICAgIGJ1bmRsZVBhdGg6IFwiXCIsXG4gICAgICAgIGZpbGVuYW1lOiBcIlwiLFxuICAgICAgICBhcHBQYXRoczogW11cbiAgICB9LFxuICAgIHVzZXJsYW5kOiB7XG4gICAgICAgIGxvYWRlclRyZWU6IHRyZWVcbiAgICB9XG59KTtcblxuLy8jIHNvdXJjZU1hcHBpbmdVUkw9YXBwLXBhZ2UuanMubWFwIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fapp%2Fglobals.css&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCarCard.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomButton.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomFilter.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FHero.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FSearchbar.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FShowMore.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&server=true!":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fapp%2Fglobals.css&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCarCard.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomButton.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomFilter.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FHero.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FSearchbar.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FShowMore.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&server=true! ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7179));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7749));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4864));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 408, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 53, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6789));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7756));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5841))
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/CarCard.tsx */ \"(ssr)/./components/CarCard.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/CustomButton.tsx */ \"(ssr)/./components/CustomButton.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/CustomFilter.tsx */ \"(ssr)/./components/CustomFilter.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/Hero.tsx */ \"(ssr)/./components/Hero.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/Searchbar.tsx */ \"(ssr)/./components/Searchbar.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/ShowMore.tsx */ \"(ssr)/./components/ShowMore.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/image-component.js */ \"(ssr)/./node_modules/next/dist/client/image-component.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/link.js */ \"(ssr)/./node_modules/next/dist/client/link.js\", 23))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTJGVXNlcnMlMkZnb3J1ZG9kam91bHlhbmUlMkZjb2RlJTJGQW1vckNhciUyRmFwcCUyRmdsb2JhbHMuY3NzJm1vZHVsZXM9JTJGVXNlcnMlMkZnb3J1ZG9kam91bHlhbmUlMkZjb2RlJTJGQW1vckNhciUyRmNvbXBvbmVudHMlMkZDYXJDYXJkLnRzeCZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZjb21wb25lbnRzJTJGQ3VzdG9tQnV0dG9uLnRzeCZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZjb21wb25lbnRzJTJGQ3VzdG9tRmlsdGVyLnRzeCZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZjb21wb25lbnRzJTJGSGVyby50c3gmbW9kdWxlcz0lMkZVc2VycyUyRmdvcnVkb2Rqb3VseWFuZSUyRmNvZGUlMkZBbW9yQ2FyJTJGY29tcG9uZW50cyUyRlNlYXJjaGJhci50c3gmbW9kdWxlcz0lMkZVc2VycyUyRmdvcnVkb2Rqb3VseWFuZSUyRmNvZGUlMkZBbW9yQ2FyJTJGY29tcG9uZW50cyUyRlNob3dNb3JlLnRzeCZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmltYWdlLWNvbXBvbmVudC5qcyZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmxpbmsuanMmc2VydmVyPXRydWUhIiwibWFwcGluZ3MiOiJBQUFBLDRKQUErRjtBQUMvRixzS0FBb0c7QUFDcEcsc0tBQW9HO0FBQ3BHLHNKQUE0RjtBQUM1RixnS0FBaUc7QUFDakcsOEpBQWdHO0FBQ2hHLHNOQUF5SDtBQUN6SCIsInNvdXJjZXMiOlsid2VicGFjazovL2Nhcmh1Yi8/YzE4YyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9nb3J1ZG9kam91bHlhbmUvY29kZS9BbW9yQ2FyL2NvbXBvbmVudHMvQ2FyQ2FyZC50c3hcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9nb3J1ZG9kam91bHlhbmUvY29kZS9BbW9yQ2FyL2NvbXBvbmVudHMvQ3VzdG9tQnV0dG9uLnRzeFwiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL2dvcnVkb2Rqb3VseWFuZS9jb2RlL0Ftb3JDYXIvY29tcG9uZW50cy9DdXN0b21GaWx0ZXIudHN4XCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9jb21wb25lbnRzL0hlcm8udHN4XCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9jb21wb25lbnRzL1NlYXJjaGJhci50c3hcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9nb3J1ZG9kam91bHlhbmUvY29kZS9BbW9yQ2FyL2NvbXBvbmVudHMvU2hvd01vcmUudHN4XCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9pbWFnZS1jb21wb25lbnQuanNcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9nb3J1ZG9kam91bHlhbmUvY29kZS9BbW9yQ2FyL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2xpbmsuanNcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fapp%2Fglobals.css&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCarCard.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomButton.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomFilter.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FHero.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FSearchbar.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FShowMore.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&server=true!\n");
 
 /***/ }),
 
-/***/ 7081:
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCarCard.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomButton.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomFilter.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FHero.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FSearchbar.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FShowMore.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&server=true!":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCarCard.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomButton.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomFilter.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FHero.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FSearchbar.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FShowMore.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&server=true! ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7179));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7749));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4864));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 408, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 53, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6789));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7756));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5841))
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/CarCard.tsx */ \"(ssr)/./components/CarCard.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/CustomButton.tsx */ \"(ssr)/./components/CustomButton.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/CustomFilter.tsx */ \"(ssr)/./components/CustomFilter.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/Hero.tsx */ \"(ssr)/./components/Hero.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/Searchbar.tsx */ \"(ssr)/./components/Searchbar.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/ShowMore.tsx */ \"(ssr)/./components/ShowMore.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/image-component.js */ \"(ssr)/./node_modules/next/dist/client/image-component.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/link.js */ \"(ssr)/./node_modules/next/dist/client/link.js\", 23))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTJGVXNlcnMlMkZnb3J1ZG9kam91bHlhbmUlMkZjb2RlJTJGQW1vckNhciUyRmNvbXBvbmVudHMlMkZDYXJDYXJkLnRzeCZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZjb21wb25lbnRzJTJGQ3VzdG9tQnV0dG9uLnRzeCZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZjb21wb25lbnRzJTJGQ3VzdG9tRmlsdGVyLnRzeCZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZjb21wb25lbnRzJTJGSGVyby50c3gmbW9kdWxlcz0lMkZVc2VycyUyRmdvcnVkb2Rqb3VseWFuZSUyRmNvZGUlMkZBbW9yQ2FyJTJGY29tcG9uZW50cyUyRlNlYXJjaGJhci50c3gmbW9kdWxlcz0lMkZVc2VycyUyRmdvcnVkb2Rqb3VseWFuZSUyRmNvZGUlMkZBbW9yQ2FyJTJGY29tcG9uZW50cyUyRlNob3dNb3JlLnRzeCZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmltYWdlLWNvbXBvbmVudC5qcyZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmxpbmsuanMmc2VydmVyPXRydWUhIiwibWFwcGluZ3MiOiJBQUFBLDRKQUErRjtBQUMvRixzS0FBb0c7QUFDcEcsc0tBQW9HO0FBQ3BHLHNKQUE0RjtBQUM1RixnS0FBaUc7QUFDakcsOEpBQWdHO0FBQ2hHLHNOQUF5SDtBQUN6SCIsInNvdXJjZXMiOlsid2VicGFjazovL2Nhcmh1Yi8/NzEzZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9nb3J1ZG9kam91bHlhbmUvY29kZS9BbW9yQ2FyL2NvbXBvbmVudHMvQ2FyQ2FyZC50c3hcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9nb3J1ZG9kam91bHlhbmUvY29kZS9BbW9yQ2FyL2NvbXBvbmVudHMvQ3VzdG9tQnV0dG9uLnRzeFwiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL2dvcnVkb2Rqb3VseWFuZS9jb2RlL0Ftb3JDYXIvY29tcG9uZW50cy9DdXN0b21GaWx0ZXIudHN4XCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9jb21wb25lbnRzL0hlcm8udHN4XCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9jb21wb25lbnRzL1NlYXJjaGJhci50c3hcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9nb3J1ZG9kam91bHlhbmUvY29kZS9BbW9yQ2FyL2NvbXBvbmVudHMvU2hvd01vcmUudHN4XCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9pbWFnZS1jb21wb25lbnQuanNcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9nb3J1ZG9kam91bHlhbmUvY29kZS9BbW9yQ2FyL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2xpbmsuanNcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCarCard.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomButton.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FCustomFilter.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FHero.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FSearchbar.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fcomponents%2FShowMore.tsx&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&server=true!\n");
 
 /***/ }),
 
-/***/ 7210:
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fapp-router.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Ferror-boundary.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Flayout-router.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-boundary.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Frender-from-template-context.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fstatic-generation-searchparams-bailout-provider.js&server=true!":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fapp-router.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Ferror-boundary.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Flayout-router.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-boundary.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Frender-from-template-context.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fstatic-generation-searchparams-bailout-provider.js&server=true! ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9222, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8301, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3751, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4765, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5192, 23))
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/app-router.js */ \"(ssr)/./node_modules/next/dist/client/components/app-router.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/error-boundary.js */ \"(ssr)/./node_modules/next/dist/client/components/error-boundary.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/layout-router.js */ \"(ssr)/./node_modules/next/dist/client/components/layout-router.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/not-found-boundary.js */ \"(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/render-from-template-context.js */ \"(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js */ \"(ssr)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js\", 23))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTJGVXNlcnMlMkZnb3J1ZG9kam91bHlhbmUlMkZjb2RlJTJGQW1vckNhciUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZkaXN0JTJGY2xpZW50JTJGY29tcG9uZW50cyUyRmFwcC1yb3V0ZXIuanMmbW9kdWxlcz0lMkZVc2VycyUyRmdvcnVkb2Rqb3VseWFuZSUyRmNvZGUlMkZBbW9yQ2FyJTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZjb21wb25lbnRzJTJGZXJyb3ItYm91bmRhcnkuanMmbW9kdWxlcz0lMkZVc2VycyUyRmdvcnVkb2Rqb3VseWFuZSUyRmNvZGUlMkZBbW9yQ2FyJTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZjb21wb25lbnRzJTJGbGF5b3V0LXJvdXRlci5qcyZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmNvbXBvbmVudHMlMkZub3QtZm91bmQtYm91bmRhcnkuanMmbW9kdWxlcz0lMkZVc2VycyUyRmdvcnVkb2Rqb3VseWFuZSUyRmNvZGUlMkZBbW9yQ2FyJTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZjb21wb25lbnRzJTJGcmVuZGVyLWZyb20tdGVtcGxhdGUtY29udGV4dC5qcyZtb2R1bGVzPSUyRlVzZXJzJTJGZ29ydWRvZGpvdWx5YW5lJTJGY29kZSUyRkFtb3JDYXIlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmNvbXBvbmVudHMlMkZzdGF0aWMtZ2VuZXJhdGlvbi1zZWFyY2hwYXJhbXMtYmFpbG91dC1wcm92aWRlci5qcyZzZXJ2ZXI9dHJ1ZSEiLCJtYXBwaW5ncyI6IkFBQUEsa09BQStIO0FBQy9ILDBPQUFtSTtBQUNuSSx3T0FBa0k7QUFDbEksa1BBQXVJO0FBQ3ZJLHNRQUFpSjtBQUNqSiIsInNvdXJjZXMiOlsid2VicGFjazovL2Nhcmh1Yi8/MzljYSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9nb3J1ZG9kam91bHlhbmUvY29kZS9BbW9yQ2FyL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvYXBwLXJvdXRlci5qc1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL2dvcnVkb2Rqb3VseWFuZS9jb2RlL0Ftb3JDYXIvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9lcnJvci1ib3VuZGFyeS5qc1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL2dvcnVkb2Rqb3VseWFuZS9jb2RlL0Ftb3JDYXIvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9sYXlvdXQtcm91dGVyLmpzXCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL25vdC1mb3VuZC1ib3VuZGFyeS5qc1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL2dvcnVkb2Rqb3VseWFuZS9jb2RlL0Ftb3JDYXIvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9yZW5kZXItZnJvbS10ZW1wbGF0ZS1jb250ZXh0LmpzXCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvZ29ydWRvZGpvdWx5YW5lL2NvZGUvQW1vckNhci9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL3N0YXRpYy1nZW5lcmF0aW9uLXNlYXJjaHBhcmFtcy1iYWlsb3V0LXByb3ZpZGVyLmpzXCIpIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fapp-router.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Ferror-boundary.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Flayout-router.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-boundary.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Frender-from-template-context.js&modules=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fstatic-generation-searchparams-bailout-provider.js&server=true!\n");
 
 /***/ }),
 
-/***/ 7179:
+/***/ "(ssr)/./components/CarCard.tsx":
+/*!********************************!*\
+  !*** ./components/CarCard.tsx ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ components_CarCard)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(8421);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-// EXTERNAL MODULE: ./utils/index.ts
-var utils = __webpack_require__(8717);
-// EXTERNAL MODULE: ./components/CustomButton.tsx
-var CustomButton = __webpack_require__(7749);
-// EXTERNAL MODULE: ./node_modules/@headlessui/react/dist/components/transitions/transition.js + 4 modules
-var transition = __webpack_require__(6235);
-// EXTERNAL MODULE: ./node_modules/@headlessui/react/dist/components/dialog/dialog.js + 21 modules
-var dialog = __webpack_require__(7368);
-;// CONCATENATED MODULE: ./components/CarDetails.tsx
-
-
-
-
-
-const CarDetails = ({ isOpen , closeModal , car  })=>/*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(transition/* Transition */.u, {
-            appear: true,
-            show: isOpen,
-            as: react_.Fragment,
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(dialog/* Dialog */.V, {
-                as: "div",
-                className: "relative z-10",
-                onClose: closeModal,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(transition/* Transition.Child */.u.Child, {
-                        as: react_.Fragment,
-                        enter: "ease-out duration-300",
-                        enterFrom: "opacity-0",
-                        enterTo: "opacity-100",
-                        leave: "ease-in duration-200",
-                        leaveFrom: "opacity-100",
-                        leaveTo: "opacity-0",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "fixed inset-0 bg-black bg-opacity-25"
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "fixed inset-0 overflow-y-auto",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "flex min-h-full items-center justify-center p-4 text-center",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx(transition/* Transition.Child */.u.Child, {
-                                as: react_.Fragment,
-                                enter: "ease-out duration-300",
-                                enterFrom: "opacity-0 scale-95",
-                                enterTo: "opacity-100 scale-100",
-                                leave: "ease-out duration-300",
-                                leaveFrom: "opacity-100 scale-100",
-                                leaveTo: "opacity-0 scale-95",
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(dialog/* Dialog.Panel */.V.Panel, {
-                                    className: "relative w-full max-w-lg max-h-[90vh] overflow-y-auto transform rounded-2xl bg-white p-6 text-left shadow-xl transition-all flex flex-col gap-5",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                            type: "button",
-                                            className: "absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-100 rounded-full",
-                                            onClick: closeModal,
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                src: "/close.svg",
-                                                alt: "close",
-                                                width: 20,
-                                                height: 20,
-                                                className: "object-contain"
-                                            })
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "flex-1 flex flex-col gap-3",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                    className: "relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                        src: (0,utils/* generateCarImageUrl */.tx)(car),
-                                                        alt: "car model",
-                                                        fill: true,
-                                                        priority: true,
-                                                        className: "object-contain"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                    className: "flex gap-3",
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                            className: "flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg",
-                                                            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                                src: (0,utils/* generateCarImageUrl */.tx)(car, "29"),
-                                                                alt: "car model",
-                                                                fill: true,
-                                                                priority: true,
-                                                                className: "object-contain"
-                                                            })
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                            className: "flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg",
-                                                            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                                src: (0,utils/* generateCarImageUrl */.tx)(car, "33"),
-                                                                alt: "car model",
-                                                                fill: true,
-                                                                priority: true,
-                                                                className: "object-contain"
-                                                            })
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                            className: "flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg",
-                                                            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                                src: (0,utils/* generateCarImageUrl */.tx)(car, "13"),
-                                                                alt: "car model",
-                                                                fill: true,
-                                                                priority: true,
-                                                                className: "object-contain"
-                                                            })
-                                                        })
-                                                    ]
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "flex-1 flex flex-col gap-2",
-                                            children: [
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
-                                                    className: "font-semibold text-xl capitalize",
-                                                    children: [
-                                                        car.make,
-                                                        " ",
-                                                        car.model
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                    className: "mt-3 flex flex-wrap gap-4",
-                                                    children: Object.entries(car).map(([key, value])=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                            className: "flex justify-between gap-5 w-full text-right",
-                                                            children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                                                    className: "text-grey capitalize",
-                                                                    children: key.split("_").join(" ")
-                                                                }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                                    className: "text-black-100 font-semibold",
-                                                                    children: value
-                                                                })
-                                                            ]
-                                                        }, key))
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            })
-                        })
-                    })
-                ]
-            })
-        })
-    });
-/* harmony default export */ const components_CarDetails = (CarDetails);
-
-;// CONCATENATED MODULE: ./components/CarCard.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-
-const CarCard = ({ car  })=>{
-    const { city_mpg , year , make , model , transmission , drive  } = car;
-    const [isOpen, setIsOpen] = (0,react_.useState)(false);
-    const carRent = (0,utils/* calculateCarRent */.Q_)(city_mpg, year);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "car-card group",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "car-card__content",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
-                    className: "car-card__content-title",
-                    children: [
-                        make,
-                        " ",
-                        model
-                    ]
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                className: "flex mt-6 text-[32px] leading-[38px] font-extrabold",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                        className: "self-start text-[14px] leading-[17px] font-semibold",
-                        children: "€"
-                    }),
-                    carRent,
-                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                        className: "self-end text-[14px] leading-[17px] font-medium",
-                        children: "/day"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "relative w-full h-40 my-3 object-contain",
-                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: (0,utils/* generateCarImageUrl */.tx)(car),
-                    alt: "car model",
-                    fill: true,
-                    priority: true,
-                    className: "object-contain"
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "relative flex w-full mt-2",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "flex group-hover:invisible w-full justify-between text-grey",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex flex-col justify-center items-center gap-2",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/steering-wheel.svg",
-                                        width: 20,
-                                        height: 20,
-                                        alt: "steering wheel"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: "text-[14px] leading-[17px]",
-                                        children: transmission === "a" ? "Automatic" : "Manual"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "car-card__icon",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/tire.svg",
-                                        width: 20,
-                                        height: 20,
-                                        alt: "seat"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: "car-card__icon-text",
-                                        children: drive.toUpperCase()
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "car-card__icon",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/gas.svg",
-                                        width: 20,
-                                        height: 20,
-                                        alt: "seat"
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                        className: "car-card__icon-text",
-                                        children: [
-                                            city_mpg / 2,
-                                            " L/100"
-                                        ]
-                                    })
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "car-card__btn-container",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(CustomButton["default"], {
-                            title: "View More",
-                            containerStyles: "w-full py-[16px] rounded-full bg-primary-blue",
-                            textStyles: "text-white text-[14px] leading-[17px] font-bold",
-                            rightIcon: "/right-arrow.svg",
-                            handleClick: ()=>setIsOpen(true)
-                        })
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(components_CarDetails, {
-                isOpen: isOpen,
-                closeModal: ()=>setIsOpen(false),
-                car: car
-            })
-        ]
-    });
-};
-/* harmony default export */ const components_CarCard = (CarCard);
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @utils */ \"(ssr)/./utils/index.ts\");\n/* harmony import */ var _CustomButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CustomButton */ \"(ssr)/./components/CustomButton.tsx\");\n/* harmony import */ var _CarDetails__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./CarDetails */ \"(ssr)/./components/CarDetails.tsx\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\n\n\nconst CarCard = ({ car })=>{\n    const { city_mpg, year, make, model, transmission, drive } = car;\n    const [isOpen, setIsOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    const carRent = (0,_utils__WEBPACK_IMPORTED_MODULE_3__.calculateCarRent)(city_mpg, year);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"car-card group\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"car-card__content\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                    className: \"car-card__content-title\",\n                    children: [\n                        make,\n                        \" \",\n                        model\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                    lineNumber: 25,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                lineNumber: 24,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                className: \"flex mt-6 text-[32px] leading-[38px] font-extrabold\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                        className: \"self-start text-[14px] leading-[17px] font-semibold\",\n                        children: \"€\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                        lineNumber: 31,\n                        columnNumber: 9\n                    }, undefined),\n                    carRent,\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                        className: \"self-end text-[14px] leading-[17px] font-medium\",\n                        children: \"/day\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                        lineNumber: 33,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                lineNumber: 30,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"relative w-full h-40 my-3 object-contain\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                    src: (0,_utils__WEBPACK_IMPORTED_MODULE_3__.generateCarImageUrl)(car),\n                    alt: \"car model\",\n                    fill: true,\n                    priority: true,\n                    className: \"object-contain\"\n                }, void 0, false, {\n                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                    lineNumber: 37,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                lineNumber: 36,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"relative flex w-full mt-2\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"flex group-hover:invisible w-full justify-between text-grey\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"flex flex-col justify-center items-center gap-2\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                        src: \"/steering-wheel.svg\",\n                                        width: 20,\n                                        height: 20,\n                                        alt: \"steering wheel\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                                        lineNumber: 43,\n                                        columnNumber: 13\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"text-[14px] leading-[17px]\",\n                                        children: transmission === \"a\" ? \"Automatic\" : \"Manual\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                                        lineNumber: 44,\n                                        columnNumber: 13\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                                lineNumber: 42,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"car-card__icon\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                        src: \"/tire.svg\",\n                                        width: 20,\n                                        height: 20,\n                                        alt: \"seat\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                                        lineNumber: 49,\n                                        columnNumber: 13\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"car-card__icon-text\",\n                                        children: drive.toUpperCase()\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                                        lineNumber: 50,\n                                        columnNumber: 13\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                                lineNumber: 48,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"car-card__icon\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                        src: \"/gas.svg\",\n                                        width: 20,\n                                        height: 20,\n                                        alt: \"seat\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                                        lineNumber: 53,\n                                        columnNumber: 13\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"car-card__icon-text\",\n                                        children: [\n                                            city_mpg,\n                                            \" MPG\"\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                                        lineNumber: 54,\n                                        columnNumber: 13\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                                lineNumber: 52,\n                                columnNumber: 11\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                        lineNumber: 41,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"car-card__btn-container\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_CustomButton__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                            title: \"View More\",\n                            containerStyles: \"w-full py-[16px] rounded-full bg-yellow-500\",\n                            textStyles: \"text-white text-[14px] leading-[17px] font-bold\",\n                            rightIcon: \"/right-arrow.svg\",\n                            handleClick: ()=>setIsOpen(true)\n                        }, void 0, false, {\n                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                            lineNumber: 59,\n                            columnNumber: 11\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                        lineNumber: 58,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                lineNumber: 40,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_CarDetails__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n                isOpen: isOpen,\n                closeModal: ()=>setIsOpen(false),\n                car: car\n            }, void 0, false, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n                lineNumber: 69,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx\",\n        lineNumber: 23,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CarCard);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL0NhckNhcmQudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBRWlDO0FBQ0Y7QUFFZ0M7QUFFckI7QUFDSjtBQU10QyxNQUFNTSxVQUFVLENBQUMsRUFBRUMsR0FBRyxFQUFnQjtJQUNwQyxNQUFNLEVBQUVDLFFBQVEsRUFBRUMsSUFBSSxFQUFFQyxJQUFJLEVBQUVDLEtBQUssRUFBRUMsWUFBWSxFQUFFQyxLQUFLLEVBQUUsR0FBR047SUFFN0QsTUFBTSxDQUFDTyxRQUFRQyxVQUFVLEdBQUdmLCtDQUFRQSxDQUFDO0lBRXJDLE1BQU1nQixVQUFVZCx3REFBZ0JBLENBQUNNLFVBQVVDO0lBRTNDLHFCQUNFLDhEQUFDUTtRQUFJQyxXQUFVOzswQkFDYiw4REFBQ0Q7Z0JBQUlDLFdBQVU7MEJBQ2IsNEVBQUNDO29CQUFHRCxXQUFVOzt3QkFDWFI7d0JBQUs7d0JBQUVDOzs7Ozs7Ozs7Ozs7MEJBSVosOERBQUNTO2dCQUFFRixXQUFVOztrQ0FDWCw4REFBQ0c7d0JBQUtILFdBQVU7a0NBQXNEOzs7Ozs7b0JBQ3JFRjtrQ0FDRCw4REFBQ0s7d0JBQUtILFdBQVU7a0NBQWtEOzs7Ozs7Ozs7Ozs7MEJBR3BFLDhEQUFDRDtnQkFBSUMsV0FBVTswQkFDYiw0RUFBQ2pCLG1EQUFLQTtvQkFBQ3FCLEtBQUtuQiwyREFBbUJBLENBQUNJO29CQUFNZ0IsS0FBSTtvQkFBWUMsSUFBSTtvQkFBQ0MsUUFBUTtvQkFBQ1AsV0FBVTs7Ozs7Ozs7Ozs7MEJBR2hGLDhEQUFDRDtnQkFBSUMsV0FBVTs7a0NBQ2IsOERBQUNEO3dCQUFJQyxXQUFVOzswQ0FDYiw4REFBQ0Q7Z0NBQUlDLFdBQVU7O2tEQUNiLDhEQUFDakIsbURBQUtBO3dDQUFDcUIsS0FBSTt3Q0FBc0JJLE9BQU87d0NBQUlDLFFBQVE7d0NBQUlKLEtBQUk7Ozs7OztrREFDNUQsOERBQUNIO3dDQUFFRixXQUFVO2tEQUNWTixpQkFBaUIsTUFBTSxjQUFjOzs7Ozs7Ozs7Ozs7MENBRzFDLDhEQUFDSztnQ0FBSUMsV0FBVTs7a0RBQ2IsOERBQUNqQixtREFBS0E7d0NBQUNxQixLQUFJO3dDQUFZSSxPQUFPO3dDQUFJQyxRQUFRO3dDQUFJSixLQUFJOzs7Ozs7a0RBQ2xELDhEQUFDSDt3Q0FBRUYsV0FBVTtrREFBdUJMLE1BQU1lLFdBQVc7Ozs7Ozs7Ozs7OzswQ0FFdkQsOERBQUNYO2dDQUFJQyxXQUFVOztrREFDYiw4REFBQ2pCLG1EQUFLQTt3Q0FBQ3FCLEtBQUk7d0NBQVdJLE9BQU87d0NBQUlDLFFBQVE7d0NBQUlKLEtBQUk7Ozs7OztrREFDakQsOERBQUNIO3dDQUFFRixXQUFVOzs0Q0FBdUJWOzRDQUFTOzs7Ozs7Ozs7Ozs7Ozs7Ozs7O2tDQUlqRCw4REFBQ1M7d0JBQUlDLFdBQVU7a0NBQ2IsNEVBQUNkLHFEQUFZQTs0QkFDWHlCLE9BQU07NEJBQ05DLGlCQUFnQjs0QkFDaEJDLFlBQVc7NEJBQ1hDLFdBQVU7NEJBQ1ZDLGFBQWEsSUFBTWxCLFVBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7OzBCQUtuQyw4REFBQ1YsbURBQVVBO2dCQUFDUyxRQUFRQTtnQkFBUW9CLFlBQVksSUFBTW5CLFVBQVU7Z0JBQVFSLEtBQUtBOzs7Ozs7Ozs7Ozs7QUFHM0U7QUFFQSxpRUFBZUQsT0FBT0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2Nhcmh1Yi8uL2NvbXBvbmVudHMvQ2FyQ2FyZC50c3g/MzUxNSJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBjbGllbnRcIjtcblxuaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBJbWFnZSBmcm9tIFwibmV4dC9pbWFnZVwiO1xuXG5pbXBvcnQgeyBjYWxjdWxhdGVDYXJSZW50LCBnZW5lcmF0ZUNhckltYWdlVXJsIH0gZnJvbSBcIkB1dGlsc1wiO1xuaW1wb3J0IHsgQ2FyUHJvcHMgfSBmcm9tIFwiQHR5cGVzXCI7XG5pbXBvcnQgQ3VzdG9tQnV0dG9uIGZyb20gXCIuL0N1c3RvbUJ1dHRvblwiO1xuaW1wb3J0IENhckRldGFpbHMgZnJvbSBcIi4vQ2FyRGV0YWlsc1wiO1xuXG5pbnRlcmZhY2UgQ2FyQ2FyZFByb3BzIHtcbiAgY2FyOiBDYXJQcm9wcztcbn1cblxuY29uc3QgQ2FyQ2FyZCA9ICh7IGNhciB9OiBDYXJDYXJkUHJvcHMpID0+IHtcbiAgY29uc3QgeyBjaXR5X21wZywgeWVhciwgbWFrZSwgbW9kZWwsIHRyYW5zbWlzc2lvbiwgZHJpdmUgfSA9IGNhcjtcblxuICBjb25zdCBbaXNPcGVuLCBzZXRJc09wZW5dID0gdXNlU3RhdGUoZmFsc2UpO1xuXG4gIGNvbnN0IGNhclJlbnQgPSBjYWxjdWxhdGVDYXJSZW50KGNpdHlfbXBnLCB5ZWFyKTtcblxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyLWNhcmQgZ3JvdXBcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyLWNhcmRfX2NvbnRlbnRcIj5cbiAgICAgICAgPGgyIGNsYXNzTmFtZT1cImNhci1jYXJkX19jb250ZW50LXRpdGxlXCI+XG4gICAgICAgICAge21ha2V9IHttb2RlbH1cbiAgICAgICAgPC9oMj5cbiAgICAgIDwvZGl2PlxuXG4gICAgICA8cCBjbGFzc05hbWU9J2ZsZXggbXQtNiB0ZXh0LVszMnB4XSBsZWFkaW5nLVszOHB4XSBmb250LWV4dHJhYm9sZCc+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT0nc2VsZi1zdGFydCB0ZXh0LVsxNHB4XSBsZWFkaW5nLVsxN3B4XSBmb250LXNlbWlib2xkJz7igqw8L3NwYW4+XG4gICAgICAgIHtjYXJSZW50fVxuICAgICAgICA8c3BhbiBjbGFzc05hbWU9J3NlbGYtZW5kIHRleHQtWzE0cHhdIGxlYWRpbmctWzE3cHhdIGZvbnQtbWVkaXVtJz4vZGF5PC9zcGFuPlxuICAgICAgPC9wPlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT0ncmVsYXRpdmUgdy1mdWxsIGgtNDAgbXktMyBvYmplY3QtY29udGFpbic+XG4gICAgICAgIDxJbWFnZSBzcmM9e2dlbmVyYXRlQ2FySW1hZ2VVcmwoY2FyKX0gYWx0PSdjYXIgbW9kZWwnIGZpbGwgcHJpb3JpdHkgY2xhc3NOYW1lPSdvYmplY3QtY29udGFpbicgLz5cbiAgICAgIDwvZGl2PlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT0ncmVsYXRpdmUgZmxleCB3LWZ1bGwgbXQtMic+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdmbGV4IGdyb3VwLWhvdmVyOmludmlzaWJsZSB3LWZ1bGwganVzdGlmeS1iZXR3ZWVuIHRleHQtZ3JleSc+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXggZmxleC1jb2wganVzdGlmeS1jZW50ZXIgaXRlbXMtY2VudGVyIGdhcC0yJz5cbiAgICAgICAgICAgIDxJbWFnZSBzcmM9Jy9zdGVlcmluZy13aGVlbC5zdmcnIHdpZHRoPXsyMH0gaGVpZ2h0PXsyMH0gYWx0PSdzdGVlcmluZyB3aGVlbCcgLz5cbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ndGV4dC1bMTRweF0gbGVhZGluZy1bMTdweF0nPlxuICAgICAgICAgICAgICB7dHJhbnNtaXNzaW9uID09PSBcImFcIiA/IFwiQXV0b21hdGljXCIgOiBcIk1hbnVhbFwifVxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FyLWNhcmRfX2ljb25cIj5cbiAgICAgICAgICAgIDxJbWFnZSBzcmM9XCIvdGlyZS5zdmdcIiB3aWR0aD17MjB9IGhlaWdodD17MjB9IGFsdD1cInNlYXRcIiAvPlxuICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwiY2FyLWNhcmRfX2ljb24tdGV4dFwiPntkcml2ZS50b1VwcGVyQ2FzZSgpfTwvcD5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhci1jYXJkX19pY29uXCI+XG4gICAgICAgICAgICA8SW1hZ2Ugc3JjPVwiL2dhcy5zdmdcIiB3aWR0aD17MjB9IGhlaWdodD17MjB9IGFsdD1cInNlYXRcIiAvPlxuICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwiY2FyLWNhcmRfX2ljb24tdGV4dFwiPntjaXR5X21wZ30gTVBHPC9wPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhci1jYXJkX19idG4tY29udGFpbmVyXCI+XG4gICAgICAgICAgPEN1c3RvbUJ1dHRvblxuICAgICAgICAgICAgdGl0bGU9J1ZpZXcgTW9yZSdcbiAgICAgICAgICAgIGNvbnRhaW5lclN0eWxlcz0ndy1mdWxsIHB5LVsxNnB4XSByb3VuZGVkLWZ1bGwgYmcteWVsbG93LTUwMCdcbiAgICAgICAgICAgIHRleHRTdHlsZXM9J3RleHQtd2hpdGUgdGV4dC1bMTRweF0gbGVhZGluZy1bMTdweF0gZm9udC1ib2xkJ1xuICAgICAgICAgICAgcmlnaHRJY29uPScvcmlnaHQtYXJyb3cuc3ZnJ1xuICAgICAgICAgICAgaGFuZGxlQ2xpY2s9eygpID0+IHNldElzT3Blbih0cnVlKX1cbiAgICAgICAgICAvPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuXG4gICAgICA8Q2FyRGV0YWlscyBpc09wZW49e2lzT3Blbn0gY2xvc2VNb2RhbD17KCkgPT4gc2V0SXNPcGVuKGZhbHNlKX0gY2FyPXtjYXJ9IC8+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBDYXJDYXJkO1xuIl0sIm5hbWVzIjpbInVzZVN0YXRlIiwiSW1hZ2UiLCJjYWxjdWxhdGVDYXJSZW50IiwiZ2VuZXJhdGVDYXJJbWFnZVVybCIsIkN1c3RvbUJ1dHRvbiIsIkNhckRldGFpbHMiLCJDYXJDYXJkIiwiY2FyIiwiY2l0eV9tcGciLCJ5ZWFyIiwibWFrZSIsIm1vZGVsIiwidHJhbnNtaXNzaW9uIiwiZHJpdmUiLCJpc09wZW4iLCJzZXRJc09wZW4iLCJjYXJSZW50IiwiZGl2IiwiY2xhc3NOYW1lIiwiaDIiLCJwIiwic3BhbiIsInNyYyIsImFsdCIsImZpbGwiLCJwcmlvcml0eSIsIndpZHRoIiwiaGVpZ2h0IiwidG9VcHBlckNhc2UiLCJ0aXRsZSIsImNvbnRhaW5lclN0eWxlcyIsInRleHRTdHlsZXMiLCJyaWdodEljb24iLCJoYW5kbGVDbGljayIsImNsb3NlTW9kYWwiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./components/CarCard.tsx\n");
 
 /***/ }),
 
-/***/ 7749:
+/***/ "(ssr)/./components/CarDetails.tsx":
+/*!***********************************!*\
+  !*** ./components/CarDetails.tsx ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _barrel_optimize_names_Dialog_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! __barrel_optimize__?names=Dialog,Transition!=!@headlessui/react */ \"(ssr)/./node_modules/@headlessui/react/dist/components/transitions/transition.js\");\n/* harmony import */ var _barrel_optimize_names_Dialog_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! __barrel_optimize__?names=Dialog,Transition!=!@headlessui/react */ \"(ssr)/./node_modules/@headlessui/react/dist/components/dialog/dialog.js\");\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @utils */ \"(ssr)/./utils/index.ts\");\n\n\n\n\n\nconst CarDetails = ({ isOpen, closeModal, car })=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Dialog_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__.Transition, {\n            appear: true,\n            show: isOpen,\n            as: react__WEBPACK_IMPORTED_MODULE_1__.Fragment,\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Dialog_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Dialog, {\n                as: \"div\",\n                className: \"relative z-10\",\n                onClose: closeModal,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Dialog_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__.Transition.Child, {\n                        as: react__WEBPACK_IMPORTED_MODULE_1__.Fragment,\n                        enter: \"ease-out duration-300\",\n                        enterFrom: \"opacity-0\",\n                        enterTo: \"opacity-100\",\n                        leave: \"ease-in duration-200\",\n                        leaveFrom: \"opacity-100\",\n                        leaveTo: \"opacity-0\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"fixed inset-0 bg-black bg-opacity-25\"\n                        }, void 0, false, {\n                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                            lineNumber: 27,\n                            columnNumber: 11\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                        lineNumber: 18,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"fixed inset-0 overflow-y-auto\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"flex min-h-full items-center justify-center p-4 text-center\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Dialog_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__.Transition.Child, {\n                                as: react__WEBPACK_IMPORTED_MODULE_1__.Fragment,\n                                enter: \"ease-out duration-300\",\n                                enterFrom: \"opacity-0 scale-95\",\n                                enterTo: \"opacity-100 scale-100\",\n                                leave: \"ease-out duration-300\",\n                                leaveFrom: \"opacity-100 scale-100\",\n                                leaveTo: \"opacity-0 scale-95\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Dialog_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Dialog.Panel, {\n                                    className: \"relative w-full max-w-lg max-h-[90vh] overflow-y-auto transform rounded-2xl bg-white p-6 text-left shadow-xl transition-all flex flex-col gap-5\",\n                                    children: [\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                            type: \"button\",\n                                            className: \"absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-100 rounded-full\",\n                                            onClick: closeModal,\n                                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                                src: \"/close.svg\",\n                                                alt: \"close\",\n                                                width: 20,\n                                                height: 20,\n                                                className: \"object-contain\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                lineNumber: 47,\n                                                columnNumber: 19\n                                            }, undefined)\n                                        }, void 0, false, {\n                                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                            lineNumber: 42,\n                                            columnNumber: 17\n                                        }, undefined),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                            className: \"flex-1 flex flex-col gap-3\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                    className: \"relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg\",\n                                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                                        src: (0,_utils__WEBPACK_IMPORTED_MODULE_3__.generateCarImageUrl)(car),\n                                                        alt: \"car model\",\n                                                        fill: true,\n                                                        priority: true,\n                                                        className: \"object-contain\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                        lineNumber: 58,\n                                                        columnNumber: 21\n                                                    }, undefined)\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                    lineNumber: 57,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                    className: \"flex gap-3\",\n                                                    children: [\n                                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                            className: \"flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg\",\n                                                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                                                src: (0,_utils__WEBPACK_IMPORTED_MODULE_3__.generateCarImageUrl)(car, \"29\"),\n                                                                alt: \"car model\",\n                                                                fill: true,\n                                                                priority: true,\n                                                                className: \"object-contain\"\n                                                            }, void 0, false, {\n                                                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                                lineNumber: 63,\n                                                                columnNumber: 23\n                                                            }, undefined)\n                                                        }, void 0, false, {\n                                                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                            lineNumber: 62,\n                                                            columnNumber: 21\n                                                        }, undefined),\n                                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                            className: \"flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg\",\n                                                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                                                src: (0,_utils__WEBPACK_IMPORTED_MODULE_3__.generateCarImageUrl)(car, \"33\"),\n                                                                alt: \"car model\",\n                                                                fill: true,\n                                                                priority: true,\n                                                                className: \"object-contain\"\n                                                            }, void 0, false, {\n                                                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                                lineNumber: 66,\n                                                                columnNumber: 23\n                                                            }, undefined)\n                                                        }, void 0, false, {\n                                                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                            lineNumber: 65,\n                                                            columnNumber: 21\n                                                        }, undefined),\n                                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                            className: \"flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg\",\n                                                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                                                src: (0,_utils__WEBPACK_IMPORTED_MODULE_3__.generateCarImageUrl)(car, \"13\"),\n                                                                alt: \"car model\",\n                                                                fill: true,\n                                                                priority: true,\n                                                                className: \"object-contain\"\n                                                            }, void 0, false, {\n                                                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                                lineNumber: 69,\n                                                                columnNumber: 23\n                                                            }, undefined)\n                                                        }, void 0, false, {\n                                                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                            lineNumber: 68,\n                                                            columnNumber: 21\n                                                        }, undefined)\n                                                    ]\n                                                }, void 0, true, {\n                                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                    lineNumber: 61,\n                                                    columnNumber: 19\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                            lineNumber: 56,\n                                            columnNumber: 17\n                                        }, undefined),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                            className: \"flex-1 flex flex-col gap-2\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                                                    className: \"font-semibold text-xl capitalize\",\n                                                    children: [\n                                                        car.make,\n                                                        \" \",\n                                                        car.model\n                                                    ]\n                                                }, void 0, true, {\n                                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                    lineNumber: 75,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                    className: \"mt-3 flex flex-wrap gap-4\",\n                                                    children: Object.entries(car).map(([key, value])=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                            className: \"flex justify-between gap-5 w-full text-right\",\n                                                            children: [\n                                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                                                    className: \"text-grey capitalize\",\n                                                                    children: key.split(\"_\").join(\" \")\n                                                                }, void 0, false, {\n                                                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                                    lineNumber: 82,\n                                                                    columnNumber: 25\n                                                                }, undefined),\n                                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                                                    className: \"text-black-100 font-semibold\",\n                                                                    children: value\n                                                                }, void 0, false, {\n                                                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                                    lineNumber: 85,\n                                                                    columnNumber: 25\n                                                                }, undefined)\n                                                            ]\n                                                        }, key, true, {\n                                                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                            lineNumber: 81,\n                                                            columnNumber: 23\n                                                        }, undefined))\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                                    lineNumber: 79,\n                                                    columnNumber: 19\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                            lineNumber: 74,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    ]\n                                }, void 0, true, {\n                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                    lineNumber: 41,\n                                    columnNumber: 15\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                                lineNumber: 32,\n                                columnNumber: 13\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                            lineNumber: 31,\n                            columnNumber: 11\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                        lineNumber: 30,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n                lineNumber: 17,\n                columnNumber: 7\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CarDetails.tsx\",\n            lineNumber: 16,\n            columnNumber: 5\n        }, undefined)\n    }, void 0, false);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CarDetails);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL0NhckRldGFpbHMudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQWlDO0FBQ0Y7QUFFd0I7QUFFVjtBQVE3QyxNQUFNSyxhQUFhLENBQUMsRUFBRUMsTUFBTSxFQUFFQyxVQUFVLEVBQUVDLEdBQUcsRUFBbUIsaUJBQzlEO2tCQUNFLDRFQUFDTCxpR0FBVUE7WUFBQ00sTUFBTTtZQUFDQyxNQUFNSjtZQUFRSyxJQUFJWCwyQ0FBUUE7c0JBQzNDLDRFQUFDRSw2RkFBTUE7Z0JBQUNTLElBQUc7Z0JBQU1DLFdBQVU7Z0JBQWdCQyxTQUFTTjs7a0NBQ2xELDhEQUFDSixpR0FBVUEsQ0FBQ1csS0FBSzt3QkFDZkgsSUFBSVgsMkNBQVFBO3dCQUNaZSxPQUFNO3dCQUNOQyxXQUFVO3dCQUNWQyxTQUFRO3dCQUNSQyxPQUFNO3dCQUNOQyxXQUFVO3dCQUNWQyxTQUFRO2tDQUVSLDRFQUFDQzs0QkFBSVQsV0FBVTs7Ozs7Ozs7Ozs7a0NBR2pCLDhEQUFDUzt3QkFBSVQsV0FBVTtrQ0FDYiw0RUFBQ1M7NEJBQUlULFdBQVU7c0NBQ2IsNEVBQUNULGlHQUFVQSxDQUFDVyxLQUFLO2dDQUNmSCxJQUFJWCwyQ0FBUUE7Z0NBQ1plLE9BQU07Z0NBQ05DLFdBQVU7Z0NBQ1ZDLFNBQVE7Z0NBQ1JDLE9BQU07Z0NBQ05DLFdBQVU7Z0NBQ1ZDLFNBQVE7MENBRVIsNEVBQUNsQiw2RkFBTUEsQ0FBQ29CLEtBQUs7b0NBQUNWLFdBQVU7O3NEQUN0Qiw4REFBQ1c7NENBQ0NDLE1BQUs7NENBQ0xaLFdBQVU7NENBQ1ZhLFNBQVNsQjtzREFFVCw0RUFBQ04sbURBQUtBO2dEQUNKeUIsS0FBSTtnREFDSkMsS0FBSTtnREFDSkMsT0FBTztnREFDUEMsUUFBUTtnREFDUmpCLFdBQVU7Ozs7Ozs7Ozs7O3NEQUlkLDhEQUFDUzs0Q0FBSVQsV0FBVTs7OERBQ2IsOERBQUNTO29EQUFJVCxXQUFVOzhEQUNiLDRFQUFDWCxtREFBS0E7d0RBQUN5QixLQUFLdEIsMkRBQW1CQSxDQUFDSTt3REFBTW1CLEtBQUk7d0RBQVlHLElBQUk7d0RBQUNDLFFBQVE7d0RBQUNuQixXQUFVOzs7Ozs7Ozs7Ozs4REFHaEYsOERBQUNTO29EQUFJVCxXQUFVOztzRUFDYiw4REFBQ1M7NERBQUlULFdBQVU7c0VBQ2IsNEVBQUNYLG1EQUFLQTtnRUFBQ3lCLEtBQUt0QiwyREFBbUJBLENBQUNJLEtBQUs7Z0VBQU9tQixLQUFJO2dFQUFZRyxJQUFJO2dFQUFDQyxRQUFRO2dFQUFDbkIsV0FBVTs7Ozs7Ozs7Ozs7c0VBRXRGLDhEQUFDUzs0REFBSVQsV0FBVTtzRUFDYiw0RUFBQ1gsbURBQUtBO2dFQUFDeUIsS0FBS3RCLDJEQUFtQkEsQ0FBQ0ksS0FBSztnRUFBT21CLEtBQUk7Z0VBQVlHLElBQUk7Z0VBQUNDLFFBQVE7Z0VBQUNuQixXQUFVOzs7Ozs7Ozs7OztzRUFFdEYsOERBQUNTOzREQUFJVCxXQUFVO3NFQUNiLDRFQUFDWCxtREFBS0E7Z0VBQUV5QixLQUFLdEIsMkRBQW1CQSxDQUFDSSxLQUFLO2dFQUFPbUIsS0FBSTtnRUFBWUcsSUFBSTtnRUFBQ0MsUUFBUTtnRUFBQ25CLFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O3NEQUszRiw4REFBQ1M7NENBQUlULFdBQVU7OzhEQUNiLDhEQUFDb0I7b0RBQUdwQixXQUFVOzt3REFDWEosSUFBSXlCLElBQUk7d0RBQUM7d0RBQUV6QixJQUFJMEIsS0FBSzs7Ozs7Ozs4REFHdkIsOERBQUNiO29EQUFJVCxXQUFVOzhEQUNadUIsT0FBT0MsT0FBTyxDQUFDNUIsS0FBSzZCLEdBQUcsQ0FBQyxDQUFDLENBQUNDLEtBQUtDLE1BQU0saUJBQ3BDLDhEQUFDbEI7NERBQUlULFdBQVU7OzhFQUNiLDhEQUFDNEI7b0VBQUc1QixXQUFVOzhFQUNYMEIsSUFBSUcsS0FBSyxDQUFDLEtBQUtDLElBQUksQ0FBQzs7Ozs7OzhFQUV2Qiw4REFBQ0M7b0VBQUUvQixXQUFVOzhFQUNWMkI7Ozs7Ozs7MkRBTDhERDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQW9CekYsaUVBQWVqQyxVQUFVQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLy4vY29tcG9uZW50cy9DYXJEZXRhaWxzLnRzeD8wZjBhIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEZyYWdtZW50IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgSW1hZ2UgZnJvbSBcIm5leHQvaW1hZ2VcIjtcblxuaW1wb3J0IHsgRGlhbG9nLCBUcmFuc2l0aW9uIH0gZnJvbSBcIkBoZWFkbGVzc3VpL3JlYWN0XCI7XG5pbXBvcnQgeyBDYXJQcm9wcyB9IGZyb20gXCJAdHlwZXNcIjtcbmltcG9ydCB7IGdlbmVyYXRlQ2FySW1hZ2VVcmwgfSBmcm9tIFwiQHV0aWxzXCI7XG5cbmludGVyZmFjZSBDYXJEZXRhaWxzUHJvcHMge1xuICBpc09wZW46IGJvb2xlYW47XG4gIGNsb3NlTW9kYWw6ICgpID0+IHZvaWQ7XG4gIGNhcjogQ2FyUHJvcHM7XG59XG5cbmNvbnN0IENhckRldGFpbHMgPSAoeyBpc09wZW4sIGNsb3NlTW9kYWwsIGNhciB9OiBDYXJEZXRhaWxzUHJvcHMpID0+IChcbiAgPD5cbiAgICA8VHJhbnNpdGlvbiBhcHBlYXIgc2hvdz17aXNPcGVufSBhcz17RnJhZ21lbnR9PlxuICAgICAgPERpYWxvZyBhcz0nZGl2JyBjbGFzc05hbWU9J3JlbGF0aXZlIHotMTAnIG9uQ2xvc2U9e2Nsb3NlTW9kYWx9PlxuICAgICAgICA8VHJhbnNpdGlvbi5DaGlsZFxuICAgICAgICAgIGFzPXtGcmFnbWVudH1cbiAgICAgICAgICBlbnRlcj0nZWFzZS1vdXQgZHVyYXRpb24tMzAwJ1xuICAgICAgICAgIGVudGVyRnJvbT0nb3BhY2l0eS0wJ1xuICAgICAgICAgIGVudGVyVG89J29wYWNpdHktMTAwJ1xuICAgICAgICAgIGxlYXZlPSdlYXNlLWluIGR1cmF0aW9uLTIwMCdcbiAgICAgICAgICBsZWF2ZUZyb209J29wYWNpdHktMTAwJ1xuICAgICAgICAgIGxlYXZlVG89J29wYWNpdHktMCdcbiAgICAgICAgPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdmaXhlZCBpbnNldC0wIGJnLWJsYWNrIGJnLW9wYWNpdHktMjUnIC8+XG4gICAgICAgIDwvVHJhbnNpdGlvbi5DaGlsZD5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nZml4ZWQgaW5zZXQtMCBvdmVyZmxvdy15LWF1dG8nPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdmbGV4IG1pbi1oLWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHAtNCB0ZXh0LWNlbnRlcic+XG4gICAgICAgICAgICA8VHJhbnNpdGlvbi5DaGlsZFxuICAgICAgICAgICAgICBhcz17RnJhZ21lbnR9XG4gICAgICAgICAgICAgIGVudGVyPSdlYXNlLW91dCBkdXJhdGlvbi0zMDAnXG4gICAgICAgICAgICAgIGVudGVyRnJvbT0nb3BhY2l0eS0wIHNjYWxlLTk1J1xuICAgICAgICAgICAgICBlbnRlclRvPSdvcGFjaXR5LTEwMCBzY2FsZS0xMDAnXG4gICAgICAgICAgICAgIGxlYXZlPSdlYXNlLW91dCBkdXJhdGlvbi0zMDAnXG4gICAgICAgICAgICAgIGxlYXZlRnJvbT0nb3BhY2l0eS0xMDAgc2NhbGUtMTAwJ1xuICAgICAgICAgICAgICBsZWF2ZVRvPSdvcGFjaXR5LTAgc2NhbGUtOTUnXG4gICAgICAgICAgICA+XG4gICAgICAgICAgICAgIDxEaWFsb2cuUGFuZWwgY2xhc3NOYW1lPSdyZWxhdGl2ZSB3LWZ1bGwgbWF4LXctbGcgbWF4LWgtWzkwdmhdIG92ZXJmbG93LXktYXV0byB0cmFuc2Zvcm0gcm91bmRlZC0yeGwgYmctd2hpdGUgcC02IHRleHQtbGVmdCBzaGFkb3cteGwgdHJhbnNpdGlvbi1hbGwgZmxleCBmbGV4LWNvbCBnYXAtNSc+XG4gICAgICAgICAgICAgICAgPGJ1dHRvblxuICAgICAgICAgICAgICAgICAgdHlwZT0nYnV0dG9uJ1xuICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSdhYnNvbHV0ZSB0b3AtMiByaWdodC0yIHotMTAgdy1maXQgcC0yIGJnLXByaW1hcnktYmx1ZS0xMDAgcm91bmRlZC1mdWxsJ1xuICAgICAgICAgICAgICAgICAgb25DbGljaz17Y2xvc2VNb2RhbH1cbiAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICA8SW1hZ2VcbiAgICAgICAgICAgICAgICAgICAgc3JjPScvY2xvc2Uuc3ZnJ1xuICAgICAgICAgICAgICAgICAgICBhbHQ9J2Nsb3NlJ1xuICAgICAgICAgICAgICAgICAgICB3aWR0aD17MjB9XG4gICAgICAgICAgICAgICAgICAgIGhlaWdodD17MjB9XG4gICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0nb2JqZWN0LWNvbnRhaW4nXG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgIDwvYnV0dG9uPlxuXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgtMSBmbGV4IGZsZXgtY29sIGdhcC0zJz5cbiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdyZWxhdGl2ZSB3LWZ1bGwgaC00MCBiZy1wYXR0ZXJuIGJnLWNvdmVyIGJnLWNlbnRlciByb3VuZGVkLWxnJz5cbiAgICAgICAgICAgICAgICAgICAgPEltYWdlIHNyYz17Z2VuZXJhdGVDYXJJbWFnZVVybChjYXIpfSBhbHQ9J2NhciBtb2RlbCcgZmlsbCBwcmlvcml0eSBjbGFzc05hbWU9J29iamVjdC1jb250YWluJyAvPlxuICAgICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdmbGV4IGdhcC0zJz5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgtMSByZWxhdGl2ZSB3LWZ1bGwgaC0yNCBiZy1wcmltYXJ5LWJsdWUtMTAwIHJvdW5kZWQtbGcnPlxuICAgICAgICAgICAgICAgICAgICAgIDxJbWFnZSBzcmM9e2dlbmVyYXRlQ2FySW1hZ2VVcmwoY2FyLCBcIjI5XCIpfSBhbHQ9J2NhciBtb2RlbCcgZmlsbCBwcmlvcml0eSBjbGFzc05hbWU9J29iamVjdC1jb250YWluJyAvPlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgtMSByZWxhdGl2ZSB3LWZ1bGwgaC0yNCBiZy1wcmltYXJ5LWJsdWUtMTAwIHJvdW5kZWQtbGcnPlxuICAgICAgICAgICAgICAgICAgICAgIDxJbWFnZSBzcmM9e2dlbmVyYXRlQ2FySW1hZ2VVcmwoY2FyLCBcIjMzXCIpfSBhbHQ9J2NhciBtb2RlbCcgZmlsbCBwcmlvcml0eSBjbGFzc05hbWU9J29iamVjdC1jb250YWluJyAvPlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgtMSByZWxhdGl2ZSB3LWZ1bGwgaC0yNCBiZy1wcmltYXJ5LWJsdWUtMTAwIHJvdW5kZWQtbGcnPlxuICAgICAgICAgICAgICAgICAgICAgIDxJbWFnZSAgc3JjPXtnZW5lcmF0ZUNhckltYWdlVXJsKGNhciwgXCIxM1wiKX0gYWx0PSdjYXIgbW9kZWwnIGZpbGwgcHJpb3JpdHkgY2xhc3NOYW1lPSdvYmplY3QtY29udGFpbicgLz5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdmbGV4LTEgZmxleCBmbGV4LWNvbCBnYXAtMic+XG4gICAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSdmb250LXNlbWlib2xkIHRleHQteGwgY2FwaXRhbGl6ZSc+XG4gICAgICAgICAgICAgICAgICAgIHtjYXIubWFrZX0ge2Nhci5tb2RlbH1cbiAgICAgICAgICAgICAgICAgIDwvaDI+XG5cbiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdtdC0zIGZsZXggZmxleC13cmFwIGdhcC00Jz5cbiAgICAgICAgICAgICAgICAgICAge09iamVjdC5lbnRyaWVzKGNhcikubWFwKChba2V5LCB2YWx1ZV0pID0+IChcbiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nZmxleCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTUgdy1mdWxsIHRleHQtcmlnaHQnIGtleT17a2V5fSA+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSd0ZXh0LWdyZXkgY2FwaXRhbGl6ZSc+XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtrZXkuc3BsaXQoXCJfXCIpLmpvaW4oXCIgXCIpfVxuICAgICAgICAgICAgICAgICAgICAgICAgPC9oND5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ndGV4dC1ibGFjay0xMDAgZm9udC1zZW1pYm9sZCc+XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHt2YWx1ZX1cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgKSl9XG4gICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgPC9EaWFsb2cuUGFuZWw+XG4gICAgICAgICAgICA8L1RyYW5zaXRpb24uQ2hpbGQ+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9EaWFsb2c+XG4gICAgPC9UcmFuc2l0aW9uPlxuICA8Lz5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IENhckRldGFpbHM7XG4iXSwibmFtZXMiOlsiRnJhZ21lbnQiLCJJbWFnZSIsIkRpYWxvZyIsIlRyYW5zaXRpb24iLCJnZW5lcmF0ZUNhckltYWdlVXJsIiwiQ2FyRGV0YWlscyIsImlzT3BlbiIsImNsb3NlTW9kYWwiLCJjYXIiLCJhcHBlYXIiLCJzaG93IiwiYXMiLCJjbGFzc05hbWUiLCJvbkNsb3NlIiwiQ2hpbGQiLCJlbnRlciIsImVudGVyRnJvbSIsImVudGVyVG8iLCJsZWF2ZSIsImxlYXZlRnJvbSIsImxlYXZlVG8iLCJkaXYiLCJQYW5lbCIsImJ1dHRvbiIsInR5cGUiLCJvbkNsaWNrIiwic3JjIiwiYWx0Iiwid2lkdGgiLCJoZWlnaHQiLCJmaWxsIiwicHJpb3JpdHkiLCJoMiIsIm1ha2UiLCJtb2RlbCIsIk9iamVjdCIsImVudHJpZXMiLCJtYXAiLCJrZXkiLCJ2YWx1ZSIsImg0Iiwic3BsaXQiLCJqb2luIiwicCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./components/CarDetails.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./components/CustomButton.tsx":
+/*!*************************************!*\
+  !*** ./components/CustomButton.tsx ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\nconst Button = ({ isDisabled, btnType, containerStyles, textStyles, title, rightIcon, handleClick })=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n        disabled: isDisabled,\n        type: btnType || \"button\",\n        className: `custom-btn ${containerStyles}`,\n        onClick: handleClick,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                className: `flex-1 ${textStyles}`,\n                children: title\n            }, void 0, false, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomButton.tsx\",\n                lineNumber: 14,\n                columnNumber: 5\n            }, undefined),\n            rightIcon && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"relative w-6 h-6\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                    src: rightIcon,\n                    alt: \"arrow_left\",\n                    fill: true,\n                    className: \"object-contain\"\n                }, void 0, false, {\n                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomButton.tsx\",\n                    lineNumber: 17,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomButton.tsx\",\n                lineNumber: 16,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomButton.tsx\",\n        lineNumber: 8,\n        columnNumber: 3\n    }, undefined);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Button);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL0N1c3RvbUJ1dHRvbi50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBRStCO0FBSS9CLE1BQU1DLFNBQVMsQ0FBQyxFQUFFQyxVQUFVLEVBQUVDLE9BQU8sRUFBRUMsZUFBZSxFQUFFQyxVQUFVLEVBQUVDLEtBQUssRUFBRUMsU0FBUyxFQUFFQyxXQUFXLEVBQXFCLGlCQUNwSCw4REFBQ0M7UUFDQ0MsVUFBVVI7UUFDVlMsTUFBTVIsV0FBVztRQUNqQlMsV0FBVyxDQUFDLFdBQVcsRUFBRVIsZ0JBQWdCLENBQUM7UUFDMUNTLFNBQVNMOzswQkFFVCw4REFBQ007Z0JBQUtGLFdBQVcsQ0FBQyxPQUFPLEVBQUVQLFdBQVcsQ0FBQzswQkFBR0M7Ozs7OztZQUN6Q0MsMkJBQ0MsOERBQUNRO2dCQUFJSCxXQUFVOzBCQUNiLDRFQUFDWixtREFBS0E7b0JBQ0pnQixLQUFLVDtvQkFDTFUsS0FBSTtvQkFDSkMsSUFBSTtvQkFDSk4sV0FBVTs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFPcEIsaUVBQWVYLE1BQU1BLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jYXJodWIvLi9jb21wb25lbnRzL0N1c3RvbUJ1dHRvbi50c3g/YTA4MCJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBjbGllbnRcIjtcblxuaW1wb3J0IEltYWdlIGZyb20gXCJuZXh0L2ltYWdlXCI7XG5cbmltcG9ydCB7IEN1c3RvbUJ1dHRvblByb3BzIH0gZnJvbSBcIkB0eXBlc1wiO1xuXG5jb25zdCBCdXR0b24gPSAoeyBpc0Rpc2FibGVkLCBidG5UeXBlLCBjb250YWluZXJTdHlsZXMsIHRleHRTdHlsZXMsIHRpdGxlLCByaWdodEljb24sIGhhbmRsZUNsaWNrIH06IEN1c3RvbUJ1dHRvblByb3BzKSA9PiAoXG4gIDxidXR0b25cbiAgICBkaXNhYmxlZD17aXNEaXNhYmxlZH1cbiAgICB0eXBlPXtidG5UeXBlIHx8IFwiYnV0dG9uXCJ9XG4gICAgY2xhc3NOYW1lPXtgY3VzdG9tLWJ0biAke2NvbnRhaW5lclN0eWxlc31gfVxuICAgIG9uQ2xpY2s9e2hhbmRsZUNsaWNrfVxuICA+XG4gICAgPHNwYW4gY2xhc3NOYW1lPXtgZmxleC0xICR7dGV4dFN0eWxlc31gfT57dGl0bGV9PC9zcGFuPlxuICAgIHtyaWdodEljb24gJiYgKFxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyZWxhdGl2ZSB3LTYgaC02XCI+XG4gICAgICAgIDxJbWFnZVxuICAgICAgICAgIHNyYz17cmlnaHRJY29ufVxuICAgICAgICAgIGFsdD1cImFycm93X2xlZnRcIlxuICAgICAgICAgIGZpbGxcbiAgICAgICAgICBjbGFzc05hbWU9XCJvYmplY3QtY29udGFpblwiXG4gICAgICAgIC8+XG4gICAgICA8L2Rpdj5cbiAgICApfVxuICA8L2J1dHRvbj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEJ1dHRvbjtcbiJdLCJuYW1lcyI6WyJJbWFnZSIsIkJ1dHRvbiIsImlzRGlzYWJsZWQiLCJidG5UeXBlIiwiY29udGFpbmVyU3R5bGVzIiwidGV4dFN0eWxlcyIsInRpdGxlIiwicmlnaHRJY29uIiwiaGFuZGxlQ2xpY2siLCJidXR0b24iLCJkaXNhYmxlZCIsInR5cGUiLCJjbGFzc05hbWUiLCJvbkNsaWNrIiwic3BhbiIsImRpdiIsInNyYyIsImFsdCIsImZpbGwiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./components/CustomButton.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./components/CustomFilter.tsx":
+/*!*************************************!*\
+  !*** ./components/CustomFilter.tsx ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ CustomFilter)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/navigation */ \"(ssr)/./node_modules/next/navigation.js\");\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_navigation__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _barrel_optimize_names_Listbox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! __barrel_optimize__?names=Listbox,Transition!=!@headlessui/react */ \"(ssr)/./node_modules/@headlessui/react/dist/components/listbox/listbox.js\");\n/* harmony import */ var _barrel_optimize_names_Listbox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! __barrel_optimize__?names=Listbox,Transition!=!@headlessui/react */ \"(ssr)/./node_modules/@headlessui/react/dist/components/transitions/transition.js\");\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @utils */ \"(ssr)/./utils/index.ts\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\n\n\nfunction CustomFilter({ title, options }) {\n    const router = (0,next_navigation__WEBPACK_IMPORTED_MODULE_3__.useRouter)();\n    const [selected, setSelected] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(options[0]); // State for storing the selected option\n    // update the URL search parameters and navigate to the new URL\n    const handleUpdateParams = (e)=>{\n        const newPathName = (0,_utils__WEBPACK_IMPORTED_MODULE_4__.updateSearchParams)(title, e.value.toLowerCase());\n        router.push(newPathName);\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"w-fit\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Listbox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Listbox, {\n            value: selected,\n            onChange: (e)=>{\n                setSelected(e); // Update the selected option in state\n                handleUpdateParams(e); // Update the URL search parameters and navigate to the new URL\n            },\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"relative w-fit z-10\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Listbox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Listbox.Button, {\n                        className: \"custom-filter__btn\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                className: \"block truncate\",\n                                children: selected.title\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx\",\n                                lineNumber: 34,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                src: \"/chevron-up-down.svg\",\n                                width: 20,\n                                height: 20,\n                                className: \"ml-4 object-contain\",\n                                alt: \"chevron_up-down\"\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx\",\n                                lineNumber: 35,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx\",\n                        lineNumber: 33,\n                        columnNumber: 11\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Listbox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_6__.Transition, {\n                        as: react__WEBPACK_IMPORTED_MODULE_1__.Fragment,\n                        leave: \"transition ease-in duration-100\",\n                        leaveFrom: \"opacity-100\",\n                        leaveTo: \"opacity-0\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Listbox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Listbox.Options, {\n                            className: \"custom-filter__options\",\n                            children: options.map((option)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Listbox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Listbox.Option, {\n                                    className: ({ active })=>`relative cursor-default select-none py-2 px-4 ${active ? \"bg-primary-blue text-white\" : \"text-gray-900\"}`,\n                                    value: option,\n                                    children: ({ selected })=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n                                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                className: `block truncate ${selected ? \"font-medium\" : \"font-normal\"}`,\n                                                children: option.title\n                                            }, void 0, false, {\n                                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx\",\n                                                lineNumber: 58,\n                                                columnNumber: 23\n                                            }, this)\n                                        }, void 0, false)\n                                }, option.title, false, {\n                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx\",\n                                    lineNumber: 47,\n                                    columnNumber: 17\n                                }, this))\n                        }, void 0, false, {\n                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx\",\n                            lineNumber: 44,\n                            columnNumber: 13\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx\",\n                        lineNumber: 38,\n                        columnNumber: 11\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx\",\n                lineNumber: 31,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx\",\n            lineNumber: 24,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx\",\n        lineNumber: 23,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL0N1c3RvbUZpbHRlci50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUUyQztBQUNaO0FBQ2E7QUFDWTtBQUdaO0FBRTdCLFNBQVNPLGFBQWEsRUFBRUMsS0FBSyxFQUFFQyxPQUFPLEVBQXFCO0lBQ3hFLE1BQU1DLFNBQVNQLDBEQUFTQTtJQUN4QixNQUFNLENBQUNRLFVBQVVDLFlBQVksR0FBR1gsK0NBQVFBLENBQUNRLE9BQU8sQ0FBQyxFQUFFLEdBQUcsd0NBQXdDO0lBRTlGLCtEQUErRDtJQUMvRCxNQUFNSSxxQkFBcUIsQ0FBQ0M7UUFDMUIsTUFBTUMsY0FBY1QsMERBQWtCQSxDQUFDRSxPQUFPTSxFQUFFRSxLQUFLLENBQUNDLFdBQVc7UUFFakVQLE9BQU9RLElBQUksQ0FBQ0g7SUFDZDtJQUVBLHFCQUNFLDhEQUFDSTtRQUFJQyxXQUFVO2tCQUNiLDRFQUFDaEIsK0ZBQU9BO1lBQ05ZLE9BQU9MO1lBQ1BVLFVBQVUsQ0FBQ1A7Z0JBQ1RGLFlBQVlFLElBQUksc0NBQXNDO2dCQUN0REQsbUJBQW1CQyxJQUFJLCtEQUErRDtZQUN4RjtzQkFFQSw0RUFBQ0s7Z0JBQUlDLFdBQVU7O2tDQUViLDhEQUFDaEIsK0ZBQU9BLENBQUNrQixNQUFNO3dCQUFDRixXQUFVOzswQ0FDeEIsOERBQUNHO2dDQUFLSCxXQUFVOzBDQUFrQlQsU0FBU0gsS0FBSzs7Ozs7OzBDQUNoRCw4REFBQ04sbURBQUtBO2dDQUFDc0IsS0FBSTtnQ0FBdUJDLE9BQU87Z0NBQUlDLFFBQVE7Z0NBQUlOLFdBQVU7Z0NBQXNCTyxLQUFJOzs7Ozs7Ozs7Ozs7a0NBRy9GLDhEQUFDdEIsa0dBQVVBO3dCQUNUdUIsSUFBSTVCLDJDQUFRQTt3QkFDWjZCLE9BQU07d0JBQ05DLFdBQVU7d0JBQ1ZDLFNBQVE7a0NBRVIsNEVBQUMzQiwrRkFBT0EsQ0FBQzRCLE9BQU87NEJBQUNaLFdBQVU7c0NBRXhCWCxRQUFRd0IsR0FBRyxDQUFDLENBQUNDLHVCQUNaLDhEQUFDOUIsK0ZBQU9BLENBQUMrQixNQUFNO29DQUViZixXQUFXLENBQUMsRUFBRWdCLE1BQU0sRUFBRSxHQUNwQixDQUFDLDhDQUE4QyxFQUM3Q0EsU0FBUywrQkFBK0IsZ0JBQ3pDLENBQUM7b0NBRUpwQixPQUFPa0I7OENBRU4sQ0FBQyxFQUFFdkIsUUFBUSxFQUFFLGlCQUNaO3NEQUNFLDRFQUFDWTtnREFBS0gsV0FBVyxDQUFDLGVBQWUsRUFBRVQsV0FBVyxnQkFBZ0IsY0FBYyxDQUFDOzBEQUMxRXVCLE9BQU8xQixLQUFLOzs7Ozs7O21DQVhkMEIsT0FBTzFCLEtBQUs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUF1Qm5DIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLy4vY29tcG9uZW50cy9DdXN0b21GaWx0ZXIudHN4PzQxNWEiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2UgY2xpZW50XCI7XG5cbmltcG9ydCB7IEZyYWdtZW50LCB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IEltYWdlIGZyb20gXCJuZXh0L2ltYWdlXCI7XG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9uYXZpZ2F0aW9uXCI7XG5pbXBvcnQgeyBMaXN0Ym94LCBUcmFuc2l0aW9uIH0gZnJvbSBcIkBoZWFkbGVzc3VpL3JlYWN0XCI7XG5cbmltcG9ydCB7IEN1c3RvbUZpbHRlclByb3BzIH0gZnJvbSBcIkB0eXBlc1wiO1xuaW1wb3J0IHsgdXBkYXRlU2VhcmNoUGFyYW1zIH0gZnJvbSBcIkB1dGlsc1wiO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBDdXN0b21GaWx0ZXIoeyB0aXRsZSwgb3B0aW9ucyB9OiBDdXN0b21GaWx0ZXJQcm9wcykge1xuICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTtcbiAgY29uc3QgW3NlbGVjdGVkLCBzZXRTZWxlY3RlZF0gPSB1c2VTdGF0ZShvcHRpb25zWzBdKTsgLy8gU3RhdGUgZm9yIHN0b3JpbmcgdGhlIHNlbGVjdGVkIG9wdGlvblxuXG4gIC8vIHVwZGF0ZSB0aGUgVVJMIHNlYXJjaCBwYXJhbWV0ZXJzIGFuZCBuYXZpZ2F0ZSB0byB0aGUgbmV3IFVSTFxuICBjb25zdCBoYW5kbGVVcGRhdGVQYXJhbXMgPSAoZTogeyB0aXRsZTogc3RyaW5nOyB2YWx1ZTogc3RyaW5nIH0pID0+IHtcbiAgICBjb25zdCBuZXdQYXRoTmFtZSA9IHVwZGF0ZVNlYXJjaFBhcmFtcyh0aXRsZSwgZS52YWx1ZS50b0xvd2VyQ2FzZSgpKTtcblxuICAgIHJvdXRlci5wdXNoKG5ld1BhdGhOYW1lKTtcbiAgfTtcblxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPSd3LWZpdCc+XG4gICAgICA8TGlzdGJveFxuICAgICAgICB2YWx1ZT17c2VsZWN0ZWR9XG4gICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4ge1xuICAgICAgICAgIHNldFNlbGVjdGVkKGUpOyAvLyBVcGRhdGUgdGhlIHNlbGVjdGVkIG9wdGlvbiBpbiBzdGF0ZVxuICAgICAgICAgIGhhbmRsZVVwZGF0ZVBhcmFtcyhlKTsgLy8gVXBkYXRlIHRoZSBVUkwgc2VhcmNoIHBhcmFtZXRlcnMgYW5kIG5hdmlnYXRlIHRvIHRoZSBuZXcgVVJMXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdyZWxhdGl2ZSB3LWZpdCB6LTEwJz5cbiAgICAgICAgICB7LyogQnV0dG9uIGZvciB0aGUgbGlzdGJveCAqL31cbiAgICAgICAgICA8TGlzdGJveC5CdXR0b24gY2xhc3NOYW1lPSdjdXN0b20tZmlsdGVyX19idG4nPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSdibG9jayB0cnVuY2F0ZSc+e3NlbGVjdGVkLnRpdGxlfTwvc3Bhbj5cbiAgICAgICAgICAgIDxJbWFnZSBzcmM9Jy9jaGV2cm9uLXVwLWRvd24uc3ZnJyB3aWR0aD17MjB9IGhlaWdodD17MjB9IGNsYXNzTmFtZT0nbWwtNCBvYmplY3QtY29udGFpbicgYWx0PSdjaGV2cm9uX3VwLWRvd24nIC8+XG4gICAgICAgICAgPC9MaXN0Ym94LkJ1dHRvbj5cbiAgICAgICAgICB7LyogVHJhbnNpdGlvbiBmb3IgZGlzcGxheWluZyB0aGUgb3B0aW9ucyAqL31cbiAgICAgICAgICA8VHJhbnNpdGlvblxuICAgICAgICAgICAgYXM9e0ZyYWdtZW50fSAvLyBncm91cCBtdWx0aXBsZSBlbGVtZW50cyB3aXRob3V0IGludHJvZHVjaW5nIGFuIGFkZGl0aW9uYWwgRE9NIG5vZGUgaS5lLiwgPD48Lz5cbiAgICAgICAgICAgIGxlYXZlPSd0cmFuc2l0aW9uIGVhc2UtaW4gZHVyYXRpb24tMTAwJ1xuICAgICAgICAgICAgbGVhdmVGcm9tPSdvcGFjaXR5LTEwMCdcbiAgICAgICAgICAgIGxlYXZlVG89J29wYWNpdHktMCdcbiAgICAgICAgICA+XG4gICAgICAgICAgICA8TGlzdGJveC5PcHRpb25zIGNsYXNzTmFtZT0nY3VzdG9tLWZpbHRlcl9fb3B0aW9ucyc+XG4gICAgICAgICAgICAgIHsvKiBNYXAgb3ZlciB0aGUgb3B0aW9ucyBhbmQgZGlzcGxheSB0aGVtIGFzIGxpc3Rib3ggb3B0aW9ucyAqL31cbiAgICAgICAgICAgICAge29wdGlvbnMubWFwKChvcHRpb24pID0+IChcbiAgICAgICAgICAgICAgICA8TGlzdGJveC5PcHRpb25cbiAgICAgICAgICAgICAgICAgIGtleT17b3B0aW9uLnRpdGxlfVxuICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXsoeyBhY3RpdmUgfSkgPT5cbiAgICAgICAgICAgICAgICAgICAgYHJlbGF0aXZlIGN1cnNvci1kZWZhdWx0IHNlbGVjdC1ub25lIHB5LTIgcHgtNCAke1xuICAgICAgICAgICAgICAgICAgICAgIGFjdGl2ZSA/IFwiYmctcHJpbWFyeS1ibHVlIHRleHQtd2hpdGVcIiA6IFwidGV4dC1ncmF5LTkwMFwiXG4gICAgICAgICAgICAgICAgICAgIH1gXG4gICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICB2YWx1ZT17b3B0aW9ufVxuICAgICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICAgIHsoeyBzZWxlY3RlZCB9KSA9PiAoXG4gICAgICAgICAgICAgICAgICAgIDw+XG4gICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgYmxvY2sgdHJ1bmNhdGUgJHtzZWxlY3RlZCA/IFwiZm9udC1tZWRpdW1cIiA6IFwiZm9udC1ub3JtYWxcIn1gfSA+XG4gICAgICAgICAgICAgICAgICAgICAgICB7b3B0aW9uLnRpdGxlfVxuICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgPC8+XG4gICAgICAgICAgICAgICAgICApfVxuICAgICAgICAgICAgICAgIDwvTGlzdGJveC5PcHRpb24+XG4gICAgICAgICAgICAgICkpfVxuICAgICAgICAgICAgPC9MaXN0Ym94Lk9wdGlvbnM+XG4gICAgICAgICAgPC9UcmFuc2l0aW9uPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvTGlzdGJveD5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJGcmFnbWVudCIsInVzZVN0YXRlIiwiSW1hZ2UiLCJ1c2VSb3V0ZXIiLCJMaXN0Ym94IiwiVHJhbnNpdGlvbiIsInVwZGF0ZVNlYXJjaFBhcmFtcyIsIkN1c3RvbUZpbHRlciIsInRpdGxlIiwib3B0aW9ucyIsInJvdXRlciIsInNlbGVjdGVkIiwic2V0U2VsZWN0ZWQiLCJoYW5kbGVVcGRhdGVQYXJhbXMiLCJlIiwibmV3UGF0aE5hbWUiLCJ2YWx1ZSIsInRvTG93ZXJDYXNlIiwicHVzaCIsImRpdiIsImNsYXNzTmFtZSIsIm9uQ2hhbmdlIiwiQnV0dG9uIiwic3BhbiIsInNyYyIsIndpZHRoIiwiaGVpZ2h0IiwiYWx0IiwiYXMiLCJsZWF2ZSIsImxlYXZlRnJvbSIsImxlYXZlVG8iLCJPcHRpb25zIiwibWFwIiwib3B0aW9uIiwiT3B0aW9uIiwiYWN0aXZlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./components/CustomFilter.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./components/Footer.tsx":
+/*!*******************************!*\
+  !*** ./components/Footer.tsx ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ \"(ssr)/./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @constants */ \"(ssr)/./constants/index.ts\");\n\n\n\n\nconst Footer = ()=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n        className: \"flex flex-col text-black-100  mt-5 border-t border-gray-100\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"flex flex-col justify-start items-start gap-6\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                src: \"/logo.svg\",\n                                alt: \"logo\",\n                                width: 118,\n                                height: 18,\n                                className: \"object-contain\"\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                lineNumber: 10,\n                                columnNumber: 9\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"text-base text-gray-700\",\n                                children: [\n                                    \"AmorCar 2023 \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                        lineNumber: 12,\n                                        columnNumber: 24\n                                    }, undefined),\n                                    \"All Rights Reserved \\xa9\"\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                lineNumber: 11,\n                                columnNumber: 9\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                        lineNumber: 9,\n                        columnNumber: 7\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"footer__links\",\n                        children: _constants__WEBPACK_IMPORTED_MODULE_3__.footerLinks.map((item)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"footer__link\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                        className: \"font-bold\",\n                                        children: item.title\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                        lineNumber: 20,\n                                        columnNumber: 13\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"flex flex-col gap-5\",\n                                        children: item.links.map((link)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                                href: link.url,\n                                                className: \"text-gray-500\",\n                                                children: link.title\n                                            }, link.title, false, {\n                                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                                lineNumber: 23,\n                                                columnNumber: 17\n                                            }, undefined))\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                        lineNumber: 21,\n                                        columnNumber: 13\n                                    }, undefined)\n                                ]\n                            }, item.title, true, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                lineNumber: 19,\n                                columnNumber: 11\n                            }, undefined))\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                        lineNumber: 17,\n                        columnNumber: 7\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                lineNumber: 8,\n                columnNumber: 5\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        children: \"@2023 AmorCar. All rights reserved\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                        lineNumber: 38,\n                        columnNumber: 7\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"footer__copyrights-link\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                href: \"/\",\n                                className: \"text-gray-500\",\n                                children: \"Privacy & Policy\"\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                lineNumber: 41,\n                                columnNumber: 9\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                href: \"/\",\n                                className: \"text-gray-500\",\n                                children: \"Terms & Condition\"\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                lineNumber: 44,\n                                columnNumber: 9\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                        lineNumber: 40,\n                        columnNumber: 7\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                lineNumber: 37,\n                columnNumber: 5\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n        lineNumber: 7,\n        columnNumber: 3\n    }, undefined);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL0Zvb3Rlci50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQStCO0FBQ0Y7QUFFWTtBQUV6QyxNQUFNRyxTQUFTLGtCQUNiLDhEQUFDQztRQUFPQyxXQUFVOzswQkFDaEIsOERBQUNDO2dCQUFJRCxXQUFVOztrQ0FDYiw4REFBQ0M7d0JBQUlELFdBQVU7OzBDQUNiLDhEQUFDTCxtREFBS0E7Z0NBQUNPLEtBQUk7Z0NBQVlDLEtBQUk7Z0NBQU9DLE9BQU87Z0NBQUtDLFFBQVE7Z0NBQUlMLFdBQVU7Ozs7OzswQ0FDcEUsOERBQUNNO2dDQUFFTixXQUFVOztvQ0FBMEI7a0RBQ3hCLDhEQUFDTzs7Ozs7b0NBQUs7Ozs7Ozs7Ozs7Ozs7a0NBS3ZCLDhEQUFDTjt3QkFBSUQsV0FBVTtrQ0FDWkgsbURBQVdBLENBQUNXLEdBQUcsQ0FBQyxDQUFDQyxxQkFDaEIsOERBQUNSO2dDQUFxQkQsV0FBVTs7a0RBQzlCLDhEQUFDVTt3Q0FBR1YsV0FBVTtrREFBYVMsS0FBS0UsS0FBSzs7Ozs7O2tEQUNyQyw4REFBQ1Y7d0NBQUlELFdBQVU7a0RBQ1pTLEtBQUtHLEtBQUssQ0FBQ0osR0FBRyxDQUFDLENBQUNLLHFCQUNmLDhEQUFDakIsa0RBQUlBO2dEQUVIa0IsTUFBTUQsS0FBS0UsR0FBRztnREFDZGYsV0FBVTswREFFVGEsS0FBS0YsS0FBSzsrQ0FKTkUsS0FBS0YsS0FBSzs7Ozs7Ozs7Ozs7K0JBTGJGLEtBQUtFLEtBQUs7Ozs7Ozs7Ozs7Ozs7Ozs7MEJBa0IxQiw4REFBQ1Y7Z0JBQUlELFdBQVU7O2tDQUNiLDhEQUFDTTtrQ0FBRTs7Ozs7O2tDQUVILDhEQUFDTDt3QkFBSUQsV0FBVTs7MENBQ2IsOERBQUNKLGtEQUFJQTtnQ0FBQ2tCLE1BQUs7Z0NBQUlkLFdBQVU7MENBQWdCOzs7Ozs7MENBR3pDLDhEQUFDSixrREFBSUE7Z0NBQUNrQixNQUFLO2dDQUFJZCxXQUFVOzBDQUFnQjs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBUWpELGlFQUFlRixNQUFNQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLy4vY29tcG9uZW50cy9Gb290ZXIudHN4P2E3OWYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEltYWdlIGZyb20gXCJuZXh0L2ltYWdlXCI7XG5pbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XG5cbmltcG9ydCB7IGZvb3RlckxpbmtzIH0gZnJvbSBcIkBjb25zdGFudHNcIjtcblxuY29uc3QgRm9vdGVyID0gKCkgPT4gKFxuICA8Zm9vdGVyIGNsYXNzTmFtZT0nZmxleCBmbGV4LWNvbCB0ZXh0LWJsYWNrLTEwMCAgbXQtNSBib3JkZXItdCBib3JkZXItZ3JheS0xMDAnPlxuICAgIDxkaXYgY2xhc3NOYW1lPSdmbGV4IG1heC1tZDpmbGV4LWNvbCBmbGV4LXdyYXAganVzdGlmeS1iZXR3ZWVuIGdhcC01IHNtOnB4LTE2IHB4LTYgcHktMTAnPlxuICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXggZmxleC1jb2wganVzdGlmeS1zdGFydCBpdGVtcy1zdGFydCBnYXAtNic+XG4gICAgICAgIDxJbWFnZSBzcmM9Jy9sb2dvLnN2ZycgYWx0PSdsb2dvJyB3aWR0aD17MTE4fSBoZWlnaHQ9ezE4fSBjbGFzc05hbWU9J29iamVjdC1jb250YWluJyAvPlxuICAgICAgICA8cCBjbGFzc05hbWU9J3RleHQtYmFzZSB0ZXh0LWdyYXktNzAwJz5cbiAgICAgICAgICBBbW9yQ2FyIDIwMjMgPGJyIC8+XG4gICAgICAgICAgQWxsIFJpZ2h0cyBSZXNlcnZlZCAmY29weTtcbiAgICAgICAgPC9wPlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9vdGVyX19saW5rc1wiPlxuICAgICAgICB7Zm9vdGVyTGlua3MubWFwKChpdGVtKSA9PiAoXG4gICAgICAgICAgPGRpdiBrZXk9e2l0ZW0udGl0bGV9IGNsYXNzTmFtZT1cImZvb3Rlcl9fbGlua1wiPlxuICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT1cImZvbnQtYm9sZFwiPntpdGVtLnRpdGxlfTwvaDM+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggZmxleC1jb2wgZ2FwLTVcIj5cbiAgICAgICAgICAgICAge2l0ZW0ubGlua3MubWFwKChsaW5rKSA9PiAoXG4gICAgICAgICAgICAgICAgPExpbmtcbiAgICAgICAgICAgICAgICAgIGtleT17bGluay50aXRsZX1cbiAgICAgICAgICAgICAgICAgIGhyZWY9e2xpbmsudXJsfVxuICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwidGV4dC1ncmF5LTUwMFwiXG4gICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAge2xpbmsudGl0bGV9XG4gICAgICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICAgICApKX1cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICApKX1cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuXG4gICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciBmbGV4LXdyYXAgbXQtMTAgYm9yZGVyLXQgYm9yZGVyLWdyYXktMTAwIHNtOnB4LTE2IHB4LTYgcHktMTAnPlxuICAgICAgPHA+QDIwMjMgQW1vckNhci4gQWxsIHJpZ2h0cyByZXNlcnZlZDwvcD5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb290ZXJfX2NvcHlyaWdodHMtbGlua1wiPlxuICAgICAgICA8TGluayBocmVmPVwiL1wiIGNsYXNzTmFtZT1cInRleHQtZ3JheS01MDBcIj5cbiAgICAgICAgICBQcml2YWN5ICYgUG9saWN5XG4gICAgICAgIDwvTGluaz5cbiAgICAgICAgPExpbmsgaHJlZj1cIi9cIiBjbGFzc05hbWU9XCJ0ZXh0LWdyYXktNTAwXCI+XG4gICAgICAgICAgVGVybXMgJiBDb25kaXRpb25cbiAgICAgICAgPC9MaW5rPlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gIDwvZm9vdGVyPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgRm9vdGVyO1xuIl0sIm5hbWVzIjpbIkltYWdlIiwiTGluayIsImZvb3RlckxpbmtzIiwiRm9vdGVyIiwiZm9vdGVyIiwiY2xhc3NOYW1lIiwiZGl2Iiwic3JjIiwiYWx0Iiwid2lkdGgiLCJoZWlnaHQiLCJwIiwiYnIiLCJtYXAiLCJpdGVtIiwiaDMiLCJ0aXRsZSIsImxpbmtzIiwibGluayIsImhyZWYiLCJ1cmwiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./components/Footer.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./components/Hero.tsx":
+/*!*****************************!*\
+  !*** ./components/Hero.tsx ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @components */ \"(ssr)/./components/index.ts\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\nconst Hero = ()=>{\n    const handleScroll = ()=>{\n        const nextSection = document.getElementById(\"discover\");\n        if (nextSection) {\n            nextSection.scrollIntoView({\n                behavior: \"smooth\"\n            });\n        }\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"hero\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex-1 pt-36 padding-x\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                        className: \"hero__title\",\n                        children: \"Find, book, rent a car—quick and super easy!\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Hero.tsx\",\n                        lineNumber: 19,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: \"hero__subtitle\",\n                        children: \"Streamline your car rental experience with our effortless booking process.\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Hero.tsx\",\n                        lineNumber: 23,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components__WEBPACK_IMPORTED_MODULE_2__.CustomButton, {\n                        title: \"Explore Cars\",\n                        containerStyles: \"bg-yellow-500 text-white rounded-lg mt-10\",\n                        handleClick: handleScroll\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Hero.tsx\",\n                        lineNumber: 28,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Hero.tsx\",\n                lineNumber: 18,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"hero__image-container\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"hero__image\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                            src: \"/hero.png\",\n                            alt: \"hero\",\n                            fill: true,\n                            className: \"object-contain\"\n                        }, void 0, false, {\n                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Hero.tsx\",\n                            lineNumber: 36,\n                            columnNumber: 11\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Hero.tsx\",\n                        lineNumber: 35,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"hero__image-overlay\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Hero.tsx\",\n                        lineNumber: 39,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Hero.tsx\",\n                lineNumber: 34,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Hero.tsx\",\n        lineNumber: 17,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL0hlcm8udHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFFK0I7QUFFWTtBQUUzQyxNQUFNRSxPQUFPO0lBQ1gsTUFBTUMsZUFBZTtRQUNuQixNQUFNQyxjQUFjQyxTQUFTQyxjQUFjLENBQUM7UUFFNUMsSUFBSUYsYUFBYTtZQUNmQSxZQUFZRyxjQUFjLENBQUM7Z0JBQUVDLFVBQVU7WUFBUztRQUNsRDtJQUNGO0lBRUEscUJBQ0UsOERBQUNDO1FBQUlDLFdBQVU7OzBCQUNiLDhEQUFDRDtnQkFBSUMsV0FBVTs7a0NBQ2IsOERBQUNDO3dCQUFHRCxXQUFVO2tDQUFjOzs7Ozs7a0NBSTVCLDhEQUFDRTt3QkFBRUYsV0FBVTtrQ0FBaUI7Ozs7OztrQ0FLOUIsOERBQUNULHFEQUFZQTt3QkFDWFksT0FBTTt3QkFDTkMsaUJBQWdCO3dCQUNoQkMsYUFBYVo7Ozs7Ozs7Ozs7OzswQkFHakIsOERBQUNNO2dCQUFJQyxXQUFVOztrQ0FDYiw4REFBQ0Q7d0JBQUlDLFdBQVU7a0NBQ2IsNEVBQUNWLG1EQUFLQTs0QkFBQ2dCLEtBQUk7NEJBQVlDLEtBQUk7NEJBQU9DLElBQUk7NEJBQUNSLFdBQVU7Ozs7Ozs7Ozs7O2tDQUduRCw4REFBQ0Q7d0JBQUlDLFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUl2QjtBQUVBLGlFQUFlUixJQUFJQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLy4vY29tcG9uZW50cy9IZXJvLnRzeD9lNzc5Il0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiO1xuXG5pbXBvcnQgSW1hZ2UgZnJvbSBcIm5leHQvaW1hZ2VcIjtcblxuaW1wb3J0IHsgQ3VzdG9tQnV0dG9uIH0gZnJvbSBcIkBjb21wb25lbnRzXCI7XG5cbmNvbnN0IEhlcm8gPSAoKSA9PiB7XG4gIGNvbnN0IGhhbmRsZVNjcm9sbCA9ICgpID0+IHtcbiAgICBjb25zdCBuZXh0U2VjdGlvbiA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiZGlzY292ZXJcIik7XG5cbiAgICBpZiAobmV4dFNlY3Rpb24pIHtcbiAgICAgIG5leHRTZWN0aW9uLnNjcm9sbEludG9WaWV3KHsgYmVoYXZpb3I6IFwic21vb3RoXCIgfSk7XG4gICAgfVxuICB9O1xuXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJoZXJvXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXgtMSBwdC0zNiBwYWRkaW5nLXhcIj5cbiAgICAgICAgPGgxIGNsYXNzTmFtZT1cImhlcm9fX3RpdGxlXCI+XG4gICAgICAgICAgRmluZCwgYm9vaywgcmVudCBhIGNhcuKAlHF1aWNrIGFuZCBzdXBlciBlYXN5IVxuICAgICAgICA8L2gxPlxuXG4gICAgICAgIDxwIGNsYXNzTmFtZT1cImhlcm9fX3N1YnRpdGxlXCI+XG4gICAgICAgICAgU3RyZWFtbGluZSB5b3VyIGNhciByZW50YWwgZXhwZXJpZW5jZSB3aXRoIG91ciBlZmZvcnRsZXNzIGJvb2tpbmdcbiAgICAgICAgICBwcm9jZXNzLlxuICAgICAgICA8L3A+XG5cbiAgICAgICAgPEN1c3RvbUJ1dHRvblxuICAgICAgICAgIHRpdGxlPVwiRXhwbG9yZSBDYXJzXCJcbiAgICAgICAgICBjb250YWluZXJTdHlsZXM9XCJiZy15ZWxsb3ctNTAwIHRleHQtd2hpdGUgcm91bmRlZC1sZyBtdC0xMFwiXG4gICAgICAgICAgaGFuZGxlQ2xpY2s9e2hhbmRsZVNjcm9sbH1cbiAgICAgICAgLz5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJoZXJvX19pbWFnZS1jb250YWluZXJcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoZXJvX19pbWFnZVwiPlxuICAgICAgICAgIDxJbWFnZSBzcmM9XCIvaGVyby5wbmdcIiBhbHQ9XCJoZXJvXCIgZmlsbCBjbGFzc05hbWU9XCJvYmplY3QtY29udGFpblwiIC8+XG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaGVyb19faW1hZ2Utb3ZlcmxheVwiIC8+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEhlcm87XG4iXSwibmFtZXMiOlsiSW1hZ2UiLCJDdXN0b21CdXR0b24iLCJIZXJvIiwiaGFuZGxlU2Nyb2xsIiwibmV4dFNlY3Rpb24iLCJkb2N1bWVudCIsImdldEVsZW1lbnRCeUlkIiwic2Nyb2xsSW50b1ZpZXciLCJiZWhhdmlvciIsImRpdiIsImNsYXNzTmFtZSIsImgxIiwicCIsInRpdGxlIiwiY29udGFpbmVyU3R5bGVzIiwiaGFuZGxlQ2xpY2siLCJzcmMiLCJhbHQiLCJmaWxsIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./components/Hero.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./components/Navbar.tsx":
+/*!*******************************!*\
+  !*** ./components/Navbar.tsx ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ \"(ssr)/./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _CustomButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CustomButton */ \"(ssr)/./components/CustomButton.tsx\");\n\n\n\n\nconst NavBar = ()=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n        className: \"w-full  absolute z-10\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n            className: \"max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4 bg-transparent\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {\n                    href: \"/\",\n                    className: \"flex justify-center items-center\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                        src: \"/logo.svg\",\n                        alt: \"logo\",\n                        width: 118,\n                        height: 18,\n                        className: \"object-contain\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Navbar.tsx\",\n                        lineNumber: 10,\n                        columnNumber: 9\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Navbar.tsx\",\n                    lineNumber: 9,\n                    columnNumber: 7\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_CustomButton__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                    title: \"Sign in\",\n                    btnType: \"button\",\n                    containerStyles: \"text-yellow-500 rounded-full bg-white min-w-[130px]\"\n                }, void 0, false, {\n                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Navbar.tsx\",\n                    lineNumber: 19,\n                    columnNumber: 7\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Navbar.tsx\",\n            lineNumber: 8,\n            columnNumber: 5\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Navbar.tsx\",\n        lineNumber: 7,\n        columnNumber: 3\n    }, undefined);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavBar);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL05hdmJhci50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQTZCO0FBQ0U7QUFFVztBQUUxQyxNQUFNRyxTQUFTLGtCQUNiLDhEQUFDQztRQUFPQyxXQUFVO2tCQUNoQiw0RUFBQ0M7WUFBSUQsV0FBVTs7OEJBQ2IsOERBQUNMLGtEQUFJQTtvQkFBQ08sTUFBSztvQkFBSUYsV0FBVTs4QkFDdkIsNEVBQUNKLG1EQUFLQTt3QkFDSk8sS0FBSTt3QkFDSkMsS0FBSTt3QkFDSkMsT0FBTzt3QkFDUEMsUUFBUTt3QkFDUk4sV0FBVTs7Ozs7Ozs7Ozs7OEJBSWQsOERBQUNILHFEQUFZQTtvQkFDWFUsT0FBTTtvQkFDTkMsU0FBUTtvQkFDUkMsaUJBQWdCOzs7Ozs7Ozs7Ozs7Ozs7OztBQU14QixpRUFBZVgsTUFBTUEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2Nhcmh1Yi8uL2NvbXBvbmVudHMvTmF2YmFyLnRzeD8xYjgzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcbmltcG9ydCBJbWFnZSBmcm9tIFwibmV4dC9pbWFnZVwiO1xuXG5pbXBvcnQgQ3VzdG9tQnV0dG9uIGZyb20gXCIuL0N1c3RvbUJ1dHRvblwiO1xuXG5jb25zdCBOYXZCYXIgPSAoKSA9PiAoXG4gIDxoZWFkZXIgY2xhc3NOYW1lPSd3LWZ1bGwgIGFic29sdXRlIHotMTAnPlxuICAgIDxuYXYgY2xhc3NOYW1lPSdtYXgtdy1bMTQ0MHB4XSBteC1hdXRvIGZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciBzbTpweC0xNiBweC02IHB5LTQgYmctdHJhbnNwYXJlbnQnPlxuICAgICAgPExpbmsgaHJlZj0nLycgY2xhc3NOYW1lPSdmbGV4IGp1c3RpZnktY2VudGVyIGl0ZW1zLWNlbnRlcic+XG4gICAgICAgIDxJbWFnZVxuICAgICAgICAgIHNyYz0nL2xvZ28uc3ZnJ1xuICAgICAgICAgIGFsdD0nbG9nbydcbiAgICAgICAgICB3aWR0aD17MTE4fVxuICAgICAgICAgIGhlaWdodD17MTh9XG4gICAgICAgICAgY2xhc3NOYW1lPSdvYmplY3QtY29udGFpbidcbiAgICAgICAgLz5cbiAgICAgIDwvTGluaz5cblxuICAgICAgPEN1c3RvbUJ1dHRvblxuICAgICAgICB0aXRsZT0nU2lnbiBpbidcbiAgICAgICAgYnRuVHlwZT0nYnV0dG9uJ1xuICAgICAgICBjb250YWluZXJTdHlsZXM9J3RleHQteWVsbG93LTUwMCByb3VuZGVkLWZ1bGwgYmctd2hpdGUgbWluLXctWzEzMHB4XSdcbiAgICAgIC8+XG4gICAgPC9uYXY+XG4gIDwvaGVhZGVyPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTmF2QmFyO1xuIl0sIm5hbWVzIjpbIkxpbmsiLCJJbWFnZSIsIkN1c3RvbUJ1dHRvbiIsIk5hdkJhciIsImhlYWRlciIsImNsYXNzTmFtZSIsIm5hdiIsImhyZWYiLCJzcmMiLCJhbHQiLCJ3aWR0aCIsImhlaWdodCIsInRpdGxlIiwiYnRuVHlwZSIsImNvbnRhaW5lclN0eWxlcyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./components/Navbar.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./components/SearchManufacturer.tsx":
+/*!*******************************************!*\
+  !*** ./components/SearchManufacturer.tsx ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _barrel_optimize_names_Combobox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! __barrel_optimize__?names=Combobox,Transition!=!@headlessui/react */ \"(ssr)/./node_modules/@headlessui/react/dist/components/combobox/combobox.js\");\n/* harmony import */ var _barrel_optimize_names_Combobox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! __barrel_optimize__?names=Combobox,Transition!=!@headlessui/react */ \"(ssr)/./node_modules/@headlessui/react/dist/components/transitions/transition.js\");\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @constants */ \"(ssr)/./constants/index.ts\");\n\n\n\n\n\nconst SearchManufacturer = ({ manufacturer, setManuFacturer })=>{\n    const [query, setQuery] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(\"\");\n    const filteredManufacturers = query === \"\" ? _constants__WEBPACK_IMPORTED_MODULE_3__.manufacturers : _constants__WEBPACK_IMPORTED_MODULE_3__.manufacturers.filter((item)=>item.toLowerCase().replace(/\\s+/g, \"\").includes(query.toLowerCase().replace(/\\s+/g, \"\")));\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"search-manufacturer\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Combobox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__.Combobox, {\n            value: manufacturer,\n            onChange: setManuFacturer,\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"relative w-full\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Combobox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__.Combobox.Button, {\n                        className: \"absolute top-[14px]\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                            src: \"/car-logo.svg\",\n                            width: 20,\n                            height: 20,\n                            className: \"ml-4\",\n                            alt: \"car logo\"\n                        }, void 0, false, {\n                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n                            lineNumber: 27,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n                        lineNumber: 26,\n                        columnNumber: 11\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Combobox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__.Combobox.Input, {\n                        className: \"search-manufacturer__input\",\n                        displayValue: (item)=>item,\n                        onChange: (event)=>setQuery(event.target.value),\n                        placeholder: \"Volkswagen...\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n                        lineNumber: 37,\n                        columnNumber: 11\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Combobox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Transition, {\n                        as: react__WEBPACK_IMPORTED_MODULE_2__.Fragment,\n                        leave: \"transition ease-in duration-100\",\n                        leaveFrom: \"opacity-100\",\n                        leaveTo: \"opacity-0\",\n                        afterLeave: ()=>setQuery(\"\"),\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Combobox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__.Combobox.Options, {\n                            className: \"absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm\",\n                            static: true,\n                            children: filteredManufacturers.length === 0 && query !== \"\" ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Combobox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__.Combobox.Option, {\n                                value: query,\n                                className: \"search-manufacturer__option\",\n                                children: [\n                                    'Create \"',\n                                    query,\n                                    '\"'\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n                                lineNumber: 57,\n                                columnNumber: 17\n                            }, undefined) : filteredManufacturers.map((item)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Combobox_Transition_headlessui_react__WEBPACK_IMPORTED_MODULE_4__.Combobox.Option, {\n                                    className: ({ active })=>`relative search-manufacturer__option ${active ? \"bg-primary-blue text-white\" : \"text-gray-900\"}`,\n                                    value: item,\n                                    children: ({ selected, active })=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                    className: `block truncate ${selected ? \"font-medium\" : \"font-normal\"}`,\n                                                    children: item\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n                                                    lineNumber: 76,\n                                                    columnNumber: 25\n                                                }, undefined),\n                                                selected ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                    className: `absolute inset-y-0 left-0 flex items-center pl-3 ${active ? \"text-white\" : \"text-pribg-primary-purple\"}`\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n                                                    lineNumber: 82,\n                                                    columnNumber: 27\n                                                }, undefined) : null\n                                            ]\n                                        }, void 0, true)\n                                }, item, false, {\n                                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n                                    lineNumber: 65,\n                                    columnNumber: 19\n                                }, undefined))\n                        }, void 0, false, {\n                            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n                            lineNumber: 52,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n                        lineNumber: 45,\n                        columnNumber: 11\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n                lineNumber: 24,\n                columnNumber: 9\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n            lineNumber: 23,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/SearchManufacturer.tsx\",\n        lineNumber: 22,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SearchManufacturer);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL1NlYXJjaE1hbnVmYWN0dXJlci50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBK0I7QUFDWTtBQUNjO0FBRWQ7QUFHM0MsTUFBTU0scUJBQXFCLENBQUMsRUFBRUMsWUFBWSxFQUFFQyxlQUFlLEVBQTJCO0lBQ3BGLE1BQU0sQ0FBQ0MsT0FBT0MsU0FBUyxHQUFHUiwrQ0FBUUEsQ0FBQztJQUVuQyxNQUFNUyx3QkFDSkYsVUFBVSxLQUNOSixxREFBYUEsR0FDYkEscURBQWFBLENBQUNPLE1BQU0sQ0FBQyxDQUFDQyxPQUNwQkEsS0FDR0MsV0FBVyxHQUNYQyxPQUFPLENBQUMsUUFBUSxJQUNoQkMsUUFBUSxDQUFDUCxNQUFNSyxXQUFXLEdBQUdDLE9BQU8sQ0FBQyxRQUFRO0lBR3hELHFCQUNFLDhEQUFDRTtRQUFJQyxXQUFVO2tCQUNiLDRFQUFDZixpR0FBUUE7WUFBQ2dCLE9BQU9aO1lBQWNhLFVBQVVaO3NCQUN2Qyw0RUFBQ1M7Z0JBQUlDLFdBQVU7O2tDQUViLDhEQUFDZixpR0FBUUEsQ0FBQ2tCLE1BQU07d0JBQUNILFdBQVU7a0NBQ3pCLDRFQUFDbEIsbURBQUtBOzRCQUNKc0IsS0FBSTs0QkFDSkMsT0FBTzs0QkFDUEMsUUFBUTs0QkFDUk4sV0FBVTs0QkFDVk8sS0FBSTs7Ozs7Ozs7Ozs7a0NBS1IsOERBQUN0QixpR0FBUUEsQ0FBQ3VCLEtBQUs7d0JBQ2JSLFdBQVU7d0JBQ1ZTLGNBQWMsQ0FBQ2QsT0FBaUJBO3dCQUNoQ08sVUFBVSxDQUFDUSxRQUFVbEIsU0FBU2tCLE1BQU1DLE1BQU0sQ0FBQ1YsS0FBSzt3QkFDaERXLGFBQVk7Ozs7OztrQ0FJZCw4REFBQzFCLG1HQUFVQTt3QkFDVDJCLElBQUk5QiwyQ0FBUUE7d0JBQ1orQixPQUFNO3dCQUNOQyxXQUFVO3dCQUNWQyxTQUFRO3dCQUNSQyxZQUFZLElBQU16QixTQUFTO2tDQUUzQiw0RUFBQ1AsaUdBQVFBLENBQUNpQyxPQUFPOzRCQUNmbEIsV0FBVTs0QkFDVm1CLE1BQU07c0NBRUwxQixzQkFBc0IyQixNQUFNLEtBQUssS0FBSzdCLFVBQVUsbUJBQy9DLDhEQUFDTixpR0FBUUEsQ0FBQ29DLE1BQU07Z0NBQ2RwQixPQUFPVjtnQ0FDUFMsV0FBVTs7b0NBQ1g7b0NBQ1VUO29DQUFNOzs7Ozs7NENBR2pCRSxzQkFBc0I2QixHQUFHLENBQUMsQ0FBQzNCLHFCQUN6Qiw4REFBQ1YsaUdBQVFBLENBQUNvQyxNQUFNO29DQUVkckIsV0FBVyxDQUFDLEVBQUV1QixNQUFNLEVBQUUsR0FDcEIsQ0FBQyxxQ0FBcUMsRUFDcENBLFNBQVMsK0JBQStCLGdCQUN6QyxDQUFDO29DQUVKdEIsT0FBT047OENBRU4sQ0FBQyxFQUFFNkIsUUFBUSxFQUFFRCxNQUFNLEVBQUUsaUJBQ3BCOzs4REFDRSw4REFBQ0U7b0RBQUt6QixXQUFXLENBQUMsZUFBZSxFQUFFd0IsV0FBVyxnQkFBZ0IsY0FBYyxDQUFDOzhEQUMxRTdCOzs7Ozs7Z0RBSUY2Qix5QkFDQyw4REFBQ0M7b0RBQUt6QixXQUFXLENBQUMsaURBQWlELEVBQUV1QixTQUFRLGVBQWMsNEJBQTRCLENBQUM7Ozs7O2dFQUV0SDs7O21DQWxCSDVCOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBOEJ6QjtBQUVBLGlFQUFlUCxrQkFBa0JBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jYXJodWIvLi9jb21wb25lbnRzL1NlYXJjaE1hbnVmYWN0dXJlci50c3g/NTJmMyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSW1hZ2UgZnJvbSBcIm5leHQvaW1hZ2VcIjtcbmltcG9ydCB7IEZyYWdtZW50LCB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgQ29tYm9ib3gsIFRyYW5zaXRpb24gfSBmcm9tIFwiQGhlYWRsZXNzdWkvcmVhY3RcIjtcblxuaW1wb3J0IHsgbWFudWZhY3R1cmVycyB9IGZyb20gXCJAY29uc3RhbnRzXCI7XG5pbXBvcnQgeyBTZWFyY2hNYW51RmFjdHVyZXJQcm9wcyB9IGZyb20gXCJAdHlwZXNcIjtcblxuY29uc3QgU2VhcmNoTWFudWZhY3R1cmVyID0gKHsgbWFudWZhY3R1cmVyLCBzZXRNYW51RmFjdHVyZXIgfTogU2VhcmNoTWFudUZhY3R1cmVyUHJvcHMpID0+IHtcbiAgY29uc3QgW3F1ZXJ5LCBzZXRRdWVyeV0gPSB1c2VTdGF0ZShcIlwiKTtcblxuICBjb25zdCBmaWx0ZXJlZE1hbnVmYWN0dXJlcnMgPVxuICAgIHF1ZXJ5ID09PSBcIlwiXG4gICAgICA/IG1hbnVmYWN0dXJlcnNcbiAgICAgIDogbWFudWZhY3R1cmVycy5maWx0ZXIoKGl0ZW0pID0+XG4gICAgICAgICAgaXRlbVxuICAgICAgICAgICAgLnRvTG93ZXJDYXNlKClcbiAgICAgICAgICAgIC5yZXBsYWNlKC9cXHMrL2csIFwiXCIpXG4gICAgICAgICAgICAuaW5jbHVkZXMocXVlcnkudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9cXHMrL2csIFwiXCIpKVxuICAgICAgICApO1xuXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9J3NlYXJjaC1tYW51ZmFjdHVyZXInPlxuICAgICAgPENvbWJvYm94IHZhbHVlPXttYW51ZmFjdHVyZXJ9IG9uQ2hhbmdlPXtzZXRNYW51RmFjdHVyZXJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncmVsYXRpdmUgdy1mdWxsJz5cbiAgICAgICAgICB7LyogQnV0dG9uIGZvciB0aGUgY29tYm9ib3guIENsaWNrIG9uIHRoZSBpY29uIHRvIHNlZSB0aGUgY29tcGxldGUgZHJvcGRvd24gKi99XG4gICAgICAgICAgPENvbWJvYm94LkJ1dHRvbiBjbGFzc05hbWU9J2Fic29sdXRlIHRvcC1bMTRweF0nPlxuICAgICAgICAgICAgPEltYWdlXG4gICAgICAgICAgICAgIHNyYz0nL2Nhci1sb2dvLnN2ZydcbiAgICAgICAgICAgICAgd2lkdGg9ezIwfVxuICAgICAgICAgICAgICBoZWlnaHQ9ezIwfVxuICAgICAgICAgICAgICBjbGFzc05hbWU9J21sLTQnXG4gICAgICAgICAgICAgIGFsdD0nY2FyIGxvZ28nXG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvQ29tYm9ib3guQnV0dG9uPlxuXG4gICAgICAgICAgey8qIElucHV0IGZpZWxkIGZvciBzZWFyY2hpbmcgKi99XG4gICAgICAgICAgPENvbWJvYm94LklucHV0XG4gICAgICAgICAgICBjbGFzc05hbWU9J3NlYXJjaC1tYW51ZmFjdHVyZXJfX2lucHV0J1xuICAgICAgICAgICAgZGlzcGxheVZhbHVlPXsoaXRlbTogc3RyaW5nKSA9PiBpdGVtfVxuICAgICAgICAgICAgb25DaGFuZ2U9eyhldmVudCkgPT4gc2V0UXVlcnkoZXZlbnQudGFyZ2V0LnZhbHVlKX0gLy8gVXBkYXRlIHRoZSBzZWFyY2ggcXVlcnkgd2hlbiB0aGUgaW5wdXQgY2hhbmdlc1xuICAgICAgICAgICAgcGxhY2Vob2xkZXI9J1ZvbGtzd2FnZW4uLi4nXG4gICAgICAgICAgLz5cblxuICAgICAgICAgIHsvKiBUcmFuc2l0aW9uIGZvciBkaXNwbGF5aW5nIHRoZSBvcHRpb25zICovfVxuICAgICAgICAgIDxUcmFuc2l0aW9uXG4gICAgICAgICAgICBhcz17RnJhZ21lbnR9IC8vIGdyb3VwIG11bHRpcGxlIGVsZW1lbnRzIHdpdGhvdXQgaW50cm9kdWNpbmcgYW4gYWRkaXRpb25hbCBET00gbm9kZSBpLmUuLCA8PjwvPlxuICAgICAgICAgICAgbGVhdmU9J3RyYW5zaXRpb24gZWFzZS1pbiBkdXJhdGlvbi0xMDAnXG4gICAgICAgICAgICBsZWF2ZUZyb209J29wYWNpdHktMTAwJ1xuICAgICAgICAgICAgbGVhdmVUbz0nb3BhY2l0eS0wJ1xuICAgICAgICAgICAgYWZ0ZXJMZWF2ZT17KCkgPT4gc2V0UXVlcnkoXCJcIil9IC8vIFJlc2V0IHRoZSBzZWFyY2ggcXVlcnkgYWZ0ZXIgdGhlIHRyYW5zaXRpb24gY29tcGxldGVzXG4gICAgICAgICAgPlxuICAgICAgICAgICAgPENvbWJvYm94Lk9wdGlvbnNcbiAgICAgICAgICAgICAgY2xhc3NOYW1lPSdhYnNvbHV0ZSBtdC0xIG1heC1oLTYwIHctZnVsbCBvdmVyZmxvdy1hdXRvIHJvdW5kZWQtbWQgYmctd2hpdGUgcHktMSB0ZXh0LWJhc2Ugc2hhZG93LWxnIHJpbmctMSByaW5nLWJsYWNrIHJpbmctb3BhY2l0eS01IGZvY3VzOm91dGxpbmUtbm9uZSBzbTp0ZXh0LXNtJ1xuICAgICAgICAgICAgICBzdGF0aWNcbiAgICAgICAgICAgID5cbiAgICAgICAgICAgICAge2ZpbHRlcmVkTWFudWZhY3R1cmVycy5sZW5ndGggPT09IDAgJiYgcXVlcnkgIT09IFwiXCIgPyAoXG4gICAgICAgICAgICAgICAgPENvbWJvYm94Lk9wdGlvblxuICAgICAgICAgICAgICAgICAgdmFsdWU9e3F1ZXJ5fVxuICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSdzZWFyY2gtbWFudWZhY3R1cmVyX19vcHRpb24nXG4gICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgQ3JlYXRlIFwie3F1ZXJ5fVwiXG4gICAgICAgICAgICAgICAgPC9Db21ib2JveC5PcHRpb24+XG4gICAgICAgICAgICAgICkgOiAoXG4gICAgICAgICAgICAgICAgZmlsdGVyZWRNYW51ZmFjdHVyZXJzLm1hcCgoaXRlbSkgPT4gKFxuICAgICAgICAgICAgICAgICAgPENvbWJvYm94Lk9wdGlvblxuICAgICAgICAgICAgICAgICAgICBrZXk9e2l0ZW19XG4gICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17KHsgYWN0aXZlIH0pID0+XG4gICAgICAgICAgICAgICAgICAgICAgYHJlbGF0aXZlIHNlYXJjaC1tYW51ZmFjdHVyZXJfX29wdGlvbiAke1xuICAgICAgICAgICAgICAgICAgICAgICAgYWN0aXZlID8gXCJiZy1wcmltYXJ5LWJsdWUgdGV4dC13aGl0ZVwiIDogXCJ0ZXh0LWdyYXktOTAwXCJcbiAgICAgICAgICAgICAgICAgICAgICB9YFxuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIHZhbHVlPXtpdGVtfVxuICAgICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgICB7KHsgc2VsZWN0ZWQsIGFjdGl2ZSB9KSA9PiAoXG4gICAgICAgICAgICAgICAgICAgICAgPD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YGJsb2NrIHRydW5jYXRlICR7c2VsZWN0ZWQgPyBcImZvbnQtbWVkaXVtXCIgOiBcImZvbnQtbm9ybWFsXCJ9YH0+XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtpdGVtfVxuICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPlxuXG4gICAgICAgICAgICAgICAgICAgICAgICB7LyogU2hvdyBhbiBhY3RpdmUgYmx1ZSBiYWNrZ3JvdW5kIGNvbG9yIGlmIHRoZSBvcHRpb24gaXMgc2VsZWN0ZWQgKi99XG4gICAgICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWQgPyAoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YGFic29sdXRlIGluc2V0LXktMCBsZWZ0LTAgZmxleCBpdGVtcy1jZW50ZXIgcGwtMyAke2FjdGl2ZT8gXCJ0ZXh0LXdoaXRlXCI6IFwidGV4dC1wcmliZy1wcmltYXJ5LXB1cnBsZVwifWB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgID48L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICApIDogbnVsbH1cbiAgICAgICAgICAgICAgICAgICAgICA8Lz5cbiAgICAgICAgICAgICAgICAgICAgKX1cbiAgICAgICAgICAgICAgICAgIDwvQ29tYm9ib3guT3B0aW9uPlxuICAgICAgICAgICAgICAgICkpXG4gICAgICAgICAgICAgICl9XG4gICAgICAgICAgICA8L0NvbWJvYm94Lk9wdGlvbnM+XG4gICAgICAgICAgPC9UcmFuc2l0aW9uPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvQ29tYm9ib3g+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBTZWFyY2hNYW51ZmFjdHVyZXI7XG4iXSwibmFtZXMiOlsiSW1hZ2UiLCJGcmFnbWVudCIsInVzZVN0YXRlIiwiQ29tYm9ib3giLCJUcmFuc2l0aW9uIiwibWFudWZhY3R1cmVycyIsIlNlYXJjaE1hbnVmYWN0dXJlciIsIm1hbnVmYWN0dXJlciIsInNldE1hbnVGYWN0dXJlciIsInF1ZXJ5Iiwic2V0UXVlcnkiLCJmaWx0ZXJlZE1hbnVmYWN0dXJlcnMiLCJmaWx0ZXIiLCJpdGVtIiwidG9Mb3dlckNhc2UiLCJyZXBsYWNlIiwiaW5jbHVkZXMiLCJkaXYiLCJjbGFzc05hbWUiLCJ2YWx1ZSIsIm9uQ2hhbmdlIiwiQnV0dG9uIiwic3JjIiwid2lkdGgiLCJoZWlnaHQiLCJhbHQiLCJJbnB1dCIsImRpc3BsYXlWYWx1ZSIsImV2ZW50IiwidGFyZ2V0IiwicGxhY2Vob2xkZXIiLCJhcyIsImxlYXZlIiwibGVhdmVGcm9tIiwibGVhdmVUbyIsImFmdGVyTGVhdmUiLCJPcHRpb25zIiwic3RhdGljIiwibGVuZ3RoIiwiT3B0aW9uIiwibWFwIiwiYWN0aXZlIiwic2VsZWN0ZWQiLCJzcGFuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./components/SearchManufacturer.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./components/Searchbar.tsx":
+/*!**********************************!*\
+  !*** ./components/Searchbar.tsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/navigation */ \"(ssr)/./node_modules/next/navigation.js\");\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_navigation__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _SearchManufacturer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SearchManufacturer */ \"(ssr)/./components/SearchManufacturer.tsx\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\n\nconst SearchButton = ({ otherClasses })=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n        type: \"submit\",\n        className: `-ml-3 z-10 ${otherClasses}`,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n            src: \"/magnifying-glass.svg\",\n            alt: \"magnifying glass\",\n            width: 40,\n            height: 40,\n            className: \"object-contain\"\n        }, void 0, false, {\n            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n            lineNumber: 11,\n            columnNumber: 5\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n        lineNumber: 10,\n        columnNumber: 3\n    }, undefined);\nconst SearchBar = ()=>{\n    const [manufacturer, setManuFacturer] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(\"\");\n    const [model, setModel] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(\"\");\n    const router = (0,next_navigation__WEBPACK_IMPORTED_MODULE_3__.useRouter)();\n    const handleSearch = (e)=>{\n        e.preventDefault();\n        if (manufacturer.trim() === \"\" && model.trim() === \"\") {\n            return alert(\"Please provide some input\");\n        }\n        updateSearchParams(model.toLowerCase(), manufacturer.toLowerCase());\n    };\n    const updateSearchParams = (model, manufacturer)=>{\n        // Create a new URLSearchParams object using the current URL search parameters\n        const searchParams = new URLSearchParams(window.location.search);\n        // Update or delete the 'model' search parameter based on the 'model' value\n        if (model) {\n            searchParams.set(\"model\", model);\n        } else {\n            searchParams.delete(\"model\");\n        }\n        // Update or delete the 'manufacturer' search parameter based on the 'manufacturer' value\n        if (manufacturer) {\n            searchParams.set(\"manufacturer\", manufacturer);\n        } else {\n            searchParams.delete(\"manufacturer\");\n        }\n        // Generate the new pathname with the updated search parameters\n        const newPathname = `${window.location.pathname}?${searchParams.toString()}`;\n        router.push(newPathname);\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n        className: \"searchbar\",\n        onSubmit: handleSearch,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"searchbar__item\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_SearchManufacturer__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                        manufacturer: manufacturer,\n                        setManuFacturer: setManuFacturer\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n                        lineNumber: 64,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(SearchButton, {\n                        otherClasses: \"sm:hidden\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n                        lineNumber: 68,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n                lineNumber: 63,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"searchbar__item\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                        src: \"/model-icon.png\",\n                        width: 25,\n                        height: 25,\n                        className: \"absolute w-[20px] h-[20px] ml-4\",\n                        alt: \"car model\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n                        lineNumber: 71,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                        type: \"text\",\n                        name: \"model\",\n                        value: model,\n                        onChange: (e)=>setModel(e.target.value),\n                        placeholder: \"Tiguan...\",\n                        className: \"searchbar__input\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n                        lineNumber: 78,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(SearchButton, {\n                        otherClasses: \"sm:hidden\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n                        lineNumber: 86,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n                lineNumber: 70,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(SearchButton, {\n                otherClasses: \"max-sm:hidden\"\n            }, void 0, false, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n                lineNumber: 88,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx\",\n        lineNumber: 62,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SearchBar);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL1NlYXJjaGJhci50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFFK0I7QUFDUztBQUNJO0FBRVU7QUFFdEQsTUFBTUssZUFBZSxDQUFDLEVBQUVDLFlBQVksRUFBNEIsaUJBQzlELDhEQUFDQztRQUFPQyxNQUFLO1FBQVNDLFdBQVcsQ0FBQyxXQUFXLEVBQUVILGFBQWEsQ0FBQztrQkFDM0QsNEVBQUNOLG1EQUFLQTtZQUNKVSxLQUFLO1lBQ0xDLEtBQUs7WUFDTEMsT0FBTztZQUNQQyxRQUFRO1lBQ1JKLFdBQVU7Ozs7Ozs7Ozs7O0FBS2hCLE1BQU1LLFlBQVk7SUFDaEIsTUFBTSxDQUFDQyxjQUFjQyxnQkFBZ0IsR0FBR2QsK0NBQVFBLENBQUM7SUFDakQsTUFBTSxDQUFDZSxPQUFPQyxTQUFTLEdBQUdoQiwrQ0FBUUEsQ0FBQztJQUVuQyxNQUFNaUIsU0FBU2hCLDBEQUFTQTtJQUV4QixNQUFNaUIsZUFBZSxDQUFDQztRQUNwQkEsRUFBRUMsY0FBYztRQUVoQixJQUFJUCxhQUFhUSxJQUFJLE9BQU8sTUFBTU4sTUFBTU0sSUFBSSxPQUFPLElBQUk7WUFDckQsT0FBT0MsTUFBTTtRQUNmO1FBRUFDLG1CQUFtQlIsTUFBTVMsV0FBVyxJQUFJWCxhQUFhVyxXQUFXO0lBQ2xFO0lBRUEsTUFBTUQscUJBQXFCLENBQUNSLE9BQWVGO1FBQ3pDLDhFQUE4RTtRQUM5RSxNQUFNWSxlQUFlLElBQUlDLGdCQUFnQkMsT0FBT0MsUUFBUSxDQUFDQyxNQUFNO1FBRS9ELDJFQUEyRTtRQUMzRSxJQUFJZCxPQUFPO1lBQ1RVLGFBQWFLLEdBQUcsQ0FBQyxTQUFTZjtRQUM1QixPQUFPO1lBQ0xVLGFBQWFNLE1BQU0sQ0FBQztRQUN0QjtRQUVBLHlGQUF5RjtRQUN6RixJQUFJbEIsY0FBYztZQUNoQlksYUFBYUssR0FBRyxDQUFDLGdCQUFnQmpCO1FBQ25DLE9BQU87WUFDSlksYUFBYU0sTUFBTSxDQUFDO1FBQ3ZCO1FBRUEsK0RBQStEO1FBQy9ELE1BQU1DLGNBQWMsQ0FBQyxFQUFFTCxPQUFPQyxRQUFRLENBQUNLLFFBQVEsQ0FBQyxDQUFDLEVBQUVSLGFBQWFTLFFBQVEsR0FBRyxDQUFDO1FBRTVFakIsT0FBT2tCLElBQUksQ0FBQ0g7SUFDZDtJQUVBLHFCQUNFLDhEQUFDSTtRQUFLN0IsV0FBVTtRQUFZOEIsVUFBVW5COzswQkFDcEMsOERBQUNvQjtnQkFBSS9CLFdBQVU7O2tDQUNiLDhEQUFDTCwyREFBa0JBO3dCQUNqQlcsY0FBY0E7d0JBQ2RDLGlCQUFpQkE7Ozs7OztrQ0FFbkIsOERBQUNYO3dCQUFhQyxjQUFhOzs7Ozs7Ozs7Ozs7MEJBRTdCLDhEQUFDa0M7Z0JBQUkvQixXQUFVOztrQ0FDYiw4REFBQ1QsbURBQUtBO3dCQUNKVSxLQUFJO3dCQUNKRSxPQUFPO3dCQUNQQyxRQUFRO3dCQUNSSixXQUFVO3dCQUNWRSxLQUFJOzs7Ozs7a0NBRU4sOERBQUM4Qjt3QkFDQ2pDLE1BQUs7d0JBQ0xrQyxNQUFLO3dCQUNMQyxPQUFPMUI7d0JBQ1AyQixVQUFVLENBQUN2QixJQUFNSCxTQUFTRyxFQUFFd0IsTUFBTSxDQUFDRixLQUFLO3dCQUN4Q0csYUFBWTt3QkFDWnJDLFdBQVU7Ozs7OztrQ0FFWiw4REFBQ0o7d0JBQWFDLGNBQWE7Ozs7Ozs7Ozs7OzswQkFFN0IsOERBQUNEO2dCQUFhQyxjQUFhOzs7Ozs7Ozs7Ozs7QUFHakM7QUFFQSxpRUFBZVEsU0FBU0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2Nhcmh1Yi8uL2NvbXBvbmVudHMvU2VhcmNoYmFyLnRzeD8yN2I2Il0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiO1xuXG5pbXBvcnQgSW1hZ2UgZnJvbSBcIm5leHQvaW1hZ2VcIjtcbmltcG9ydCBSZWFjdCwgeyB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSBcIm5leHQvbmF2aWdhdGlvblwiO1xuXG5pbXBvcnQgU2VhcmNoTWFudWZhY3R1cmVyIGZyb20gXCIuL1NlYXJjaE1hbnVmYWN0dXJlclwiO1xuXG5jb25zdCBTZWFyY2hCdXR0b24gPSAoeyBvdGhlckNsYXNzZXMgfTogeyBvdGhlckNsYXNzZXM6IHN0cmluZyB9KSA9PiAoXG4gIDxidXR0b24gdHlwZT0nc3VibWl0JyBjbGFzc05hbWU9e2AtbWwtMyB6LTEwICR7b3RoZXJDbGFzc2VzfWB9PlxuICAgIDxJbWFnZVxuICAgICAgc3JjPXtcIi9tYWduaWZ5aW5nLWdsYXNzLnN2Z1wifVxuICAgICAgYWx0PXtcIm1hZ25pZnlpbmcgZ2xhc3NcIn1cbiAgICAgIHdpZHRoPXs0MH1cbiAgICAgIGhlaWdodD17NDB9XG4gICAgICBjbGFzc05hbWU9J29iamVjdC1jb250YWluJ1xuICAgIC8+XG4gIDwvYnV0dG9uPlxuKTtcblxuY29uc3QgU2VhcmNoQmFyID0gKCkgPT4ge1xuICBjb25zdCBbbWFudWZhY3R1cmVyLCBzZXRNYW51RmFjdHVyZXJdID0gdXNlU3RhdGUoXCJcIik7XG4gIGNvbnN0IFttb2RlbCwgc2V0TW9kZWxdID0gdXNlU3RhdGUoXCJcIik7XG5cbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XG5cbiAgY29uc3QgaGFuZGxlU2VhcmNoID0gKGU6IFJlYWN0LkZvcm1FdmVudDxIVE1MRm9ybUVsZW1lbnQ+KSA9PiB7XG4gICAgZS5wcmV2ZW50RGVmYXVsdCgpO1xuXG4gICAgaWYgKG1hbnVmYWN0dXJlci50cmltKCkgPT09IFwiXCIgJiYgbW9kZWwudHJpbSgpID09PSBcIlwiKSB7XG4gICAgICByZXR1cm4gYWxlcnQoXCJQbGVhc2UgcHJvdmlkZSBzb21lIGlucHV0XCIpO1xuICAgIH1cblxuICAgIHVwZGF0ZVNlYXJjaFBhcmFtcyhtb2RlbC50b0xvd2VyQ2FzZSgpLCBtYW51ZmFjdHVyZXIudG9Mb3dlckNhc2UoKSk7XG4gIH07XG5cbiAgY29uc3QgdXBkYXRlU2VhcmNoUGFyYW1zID0gKG1vZGVsOiBzdHJpbmcsIG1hbnVmYWN0dXJlcjogc3RyaW5nKSA9PiB7XG4gICAgLy8gQ3JlYXRlIGEgbmV3IFVSTFNlYXJjaFBhcmFtcyBvYmplY3QgdXNpbmcgdGhlIGN1cnJlbnQgVVJMIHNlYXJjaCBwYXJhbWV0ZXJzXG4gICAgY29uc3Qgc2VhcmNoUGFyYW1zID0gbmV3IFVSTFNlYXJjaFBhcmFtcyh3aW5kb3cubG9jYXRpb24uc2VhcmNoKTtcblxuICAgIC8vIFVwZGF0ZSBvciBkZWxldGUgdGhlICdtb2RlbCcgc2VhcmNoIHBhcmFtZXRlciBiYXNlZCBvbiB0aGUgJ21vZGVsJyB2YWx1ZVxuICAgIGlmIChtb2RlbCkge1xuICAgICAgc2VhcmNoUGFyYW1zLnNldChcIm1vZGVsXCIsIG1vZGVsKTtcbiAgICB9IGVsc2Uge1xuICAgICAgc2VhcmNoUGFyYW1zLmRlbGV0ZShcIm1vZGVsXCIpO1xuICAgIH1cblxuICAgIC8vIFVwZGF0ZSBvciBkZWxldGUgdGhlICdtYW51ZmFjdHVyZXInIHNlYXJjaCBwYXJhbWV0ZXIgYmFzZWQgb24gdGhlICdtYW51ZmFjdHVyZXInIHZhbHVlXG4gICAgaWYgKG1hbnVmYWN0dXJlcikge1xuICAgICAgc2VhcmNoUGFyYW1zLnNldChcIm1hbnVmYWN0dXJlclwiLCBtYW51ZmFjdHVyZXIpO1xuICAgIH0gZWxzZSB7XG4gICAgICAgc2VhcmNoUGFyYW1zLmRlbGV0ZShcIm1hbnVmYWN0dXJlclwiKTtcbiAgICB9XG5cbiAgICAvLyBHZW5lcmF0ZSB0aGUgbmV3IHBhdGhuYW1lIHdpdGggdGhlIHVwZGF0ZWQgc2VhcmNoIHBhcmFtZXRlcnNcbiAgICBjb25zdCBuZXdQYXRobmFtZSA9IGAke3dpbmRvdy5sb2NhdGlvbi5wYXRobmFtZX0/JHtzZWFyY2hQYXJhbXMudG9TdHJpbmcoKX1gO1xuXG4gICAgcm91dGVyLnB1c2gobmV3UGF0aG5hbWUpO1xuICB9O1xuXG4gIHJldHVybiAoXG4gICAgPGZvcm0gY2xhc3NOYW1lPSdzZWFyY2hiYXInIG9uU3VibWl0PXtoYW5kbGVTZWFyY2h9PlxuICAgICAgPGRpdiBjbGFzc05hbWU9J3NlYXJjaGJhcl9faXRlbSc+XG4gICAgICAgIDxTZWFyY2hNYW51ZmFjdHVyZXJcbiAgICAgICAgICBtYW51ZmFjdHVyZXI9e21hbnVmYWN0dXJlcn1cbiAgICAgICAgICBzZXRNYW51RmFjdHVyZXI9e3NldE1hbnVGYWN0dXJlcn1cbiAgICAgICAgLz5cbiAgICAgICAgPFNlYXJjaEJ1dHRvbiBvdGhlckNsYXNzZXM9J3NtOmhpZGRlbicgLz5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9J3NlYXJjaGJhcl9faXRlbSc+XG4gICAgICAgIDxJbWFnZVxuICAgICAgICAgIHNyYz0nL21vZGVsLWljb24ucG5nJ1xuICAgICAgICAgIHdpZHRoPXsyNX1cbiAgICAgICAgICBoZWlnaHQ9ezI1fVxuICAgICAgICAgIGNsYXNzTmFtZT0nYWJzb2x1dGUgdy1bMjBweF0gaC1bMjBweF0gbWwtNCdcbiAgICAgICAgICBhbHQ9J2NhciBtb2RlbCdcbiAgICAgICAgLz5cbiAgICAgICAgPGlucHV0XG4gICAgICAgICAgdHlwZT0ndGV4dCdcbiAgICAgICAgICBuYW1lPSdtb2RlbCdcbiAgICAgICAgICB2YWx1ZT17bW9kZWx9XG4gICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRNb2RlbChlLnRhcmdldC52YWx1ZSl9XG4gICAgICAgICAgcGxhY2Vob2xkZXI9J1RpZ3Vhbi4uLidcbiAgICAgICAgICBjbGFzc05hbWU9J3NlYXJjaGJhcl9faW5wdXQnXG4gICAgICAgIC8+XG4gICAgICAgIDxTZWFyY2hCdXR0b24gb3RoZXJDbGFzc2VzPSdzbTpoaWRkZW4nIC8+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxTZWFyY2hCdXR0b24gb3RoZXJDbGFzc2VzPSdtYXgtc206aGlkZGVuJyAvPlxuICAgIDwvZm9ybT5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IFNlYXJjaEJhcjtcbiJdLCJuYW1lcyI6WyJJbWFnZSIsIlJlYWN0IiwidXNlU3RhdGUiLCJ1c2VSb3V0ZXIiLCJTZWFyY2hNYW51ZmFjdHVyZXIiLCJTZWFyY2hCdXR0b24iLCJvdGhlckNsYXNzZXMiLCJidXR0b24iLCJ0eXBlIiwiY2xhc3NOYW1lIiwic3JjIiwiYWx0Iiwid2lkdGgiLCJoZWlnaHQiLCJTZWFyY2hCYXIiLCJtYW51ZmFjdHVyZXIiLCJzZXRNYW51RmFjdHVyZXIiLCJtb2RlbCIsInNldE1vZGVsIiwicm91dGVyIiwiaGFuZGxlU2VhcmNoIiwiZSIsInByZXZlbnREZWZhdWx0IiwidHJpbSIsImFsZXJ0IiwidXBkYXRlU2VhcmNoUGFyYW1zIiwidG9Mb3dlckNhc2UiLCJzZWFyY2hQYXJhbXMiLCJVUkxTZWFyY2hQYXJhbXMiLCJ3aW5kb3ciLCJsb2NhdGlvbiIsInNlYXJjaCIsInNldCIsImRlbGV0ZSIsIm5ld1BhdGhuYW1lIiwicGF0aG5hbWUiLCJ0b1N0cmluZyIsInB1c2giLCJmb3JtIiwib25TdWJtaXQiLCJkaXYiLCJpbnB1dCIsIm5hbWUiLCJ2YWx1ZSIsIm9uQ2hhbmdlIiwidGFyZ2V0IiwicGxhY2Vob2xkZXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./components/Searchbar.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./components/ShowMore.tsx":
+/*!*********************************!*\
+  !*** ./components/ShowMore.tsx ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/navigation */ \"(ssr)/./node_modules/next/navigation.js\");\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_navigation__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @utils */ \"(ssr)/./utils/index.ts\");\n/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @components */ \"(ssr)/./components/index.ts\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\nconst ShowMore = ({ pageNumber, isNext })=>{\n    const router = (0,next_navigation__WEBPACK_IMPORTED_MODULE_1__.useRouter)();\n    const handleNavigation = ()=>{\n        // Calculate the new limit based on the page number and navigation type\n        const newLimit = (pageNumber + 1) * 10;\n        // Update the \"limit\" search parameter in the URL with the new value\n        const newPathname = (0,_utils__WEBPACK_IMPORTED_MODULE_2__.updateSearchParams)(\"limit\", `${newLimit}`);\n        router.push(newPathname);\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"w-full flex-center gap-5 mt-10\",\n        children: !isNext && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components__WEBPACK_IMPORTED_MODULE_3__.CustomButton, {\n            btnType: \"button\",\n            title: \"Show More\",\n            containerStyles: \"bg-yellow-500 rounded-full text-white\",\n            handleClick: handleNavigation\n        }, void 0, false, {\n            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/ShowMore.tsx\",\n            lineNumber: 25,\n            columnNumber: 9\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/ShowMore.tsx\",\n        lineNumber: 23,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ShowMore);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL1Nob3dNb3JlLnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUU0QztBQUdBO0FBQ0Q7QUFFM0MsTUFBTUcsV0FBVyxDQUFDLEVBQUVDLFVBQVUsRUFBRUMsTUFBTSxFQUFpQjtJQUNyRCxNQUFNQyxTQUFTTiwwREFBU0E7SUFFeEIsTUFBTU8sbUJBQW1CO1FBQ3ZCLHVFQUF1RTtRQUN2RSxNQUFNQyxXQUFXLENBQUNKLGFBQWEsS0FBSztRQUVwQyxvRUFBb0U7UUFDcEUsTUFBTUssY0FBY1IsMERBQWtCQSxDQUFDLFNBQVMsQ0FBQyxFQUFFTyxTQUFTLENBQUM7UUFFN0RGLE9BQU9JLElBQUksQ0FBQ0Q7SUFDZDtJQUVBLHFCQUNFLDhEQUFDRTtRQUFJQyxXQUFVO2tCQUNaLENBQUNQLHdCQUNBLDhEQUFDSCxxREFBWUE7WUFDWFcsU0FBUTtZQUNSQyxPQUFNO1lBQ05DLGlCQUFnQjtZQUNoQkMsYUFBYVQ7Ozs7Ozs7Ozs7O0FBS3ZCO0FBRUEsaUVBQWVKLFFBQVFBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jYXJodWIvLi9jb21wb25lbnRzL1Nob3dNb3JlLnRzeD80YWE0Il0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiO1xuXG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9uYXZpZ2F0aW9uXCI7XG5cbmltcG9ydCB7IFNob3dNb3JlUHJvcHMgfSBmcm9tIFwiQHR5cGVzXCI7XG5pbXBvcnQgeyB1cGRhdGVTZWFyY2hQYXJhbXMgfSBmcm9tIFwiQHV0aWxzXCI7XG5pbXBvcnQgeyBDdXN0b21CdXR0b24gfSBmcm9tIFwiQGNvbXBvbmVudHNcIjtcblxuY29uc3QgU2hvd01vcmUgPSAoeyBwYWdlTnVtYmVyLCBpc05leHQgfTogU2hvd01vcmVQcm9wcykgPT4ge1xuICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTtcblxuICBjb25zdCBoYW5kbGVOYXZpZ2F0aW9uID0gKCkgPT4ge1xuICAgIC8vIENhbGN1bGF0ZSB0aGUgbmV3IGxpbWl0IGJhc2VkIG9uIHRoZSBwYWdlIG51bWJlciBhbmQgbmF2aWdhdGlvbiB0eXBlXG4gICAgY29uc3QgbmV3TGltaXQgPSAocGFnZU51bWJlciArIDEpICogMTA7XG5cbiAgICAvLyBVcGRhdGUgdGhlIFwibGltaXRcIiBzZWFyY2ggcGFyYW1ldGVyIGluIHRoZSBVUkwgd2l0aCB0aGUgbmV3IHZhbHVlXG4gICAgY29uc3QgbmV3UGF0aG5hbWUgPSB1cGRhdGVTZWFyY2hQYXJhbXMoXCJsaW1pdFwiLCBgJHtuZXdMaW1pdH1gKTtcbiAgICBcbiAgICByb3V0ZXIucHVzaChuZXdQYXRobmFtZSk7XG4gIH07XG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cInctZnVsbCBmbGV4LWNlbnRlciBnYXAtNSBtdC0xMFwiPlxuICAgICAgeyFpc05leHQgJiYgKFxuICAgICAgICA8Q3VzdG9tQnV0dG9uXG4gICAgICAgICAgYnRuVHlwZT1cImJ1dHRvblwiXG4gICAgICAgICAgdGl0bGU9XCJTaG93IE1vcmVcIlxuICAgICAgICAgIGNvbnRhaW5lclN0eWxlcz1cImJnLXllbGxvdy01MDAgcm91bmRlZC1mdWxsIHRleHQtd2hpdGVcIlxuICAgICAgICAgIGhhbmRsZUNsaWNrPXtoYW5kbGVOYXZpZ2F0aW9ufVxuICAgICAgICAvPlxuICAgICAgKX1cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IFNob3dNb3JlO1xuIl0sIm5hbWVzIjpbInVzZVJvdXRlciIsInVwZGF0ZVNlYXJjaFBhcmFtcyIsIkN1c3RvbUJ1dHRvbiIsIlNob3dNb3JlIiwicGFnZU51bWJlciIsImlzTmV4dCIsInJvdXRlciIsImhhbmRsZU5hdmlnYXRpb24iLCJuZXdMaW1pdCIsIm5ld1BhdGhuYW1lIiwicHVzaCIsImRpdiIsImNsYXNzTmFtZSIsImJ0blR5cGUiLCJ0aXRsZSIsImNvbnRhaW5lclN0eWxlcyIsImhhbmRsZUNsaWNrIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./components/ShowMore.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./components/index.ts":
+/*!*****************************!*\
+  !*** ./components/index.ts ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   CarCard: () => (/* reexport safe */ _CarCard__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   CustomButton: () => (/* reexport safe */ _CustomButton__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   CustomFilter: () => (/* reexport safe */ _CustomFilter__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   Footer: () => (/* reexport safe */ _Footer__WEBPACK_IMPORTED_MODULE_3__[\"default\"]),\n/* harmony export */   Hero: () => (/* reexport safe */ _Hero__WEBPACK_IMPORTED_MODULE_7__[\"default\"]),\n/* harmony export */   NavBar: () => (/* reexport safe */ _Navbar__WEBPACK_IMPORTED_MODULE_4__[\"default\"]),\n/* harmony export */   SearchBar: () => (/* reexport safe */ _Searchbar__WEBPACK_IMPORTED_MODULE_6__[\"default\"]),\n/* harmony export */   ShowMore: () => (/* reexport safe */ _ShowMore__WEBPACK_IMPORTED_MODULE_5__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _CarCard__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CarCard */ \"(ssr)/./components/CarCard.tsx\");\n/* harmony import */ var _CustomButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CustomButton */ \"(ssr)/./components/CustomButton.tsx\");\n/* harmony import */ var _CustomFilter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CustomFilter */ \"(ssr)/./components/CustomFilter.tsx\");\n/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ \"(ssr)/./components/Footer.tsx\");\n/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar */ \"(ssr)/./components/Navbar.tsx\");\n/* harmony import */ var _ShowMore__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ShowMore */ \"(ssr)/./components/ShowMore.tsx\");\n/* harmony import */ var _Searchbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Searchbar */ \"(ssr)/./components/Searchbar.tsx\");\n/* harmony import */ var _Hero__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Hero */ \"(ssr)/./components/Hero.tsx\");\n\n\n\n\n\n\n\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb21wb25lbnRzL2luZGV4LnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBZ0M7QUFDVTtBQUNBO0FBQ1o7QUFDQTtBQUNJO0FBQ0U7QUFDVjtBQVd4QiIsInNvdXJjZXMiOlsid2VicGFjazovL2Nhcmh1Yi8uL2NvbXBvbmVudHMvaW5kZXgudHM/ZjJjNCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQ2FyQ2FyZCBmcm9tIFwiLi9DYXJDYXJkXCI7XG5pbXBvcnQgQ3VzdG9tQnV0dG9uIGZyb20gXCIuL0N1c3RvbUJ1dHRvblwiO1xuaW1wb3J0IEN1c3RvbUZpbHRlciBmcm9tIFwiLi9DdXN0b21GaWx0ZXJcIjtcbmltcG9ydCBGb290ZXIgZnJvbSBcIi4vRm9vdGVyXCI7XG5pbXBvcnQgTmF2QmFyIGZyb20gXCIuL05hdmJhclwiO1xuaW1wb3J0IFNob3dNb3JlIGZyb20gXCIuL1Nob3dNb3JlXCI7XG5pbXBvcnQgU2VhcmNoQmFyIGZyb20gXCIuL1NlYXJjaGJhclwiO1xuaW1wb3J0IEhlcm8gZnJvbSBcIi4vSGVyb1wiO1xuXG5leHBvcnQge1xuICBIZXJvLFxuICBDYXJDYXJkLFxuICBDdXN0b21CdXR0b24sXG4gIEN1c3RvbUZpbHRlcixcbiAgRm9vdGVyLFxuICBOYXZCYXIsXG4gIFNob3dNb3JlLFxuICBTZWFyY2hCYXIsXG59O1xuIl0sIm5hbWVzIjpbIkNhckNhcmQiLCJDdXN0b21CdXR0b24iLCJDdXN0b21GaWx0ZXIiLCJGb290ZXIiLCJOYXZCYXIiLCJTaG93TW9yZSIsIlNlYXJjaEJhciIsIkhlcm8iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./components/index.ts\n");
+
+/***/ }),
+
+/***/ "(ssr)/./constants/index.ts":
+/*!****************************!*\
+  !*** ./constants/index.ts ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   footerLinks: () => (/* binding */ footerLinks),\n/* harmony export */   fuels: () => (/* binding */ fuels),\n/* harmony export */   manufacturers: () => (/* binding */ manufacturers),\n/* harmony export */   yearsOfProduction: () => (/* binding */ yearsOfProduction)\n/* harmony export */ });\nconst manufacturers = [\n    \"Acura\",\n    \"Alfa Romeo\",\n    \"Aston Martin\",\n    \"Audi\",\n    \"Bentley\",\n    \"BMW\",\n    \"Buick\",\n    \"Cadillac\",\n    \"Chevrolet\",\n    \"Chrysler\",\n    \"Citroen\",\n    \"Dodge\",\n    \"Ferrari\",\n    \"Fiat\",\n    \"Ford\",\n    \"GMC\",\n    \"Honda\",\n    \"Hyundai\",\n    \"Infiniti\",\n    \"Jaguar\",\n    \"Jeep\",\n    \"Kia\",\n    \"Lamborghini\",\n    \"Land Rover\",\n    \"Lexus\",\n    \"Lincoln\",\n    \"Maserati\",\n    \"Mazda\",\n    \"McLaren\",\n    \"Mercedes-Benz\",\n    \"MINI\",\n    \"Mitsubishi\",\n    \"Nissan\",\n    \"Porsche\",\n    \"Ram\",\n    \"Rolls-Royce\",\n    \"Subaru\",\n    \"Tesla\",\n    \"Toyota\",\n    \"Volkswagen\",\n    \"Volvo\"\n];\nconst yearsOfProduction = [\n    {\n        title: \"Year\",\n        value: \"\"\n    },\n    {\n        title: \"2015\",\n        value: \"2015\"\n    },\n    {\n        title: \"2016\",\n        value: \"2016\"\n    },\n    {\n        title: \"2017\",\n        value: \"2017\"\n    },\n    {\n        title: \"2018\",\n        value: \"2018\"\n    },\n    {\n        title: \"2019\",\n        value: \"2019\"\n    },\n    {\n        title: \"2020\",\n        value: \"2020\"\n    },\n    {\n        title: \"2021\",\n        value: \"2021\"\n    },\n    {\n        title: \"2022\",\n        value: \"2022\"\n    },\n    {\n        title: \"2023\",\n        value: \"2023\"\n    }\n];\nconst fuels = [\n    {\n        title: \"Fuel\",\n        value: \"\"\n    },\n    {\n        title: \"Gas\",\n        value: \"Gas\"\n    },\n    {\n        title: \"Electricity\",\n        value: \"Electricity\"\n    }\n];\nconst footerLinks = [\n    {\n        title: \"About\",\n        links: [\n            {\n                title: \"How it works\",\n                url: \"/\"\n            },\n            {\n                title: \"Featured\",\n                url: \"/\"\n            },\n            {\n                title: \"Partnership\",\n                url: \"/\"\n            },\n            {\n                title: \"Bussiness Relation\",\n                url: \"/\"\n            }\n        ]\n    },\n    {\n        title: \"Company\",\n        links: [\n            {\n                title: \"Events\",\n                url: \"/\"\n            },\n            {\n                title: \"Blog\",\n                url: \"/\"\n            },\n            {\n                title: \"Podcast\",\n                url: \"/\"\n            },\n            {\n                title: \"Invite a friend\",\n                url: \"/\"\n            }\n        ]\n    },\n    {\n        title: \"Socials\",\n        links: [\n            {\n                title: \"Discord\",\n                url: \"/\"\n            },\n            {\n                title: \"Instagram\",\n                url: \"/\"\n            },\n            {\n                title: \"Twitter\",\n                url: \"/\"\n            },\n            {\n                title: \"Facebook\",\n                url: \"/\"\n            }\n        ]\n    }\n];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9jb25zdGFudHMvaW5kZXgudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLGdCQUFnQjtJQUMzQjtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0NBQ0QsQ0FBQztBQUVLLE1BQU1DLG9CQUFvQjtJQUMvQjtRQUFFQyxPQUFPO1FBQVFDLE9BQU87SUFBRztJQUMzQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztDQUNoQyxDQUFDO0FBRUssTUFBTUMsUUFBUTtJQUNuQjtRQUNFRixPQUFPO1FBQ1BDLE9BQU87SUFDVDtJQUNBO1FBQ0VELE9BQU87UUFDUEMsT0FBTztJQUNUO0lBQ0E7UUFDRUQsT0FBTztRQUNQQyxPQUFPO0lBQ1Q7Q0FDRCxDQUFDO0FBRUssTUFBTUUsY0FBYztJQUN6QjtRQUNFSCxPQUFPO1FBQ1BJLE9BQU87WUFDTDtnQkFBRUosT0FBTztnQkFBZ0JLLEtBQUs7WUFBSTtZQUNsQztnQkFBRUwsT0FBTztnQkFBWUssS0FBSztZQUFJO1lBQzlCO2dCQUFFTCxPQUFPO2dCQUFlSyxLQUFLO1lBQUk7WUFDakM7Z0JBQUVMLE9BQU87Z0JBQXNCSyxLQUFLO1lBQUk7U0FDekM7SUFDSDtJQUNBO1FBQ0VMLE9BQU87UUFDUEksT0FBTztZQUNMO2dCQUFFSixPQUFPO2dCQUFVSyxLQUFLO1lBQUk7WUFDNUI7Z0JBQUVMLE9BQU87Z0JBQVFLLEtBQUs7WUFBSTtZQUMxQjtnQkFBRUwsT0FBTztnQkFBV0ssS0FBSztZQUFJO1lBQzdCO2dCQUFFTCxPQUFPO2dCQUFtQkssS0FBSztZQUFJO1NBQ3RDO0lBQ0g7SUFDQTtRQUNFTCxPQUFPO1FBQ1BJLE9BQU87WUFDTDtnQkFBRUosT0FBTztnQkFBV0ssS0FBSztZQUFJO1lBQzdCO2dCQUFFTCxPQUFPO2dCQUFhSyxLQUFLO1lBQUk7WUFDL0I7Z0JBQUVMLE9BQU87Z0JBQVdLLEtBQUs7WUFBSTtZQUM3QjtnQkFBRUwsT0FBTztnQkFBWUssS0FBSztZQUFJO1NBQy9CO0lBQ0g7Q0FDRCxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLy4vY29uc3RhbnRzL2luZGV4LnRzPzY2NGYiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IG1hbnVmYWN0dXJlcnMgPSBbXG4gIFwiQWN1cmFcIixcbiAgXCJBbGZhIFJvbWVvXCIsXG4gIFwiQXN0b24gTWFydGluXCIsXG4gIFwiQXVkaVwiLFxuICBcIkJlbnRsZXlcIixcbiAgXCJCTVdcIixcbiAgXCJCdWlja1wiLFxuICBcIkNhZGlsbGFjXCIsXG4gIFwiQ2hldnJvbGV0XCIsXG4gIFwiQ2hyeXNsZXJcIixcbiAgXCJDaXRyb2VuXCIsXG4gIFwiRG9kZ2VcIixcbiAgXCJGZXJyYXJpXCIsXG4gIFwiRmlhdFwiLFxuICBcIkZvcmRcIixcbiAgXCJHTUNcIixcbiAgXCJIb25kYVwiLFxuICBcIkh5dW5kYWlcIixcbiAgXCJJbmZpbml0aVwiLFxuICBcIkphZ3VhclwiLFxuICBcIkplZXBcIixcbiAgXCJLaWFcIixcbiAgXCJMYW1ib3JnaGluaVwiLFxuICBcIkxhbmQgUm92ZXJcIixcbiAgXCJMZXh1c1wiLFxuICBcIkxpbmNvbG5cIixcbiAgXCJNYXNlcmF0aVwiLFxuICBcIk1hemRhXCIsXG4gIFwiTWNMYXJlblwiLFxuICBcIk1lcmNlZGVzLUJlbnpcIixcbiAgXCJNSU5JXCIsXG4gIFwiTWl0c3ViaXNoaVwiLFxuICBcIk5pc3NhblwiLFxuICBcIlBvcnNjaGVcIixcbiAgXCJSYW1cIixcbiAgXCJSb2xscy1Sb3ljZVwiLFxuICBcIlN1YmFydVwiLFxuICBcIlRlc2xhXCIsXG4gIFwiVG95b3RhXCIsXG4gIFwiVm9sa3N3YWdlblwiLFxuICBcIlZvbHZvXCIsXG5dO1xuXG5leHBvcnQgY29uc3QgeWVhcnNPZlByb2R1Y3Rpb24gPSBbXG4gIHsgdGl0bGU6IFwiWWVhclwiLCB2YWx1ZTogXCJcIiB9LFxuICB7IHRpdGxlOiBcIjIwMTVcIiwgdmFsdWU6IFwiMjAxNVwiIH0sXG4gIHsgdGl0bGU6IFwiMjAxNlwiLCB2YWx1ZTogXCIyMDE2XCIgfSxcbiAgeyB0aXRsZTogXCIyMDE3XCIsIHZhbHVlOiBcIjIwMTdcIiB9LFxuICB7IHRpdGxlOiBcIjIwMThcIiwgdmFsdWU6IFwiMjAxOFwiIH0sXG4gIHsgdGl0bGU6IFwiMjAxOVwiLCB2YWx1ZTogXCIyMDE5XCIgfSxcbiAgeyB0aXRsZTogXCIyMDIwXCIsIHZhbHVlOiBcIjIwMjBcIiB9LFxuICB7IHRpdGxlOiBcIjIwMjFcIiwgdmFsdWU6IFwiMjAyMVwiIH0sXG4gIHsgdGl0bGU6IFwiMjAyMlwiLCB2YWx1ZTogXCIyMDIyXCIgfSxcbiAgeyB0aXRsZTogXCIyMDIzXCIsIHZhbHVlOiBcIjIwMjNcIiB9LFxuXTtcblxuZXhwb3J0IGNvbnN0IGZ1ZWxzID0gW1xuICB7XG4gICAgdGl0bGU6IFwiRnVlbFwiLFxuICAgIHZhbHVlOiBcIlwiLFxuICB9LFxuICB7XG4gICAgdGl0bGU6IFwiR2FzXCIsXG4gICAgdmFsdWU6IFwiR2FzXCIsXG4gIH0sXG4gIHtcbiAgICB0aXRsZTogXCJFbGVjdHJpY2l0eVwiLFxuICAgIHZhbHVlOiBcIkVsZWN0cmljaXR5XCIsXG4gIH0sXG5dO1xuXG5leHBvcnQgY29uc3QgZm9vdGVyTGlua3MgPSBbXG4gIHtcbiAgICB0aXRsZTogXCJBYm91dFwiLFxuICAgIGxpbmtzOiBbXG4gICAgICB7IHRpdGxlOiBcIkhvdyBpdCB3b3Jrc1wiLCB1cmw6IFwiL1wiIH0sXG4gICAgICB7IHRpdGxlOiBcIkZlYXR1cmVkXCIsIHVybDogXCIvXCIgfSxcbiAgICAgIHsgdGl0bGU6IFwiUGFydG5lcnNoaXBcIiwgdXJsOiBcIi9cIiB9LFxuICAgICAgeyB0aXRsZTogXCJCdXNzaW5lc3MgUmVsYXRpb25cIiwgdXJsOiBcIi9cIiB9LFxuICAgIF0sXG4gIH0sXG4gIHtcbiAgICB0aXRsZTogXCJDb21wYW55XCIsXG4gICAgbGlua3M6IFtcbiAgICAgIHsgdGl0bGU6IFwiRXZlbnRzXCIsIHVybDogXCIvXCIgfSxcbiAgICAgIHsgdGl0bGU6IFwiQmxvZ1wiLCB1cmw6IFwiL1wiIH0sXG4gICAgICB7IHRpdGxlOiBcIlBvZGNhc3RcIiwgdXJsOiBcIi9cIiB9LFxuICAgICAgeyB0aXRsZTogXCJJbnZpdGUgYSBmcmllbmRcIiwgdXJsOiBcIi9cIiB9LFxuICAgIF0sXG4gIH0sXG4gIHtcbiAgICB0aXRsZTogXCJTb2NpYWxzXCIsXG4gICAgbGlua3M6IFtcbiAgICAgIHsgdGl0bGU6IFwiRGlzY29yZFwiLCB1cmw6IFwiL1wiIH0sXG4gICAgICB7IHRpdGxlOiBcIkluc3RhZ3JhbVwiLCB1cmw6IFwiL1wiIH0sXG4gICAgICB7IHRpdGxlOiBcIlR3aXR0ZXJcIiwgdXJsOiBcIi9cIiB9LFxuICAgICAgeyB0aXRsZTogXCJGYWNlYm9va1wiLCB1cmw6IFwiL1wiIH0sXG4gICAgXSxcbiAgfSxcbl07XG4iXSwibmFtZXMiOlsibWFudWZhY3R1cmVycyIsInllYXJzT2ZQcm9kdWN0aW9uIiwidGl0bGUiLCJ2YWx1ZSIsImZ1ZWxzIiwiZm9vdGVyTGlua3MiLCJsaW5rcyIsInVybCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./constants/index.ts\n");
+
+/***/ }),
+
+/***/ "(ssr)/./utils/index.ts":
+/*!************************!*\
+  !*** ./utils/index.ts ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   calculateCarRent: () => (/* binding */ calculateCarRent),\n/* harmony export */   deleteSearchParams: () => (/* binding */ deleteSearchParams),\n/* harmony export */   fetchCars: () => (/* binding */ fetchCars),\n/* harmony export */   generateCarImageUrl: () => (/* binding */ generateCarImageUrl),\n/* harmony export */   updateSearchParams: () => (/* binding */ updateSearchParams)\n/* harmony export */ });\nconst calculateCarRent = (city_mpg, year)=>{\n    const basePricePerDay = 50; // Base rental price per day in dollars\n    const mileageFactor = 0.1; // Additional rate per mile driven\n    const ageFactor = 0.05; // Additional rate per year of vehicle age\n    // Calculate additional rate based on mileage and age\n    const mileageRate = city_mpg * mileageFactor;\n    const ageRate = (new Date().getFullYear() - year) * ageFactor;\n    // Calculate total rental rate per day\n    const rentalRatePerDay = basePricePerDay + mileageRate + ageRate;\n    return rentalRatePerDay.toFixed(0);\n};\nconst updateSearchParams = (type, value)=>{\n    // Get the current URL search params\n    const searchParams = new URLSearchParams(window.location.search);\n    // Set the specified search parameter to the given value\n    searchParams.set(type, value);\n    // Set the specified search parameter to the given value\n    const newPathname = `${window.location.pathname}?${searchParams.toString()}`;\n    return newPathname;\n};\nconst deleteSearchParams = (type)=>{\n    // Set the specified search parameter to the given value\n    const newSearchParams = new URLSearchParams(window.location.search);\n    // Delete the specified search parameter\n    newSearchParams.delete(type.toLocaleLowerCase());\n    // Construct the updated URL pathname with the deleted search parameter\n    const newPathname = `${window.location.pathname}?${newSearchParams.toString()}`;\n    return newPathname;\n};\nasync function fetchCars(filters) {\n    const { manufacturer, year, model, limit, fuel } = filters;\n    // Set the required headers for the API request\n    const headers = {\n        \"X-RapidAPI-Key\": process.env.NEXT_PUBLIC_RAPID_API_KEY || \"b61c12b0e1msha1332f2e9cfc7bep1dfe71jsn91c6d4c30f17\",\n        \"X-RapidAPI-Host\": \"cars-by-api-ninjas.p.rapidapi.com\"\n    };\n    // Set the required headers for the API request\n    const response = await fetch(`https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?make=${manufacturer}&year=${year}&model=${model}&limit=${limit}&fuel_type=${fuel}`, {\n        headers: headers\n    });\n    // Parse the response as JSON\n    const result = await response.json();\n    return result;\n}\nconst generateCarImageUrl = (car, angle)=>{\n    const url = new URL(\"https://cdn.imagin.studio/getimage\");\n    const { make, model, year } = car;\n    url.searchParams.append(\"customer\", process.env.NEXT_PUBLIC_IMAGIN_API_KEY || \"\");\n    url.searchParams.append(\"make\", make);\n    url.searchParams.append(\"modelFamily\", model.split(\" \")[0]);\n    url.searchParams.append(\"zoomType\", \"fullscreen\");\n    url.searchParams.append(\"modelYear\", `${year}`);\n    // url.searchParams.append('zoomLevel', zoomLevel);\n    url.searchParams.append(\"angle\", `${angle}`);\n    return `${url}`;\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi91dGlscy9pbmRleC50cyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUVPLE1BQU1BLG1CQUFtQixDQUFDQyxVQUFrQkM7SUFDakQsTUFBTUMsa0JBQWtCLElBQUksdUNBQXVDO0lBQ25FLE1BQU1DLGdCQUFnQixLQUFLLGtDQUFrQztJQUM3RCxNQUFNQyxZQUFZLE1BQU0sMENBQTBDO0lBRWxFLHFEQUFxRDtJQUNyRCxNQUFNQyxjQUFjTCxXQUFXRztJQUMvQixNQUFNRyxVQUFVLENBQUMsSUFBSUMsT0FBT0MsV0FBVyxLQUFLUCxJQUFHLElBQUtHO0lBRXBELHNDQUFzQztJQUN0QyxNQUFNSyxtQkFBbUJQLGtCQUFrQkcsY0FBY0M7SUFFekQsT0FBT0csaUJBQWlCQyxPQUFPLENBQUM7QUFDbEMsRUFBRTtBQUVLLE1BQU1DLHFCQUFxQixDQUFDQyxNQUFjQztJQUMvQyxvQ0FBb0M7SUFDcEMsTUFBTUMsZUFBZSxJQUFJQyxnQkFBZ0JDLE9BQU9DLFFBQVEsQ0FBQ0MsTUFBTTtJQUUvRCx3REFBd0Q7SUFDeERKLGFBQWFLLEdBQUcsQ0FBQ1AsTUFBTUM7SUFFdkIsd0RBQXdEO0lBQ3hELE1BQU1PLGNBQWMsQ0FBQyxFQUFFSixPQUFPQyxRQUFRLENBQUNJLFFBQVEsQ0FBQyxDQUFDLEVBQUVQLGFBQWFRLFFBQVEsR0FBRyxDQUFDO0lBRTVFLE9BQU9GO0FBQ1QsRUFBRTtBQUVLLE1BQU1HLHFCQUFxQixDQUFDWDtJQUNqQyx3REFBd0Q7SUFDeEQsTUFBTVksa0JBQWtCLElBQUlULGdCQUFnQkMsT0FBT0MsUUFBUSxDQUFDQyxNQUFNO0lBRWxFLHdDQUF3QztJQUN4Q00sZ0JBQWdCQyxNQUFNLENBQUNiLEtBQUtjLGlCQUFpQjtJQUU3Qyx1RUFBdUU7SUFDdkUsTUFBTU4sY0FBYyxDQUFDLEVBQUVKLE9BQU9DLFFBQVEsQ0FBQ0ksUUFBUSxDQUFDLENBQUMsRUFBRUcsZ0JBQWdCRixRQUFRLEdBQUcsQ0FBQztJQUUvRSxPQUFPRjtBQUNULEVBQUU7QUFFSyxlQUFlTyxVQUFVQyxPQUFvQjtJQUNsRCxNQUFNLEVBQUVDLFlBQVksRUFBRTVCLElBQUksRUFBRTZCLEtBQUssRUFBRUMsS0FBSyxFQUFFQyxJQUFJLEVBQUUsR0FBR0o7SUFFbkQsK0NBQStDO0lBQy9DLE1BQU1LLFVBQXVCO1FBQzNCLGtCQUFrQkMsUUFBUUMsR0FBRyxDQUFDQyx5QkFBeUIsSUFBSTtRQUMzRCxtQkFBbUI7SUFDckI7SUFFQSwrQ0FBK0M7SUFDL0MsTUFBTUMsV0FBVyxNQUFNQyxNQUNyQixDQUFDLHVEQUF1RCxFQUFFVCxhQUFhLE1BQU0sRUFBRTVCLEtBQUssT0FBTyxFQUFFNkIsTUFBTSxPQUFPLEVBQUVDLE1BQU0sV0FBVyxFQUFFQyxLQUFLLENBQUMsRUFDckk7UUFDRUMsU0FBU0E7SUFDWDtJQUdGLDZCQUE2QjtJQUM3QixNQUFNTSxTQUFTLE1BQU1GLFNBQVNHLElBQUk7SUFFbEMsT0FBT0Q7QUFDVDtBQUVPLE1BQU1FLHNCQUFzQixDQUFDQyxLQUFlQztJQUNqRCxNQUFNQyxNQUFNLElBQUlDLElBQUk7SUFDcEIsTUFBTSxFQUFFQyxJQUFJLEVBQUVoQixLQUFLLEVBQUU3QixJQUFJLEVBQUUsR0FBR3lDO0lBRTlCRSxJQUFJOUIsWUFBWSxDQUFDaUMsTUFBTSxDQUFDLFlBQVliLFFBQVFDLEdBQUcsQ0FBQ2EsMEJBQTBCLElBQUk7SUFDOUVKLElBQUk5QixZQUFZLENBQUNpQyxNQUFNLENBQUMsUUFBUUQ7SUFDaENGLElBQUk5QixZQUFZLENBQUNpQyxNQUFNLENBQUMsZUFBZWpCLE1BQU1tQixLQUFLLENBQUMsSUFBSSxDQUFDLEVBQUU7SUFDMURMLElBQUk5QixZQUFZLENBQUNpQyxNQUFNLENBQUMsWUFBWTtJQUNwQ0gsSUFBSTlCLFlBQVksQ0FBQ2lDLE1BQU0sQ0FBQyxhQUFhLENBQUMsRUFBRTlDLEtBQUssQ0FBQztJQUM5QyxtREFBbUQ7SUFDbkQyQyxJQUFJOUIsWUFBWSxDQUFDaUMsTUFBTSxDQUFDLFNBQVMsQ0FBQyxFQUFFSixNQUFNLENBQUM7SUFFM0MsT0FBTyxDQUFDLEVBQUVDLElBQUksQ0FBQztBQUNqQixFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLy4vdXRpbHMvaW5kZXgudHM/NTZkNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDYXJQcm9wcywgRmlsdGVyUHJvcHMgfSBmcm9tIFwiQHR5cGVzXCI7XG5cbmV4cG9ydCBjb25zdCBjYWxjdWxhdGVDYXJSZW50ID0gKGNpdHlfbXBnOiBudW1iZXIsIHllYXI6IG51bWJlcikgPT4ge1xuICBjb25zdCBiYXNlUHJpY2VQZXJEYXkgPSA1MDsgLy8gQmFzZSByZW50YWwgcHJpY2UgcGVyIGRheSBpbiBkb2xsYXJzXG4gIGNvbnN0IG1pbGVhZ2VGYWN0b3IgPSAwLjE7IC8vIEFkZGl0aW9uYWwgcmF0ZSBwZXIgbWlsZSBkcml2ZW5cbiAgY29uc3QgYWdlRmFjdG9yID0gMC4wNTsgLy8gQWRkaXRpb25hbCByYXRlIHBlciB5ZWFyIG9mIHZlaGljbGUgYWdlXG5cbiAgLy8gQ2FsY3VsYXRlIGFkZGl0aW9uYWwgcmF0ZSBiYXNlZCBvbiBtaWxlYWdlIGFuZCBhZ2VcbiAgY29uc3QgbWlsZWFnZVJhdGUgPSBjaXR5X21wZyAqIG1pbGVhZ2VGYWN0b3I7XG4gIGNvbnN0IGFnZVJhdGUgPSAobmV3IERhdGUoKS5nZXRGdWxsWWVhcigpIC0geWVhcikgKiBhZ2VGYWN0b3I7XG5cbiAgLy8gQ2FsY3VsYXRlIHRvdGFsIHJlbnRhbCByYXRlIHBlciBkYXlcbiAgY29uc3QgcmVudGFsUmF0ZVBlckRheSA9IGJhc2VQcmljZVBlckRheSArIG1pbGVhZ2VSYXRlICsgYWdlUmF0ZTtcblxuICByZXR1cm4gcmVudGFsUmF0ZVBlckRheS50b0ZpeGVkKDApO1xufTtcblxuZXhwb3J0IGNvbnN0IHVwZGF0ZVNlYXJjaFBhcmFtcyA9ICh0eXBlOiBzdHJpbmcsIHZhbHVlOiBzdHJpbmcpID0+IHtcbiAgLy8gR2V0IHRoZSBjdXJyZW50IFVSTCBzZWFyY2ggcGFyYW1zXG4gIGNvbnN0IHNlYXJjaFBhcmFtcyA9IG5ldyBVUkxTZWFyY2hQYXJhbXMod2luZG93LmxvY2F0aW9uLnNlYXJjaCk7XG5cbiAgLy8gU2V0IHRoZSBzcGVjaWZpZWQgc2VhcmNoIHBhcmFtZXRlciB0byB0aGUgZ2l2ZW4gdmFsdWVcbiAgc2VhcmNoUGFyYW1zLnNldCh0eXBlLCB2YWx1ZSk7XG5cbiAgLy8gU2V0IHRoZSBzcGVjaWZpZWQgc2VhcmNoIHBhcmFtZXRlciB0byB0aGUgZ2l2ZW4gdmFsdWVcbiAgY29uc3QgbmV3UGF0aG5hbWUgPSBgJHt3aW5kb3cubG9jYXRpb24ucGF0aG5hbWV9PyR7c2VhcmNoUGFyYW1zLnRvU3RyaW5nKCl9YDtcblxuICByZXR1cm4gbmV3UGF0aG5hbWU7XG59O1xuXG5leHBvcnQgY29uc3QgZGVsZXRlU2VhcmNoUGFyYW1zID0gKHR5cGU6IHN0cmluZykgPT4ge1xuICAvLyBTZXQgdGhlIHNwZWNpZmllZCBzZWFyY2ggcGFyYW1ldGVyIHRvIHRoZSBnaXZlbiB2YWx1ZVxuICBjb25zdCBuZXdTZWFyY2hQYXJhbXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gpO1xuXG4gIC8vIERlbGV0ZSB0aGUgc3BlY2lmaWVkIHNlYXJjaCBwYXJhbWV0ZXJcbiAgbmV3U2VhcmNoUGFyYW1zLmRlbGV0ZSh0eXBlLnRvTG9jYWxlTG93ZXJDYXNlKCkpO1xuXG4gIC8vIENvbnN0cnVjdCB0aGUgdXBkYXRlZCBVUkwgcGF0aG5hbWUgd2l0aCB0aGUgZGVsZXRlZCBzZWFyY2ggcGFyYW1ldGVyXG4gIGNvbnN0IG5ld1BhdGhuYW1lID0gYCR7d2luZG93LmxvY2F0aW9uLnBhdGhuYW1lfT8ke25ld1NlYXJjaFBhcmFtcy50b1N0cmluZygpfWA7XG5cbiAgcmV0dXJuIG5ld1BhdGhuYW1lO1xufTtcblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGZldGNoQ2FycyhmaWx0ZXJzOiBGaWx0ZXJQcm9wcykge1xuICBjb25zdCB7IG1hbnVmYWN0dXJlciwgeWVhciwgbW9kZWwsIGxpbWl0LCBmdWVsIH0gPSBmaWx0ZXJzO1xuXG4gIC8vIFNldCB0aGUgcmVxdWlyZWQgaGVhZGVycyBmb3IgdGhlIEFQSSByZXF1ZXN0XG4gIGNvbnN0IGhlYWRlcnM6IEhlYWRlcnNJbml0ID0ge1xuICAgIFwiWC1SYXBpZEFQSS1LZXlcIjogcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfUkFQSURfQVBJX0tFWSB8fCBcImI2MWMxMmIwZTFtc2hhMTMzMmYyZTljZmM3YmVwMWRmZTcxanNuOTFjNmQ0YzMwZjE3XCIsXG4gICAgXCJYLVJhcGlkQVBJLUhvc3RcIjogXCJjYXJzLWJ5LWFwaS1uaW5qYXMucC5yYXBpZGFwaS5jb21cIixcbiAgfTtcblxuICAvLyBTZXQgdGhlIHJlcXVpcmVkIGhlYWRlcnMgZm9yIHRoZSBBUEkgcmVxdWVzdFxuICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKFxuICAgIGBodHRwczovL2NhcnMtYnktYXBpLW5pbmphcy5wLnJhcGlkYXBpLmNvbS92MS9jYXJzP21ha2U9JHttYW51ZmFjdHVyZXJ9JnllYXI9JHt5ZWFyfSZtb2RlbD0ke21vZGVsfSZsaW1pdD0ke2xpbWl0fSZmdWVsX3R5cGU9JHtmdWVsfWAsXG4gICAge1xuICAgICAgaGVhZGVyczogaGVhZGVycyxcbiAgICB9XG4gICk7XG5cbiAgLy8gUGFyc2UgdGhlIHJlc3BvbnNlIGFzIEpTT05cbiAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcmVzcG9uc2UuanNvbigpO1xuXG4gIHJldHVybiByZXN1bHQ7XG59XG5cbmV4cG9ydCBjb25zdCBnZW5lcmF0ZUNhckltYWdlVXJsID0gKGNhcjogQ2FyUHJvcHMsIGFuZ2xlPzogc3RyaW5nKSA9PiB7XG4gIGNvbnN0IHVybCA9IG5ldyBVUkwoXCJodHRwczovL2Nkbi5pbWFnaW4uc3R1ZGlvL2dldGltYWdlXCIpO1xuICBjb25zdCB7IG1ha2UsIG1vZGVsLCB5ZWFyIH0gPSBjYXI7XG5cbiAgdXJsLnNlYXJjaFBhcmFtcy5hcHBlbmQoJ2N1c3RvbWVyJywgcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfSU1BR0lOX0FQSV9LRVkgfHwgJycpO1xuICB1cmwuc2VhcmNoUGFyYW1zLmFwcGVuZCgnbWFrZScsIG1ha2UpO1xuICB1cmwuc2VhcmNoUGFyYW1zLmFwcGVuZCgnbW9kZWxGYW1pbHknLCBtb2RlbC5zcGxpdChcIiBcIilbMF0pO1xuICB1cmwuc2VhcmNoUGFyYW1zLmFwcGVuZCgnem9vbVR5cGUnLCAnZnVsbHNjcmVlbicpO1xuICB1cmwuc2VhcmNoUGFyYW1zLmFwcGVuZCgnbW9kZWxZZWFyJywgYCR7eWVhcn1gKTtcbiAgLy8gdXJsLnNlYXJjaFBhcmFtcy5hcHBlbmQoJ3pvb21MZXZlbCcsIHpvb21MZXZlbCk7XG4gIHVybC5zZWFyY2hQYXJhbXMuYXBwZW5kKCdhbmdsZScsIGAke2FuZ2xlfWApO1xuXG4gIHJldHVybiBgJHt1cmx9YDtcbn0gXG4iXSwibmFtZXMiOlsiY2FsY3VsYXRlQ2FyUmVudCIsImNpdHlfbXBnIiwieWVhciIsImJhc2VQcmljZVBlckRheSIsIm1pbGVhZ2VGYWN0b3IiLCJhZ2VGYWN0b3IiLCJtaWxlYWdlUmF0ZSIsImFnZVJhdGUiLCJEYXRlIiwiZ2V0RnVsbFllYXIiLCJyZW50YWxSYXRlUGVyRGF5IiwidG9GaXhlZCIsInVwZGF0ZVNlYXJjaFBhcmFtcyIsInR5cGUiLCJ2YWx1ZSIsInNlYXJjaFBhcmFtcyIsIlVSTFNlYXJjaFBhcmFtcyIsIndpbmRvdyIsImxvY2F0aW9uIiwic2VhcmNoIiwic2V0IiwibmV3UGF0aG5hbWUiLCJwYXRobmFtZSIsInRvU3RyaW5nIiwiZGVsZXRlU2VhcmNoUGFyYW1zIiwibmV3U2VhcmNoUGFyYW1zIiwiZGVsZXRlIiwidG9Mb2NhbGVMb3dlckNhc2UiLCJmZXRjaENhcnMiLCJmaWx0ZXJzIiwibWFudWZhY3R1cmVyIiwibW9kZWwiLCJsaW1pdCIsImZ1ZWwiLCJoZWFkZXJzIiwicHJvY2VzcyIsImVudiIsIk5FWFRfUFVCTElDX1JBUElEX0FQSV9LRVkiLCJyZXNwb25zZSIsImZldGNoIiwicmVzdWx0IiwianNvbiIsImdlbmVyYXRlQ2FySW1hZ2VVcmwiLCJjYXIiLCJhbmdsZSIsInVybCIsIlVSTCIsIm1ha2UiLCJhcHBlbmQiLCJORVhUX1BVQkxJQ19JTUFHSU5fQVBJX0tFWSIsInNwbGl0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./utils/index.ts\n");
+
+/***/ }),
+
+/***/ "(rsc)/./app/globals.css":
+/*!*************************!*\
+  !*** ./app/globals.css ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"26b5a5aefa25\");\nif (false) {}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvZ2xvYmFscy5jc3MiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLGNBQWM7QUFDN0IsSUFBSSxLQUFVLEVBQUUsRUFBdUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jYXJodWIvLi9hcHAvZ2xvYmFscy5jc3M/ODAwOCJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBcIjI2YjVhNWFlZmEyNVwiXG5pZiAobW9kdWxlLmhvdCkgeyBtb2R1bGUuaG90LmFjY2VwdCgpIH1cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./app/globals.css\n");
+
+/***/ }),
+
+/***/ "(rsc)/./app/layout.tsx":
+/*!************************!*\
+  !*** ./app/layout.tsx ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./globals.css */ \"(rsc)/./app/globals.css\");\n/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @components */ \"(rsc)/./components/index.ts\");\n\n\n\nconst metadata = {\n    title: \"Car Hub\",\n    description: \"Discover world's best car showcase application\"\n};\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            className: \"relative\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components__WEBPACK_IMPORTED_MODULE_2__.NavBar, {}, void 0, false, {\n                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/layout.tsx\",\n                    lineNumber: 14,\n                    columnNumber: 9\n                }, this),\n                children,\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components__WEBPACK_IMPORTED_MODULE_2__.Footer, {}, void 0, false, {\n                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/layout.tsx\",\n                    lineNumber: 16,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/layout.tsx\",\n            lineNumber: 13,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/layout.tsx\",\n        lineNumber: 12,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvbGF5b3V0LnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQXVCO0FBRXNCO0FBRXRDLE1BQU1FLFdBQVc7SUFDdEJDLE9BQU87SUFDUEMsYUFBYTtBQUNmLEVBQUU7QUFFYSxTQUFTQyxXQUFXLEVBQUVDLFFBQVEsRUFBaUM7SUFDNUUscUJBQ0UsOERBQUNDO1FBQUtDLE1BQUs7a0JBQ1QsNEVBQUNDO1lBQUtDLFdBQVU7OzhCQUNkLDhEQUFDVCwrQ0FBTUE7Ozs7O2dCQUNOSzs4QkFDRCw4REFBQ04sK0NBQU1BOzs7Ozs7Ozs7Ozs7Ozs7O0FBSWYiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jYXJodWIvLi9hcHAvbGF5b3V0LnRzeD85OTg4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4vZ2xvYmFscy5jc3NcIjtcblxuaW1wb3J0IHsgRm9vdGVyLCBOYXZCYXIgfSBmcm9tIFwiQGNvbXBvbmVudHNcIjtcblxuZXhwb3J0IGNvbnN0IG1ldGFkYXRhID0ge1xuICB0aXRsZTogXCJDYXIgSHViXCIsXG4gIGRlc2NyaXB0aW9uOiBcIkRpc2NvdmVyIHdvcmxkJ3MgYmVzdCBjYXIgc2hvd2Nhc2UgYXBwbGljYXRpb25cIixcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkge1xuICByZXR1cm4gKFxuICAgIDxodG1sIGxhbmc9J2VuJz5cbiAgICAgIDxib2R5IGNsYXNzTmFtZT0ncmVsYXRpdmUnPlxuICAgICAgICA8TmF2QmFyIC8+XG4gICAgICAgIHtjaGlsZHJlbn1cbiAgICAgICAgPEZvb3RlciAvPlxuICAgICAgPC9ib2R5PlxuICAgIDwvaHRtbD5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJGb290ZXIiLCJOYXZCYXIiLCJtZXRhZGF0YSIsInRpdGxlIiwiZGVzY3JpcHRpb24iLCJSb290TGF5b3V0IiwiY2hpbGRyZW4iLCJodG1sIiwibGFuZyIsImJvZHkiLCJjbGFzc05hbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/layout.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./app/page.tsx":
+/*!**********************!*\
+  !*** ./app/page.tsx ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @utils */ \"(rsc)/./utils/index.ts\");\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @constants */ \"(rsc)/./constants/index.ts\");\n/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @components */ \"(rsc)/./components/index.ts\");\n\n\n\n\nasync function Home({ searchParams }) {\n    const allCars = await (0,_utils__WEBPACK_IMPORTED_MODULE_1__.fetchCars)({\n        manufacturer: searchParams.manufacturer || \"\",\n        year: searchParams.year || 2022,\n        fuel: searchParams.fuel || \"\",\n        limit: searchParams.limit || 10,\n        model: searchParams.model || \"\"\n    });\n    const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n        className: \"overflow-hidden\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components__WEBPACK_IMPORTED_MODULE_3__.Hero, {}, void 0, false, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                lineNumber: 19,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"mt-12 padding-x padding-y max-width\",\n                id: \"discover\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"home__text-container\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                                className: \"text-4xl font-extrabold\",\n                                children: \"Car Catalogue\"\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                lineNumber: 23,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                children: \"Explore out cars you might like\"\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                lineNumber: 24,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                        lineNumber: 22,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"home__filters\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components__WEBPACK_IMPORTED_MODULE_3__.SearchBar, {}, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                lineNumber: 28,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"home__filter-container\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components__WEBPACK_IMPORTED_MODULE_3__.CustomFilter, {\n                                        title: \"fuel\",\n                                        options: _constants__WEBPACK_IMPORTED_MODULE_2__.fuels\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                        lineNumber: 31,\n                                        columnNumber: 13\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components__WEBPACK_IMPORTED_MODULE_3__.CustomFilter, {\n                                        title: \"year\",\n                                        options: _constants__WEBPACK_IMPORTED_MODULE_2__.yearsOfProduction\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                        lineNumber: 32,\n                                        columnNumber: 13\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                lineNumber: 30,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                        lineNumber: 27,\n                        columnNumber: 9\n                    }, this),\n                    !isDataEmpty ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"home__cars-wrapper\",\n                                children: allCars?.map((car)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components__WEBPACK_IMPORTED_MODULE_3__.CarCard, {\n                                        car: car\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                        lineNumber: 40,\n                                        columnNumber: 17\n                                    }, this))\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                lineNumber: 38,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components__WEBPACK_IMPORTED_MODULE_3__.ShowMore, {\n                                pageNumber: (searchParams.limit || 10) / 10,\n                                isNext: (searchParams.limit || 10) > allCars.length\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                lineNumber: 44,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                        lineNumber: 37,\n                        columnNumber: 11\n                    }, this) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"home__error-container\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                                className: \"text-black text-xl font-bold\",\n                                children: \"Oops, no results\"\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                lineNumber: 51,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                children: allCars?.message\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                                lineNumber: 52,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                        lineNumber: 50,\n                        columnNumber: 11\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n                lineNumber: 21,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/app/page.tsx\",\n        lineNumber: 18,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvcGFnZS50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFtQztBQUVtQjtBQUN5QjtBQUVoRSxlQUFlUSxLQUFLLEVBQUVDLFlBQVksRUFBYTtJQUM1RCxNQUFNQyxVQUFVLE1BQU1WLGlEQUFTQSxDQUFDO1FBQzlCVyxjQUFjRixhQUFhRSxZQUFZLElBQUk7UUFDM0NDLE1BQU1ILGFBQWFHLElBQUksSUFBSTtRQUMzQkMsTUFBTUosYUFBYUksSUFBSSxJQUFJO1FBQzNCQyxPQUFPTCxhQUFhSyxLQUFLLElBQUk7UUFDN0JDLE9BQU9OLGFBQWFNLEtBQUssSUFBSTtJQUMvQjtJQUVBLE1BQU1DLGNBQWMsQ0FBQ0MsTUFBTUMsT0FBTyxDQUFDUixZQUFZQSxRQUFRUyxNQUFNLEdBQUcsS0FBSyxDQUFDVDtJQUV0RSxxQkFDRSw4REFBQ1U7UUFBS0MsV0FBVTs7MEJBQ2QsOERBQUNkLDZDQUFJQTs7Ozs7MEJBRUwsOERBQUNlO2dCQUFJRCxXQUFVO2dCQUFzQ0UsSUFBRzs7a0NBQ3RELDhEQUFDRDt3QkFBSUQsV0FBVTs7MENBQ2IsOERBQUNHO2dDQUFHSCxXQUFVOzBDQUEwQjs7Ozs7OzBDQUN4Qyw4REFBQ0k7MENBQUU7Ozs7Ozs7Ozs7OztrQ0FHTCw4REFBQ0g7d0JBQUlELFdBQVU7OzBDQUNiLDhEQUFDaEIsa0RBQVNBOzs7OzswQ0FFViw4REFBQ2lCO2dDQUFJRCxXQUFVOztrREFDYiw4REFBQ2YscURBQVlBO3dDQUFDb0IsT0FBTTt3Q0FBT0MsU0FBUzFCLDZDQUFLQTs7Ozs7O2tEQUN6Qyw4REFBQ0sscURBQVlBO3dDQUFDb0IsT0FBTTt3Q0FBT0MsU0FBU3pCLHlEQUFpQkE7Ozs7Ozs7Ozs7Ozs7Ozs7OztvQkFJeEQsQ0FBQ2MsNEJBQ0EsOERBQUNZOzswQ0FDQyw4REFBQ047Z0NBQUlELFdBQVU7MENBQ1pYLFNBQVNtQixJQUFJLENBQUNDLG9CQUNiLDhEQUFDM0IsZ0RBQU9BO3dDQUFDMkIsS0FBS0E7Ozs7Ozs7Ozs7OzBDQUlsQiw4REFBQzFCLGlEQUFRQTtnQ0FDUDJCLFlBQVksQ0FBQ3RCLGFBQWFLLEtBQUssSUFBSSxFQUFDLElBQUs7Z0NBQ3pDa0IsUUFBUSxDQUFDdkIsYUFBYUssS0FBSyxJQUFJLEVBQUMsSUFBS0osUUFBUVMsTUFBTTs7Ozs7Ozs7Ozs7NkNBSXZELDhEQUFDRzt3QkFBSUQsV0FBVTs7MENBQ2IsOERBQUNZO2dDQUFHWixXQUFVOzBDQUErQjs7Ozs7OzBDQUM3Qyw4REFBQ0k7MENBQUdmLFNBQVN3Qjs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBTXpCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLy4vYXBwL3BhZ2UudHN4Pzc2MDMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgZmV0Y2hDYXJzIH0gZnJvbSBcIkB1dGlsc1wiO1xuaW1wb3J0IHsgSG9tZVByb3BzIH0gZnJvbSBcIkB0eXBlc1wiO1xuaW1wb3J0IHsgZnVlbHMsIHllYXJzT2ZQcm9kdWN0aW9uIH0gZnJvbSBcIkBjb25zdGFudHNcIjtcbmltcG9ydCB7IENhckNhcmQsIFNob3dNb3JlLCBTZWFyY2hCYXIsIEN1c3RvbUZpbHRlciwgSGVybyB9IGZyb20gXCJAY29tcG9uZW50c1wiO1xuXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBIb21lKHsgc2VhcmNoUGFyYW1zIH06IEhvbWVQcm9wcykge1xuICBjb25zdCBhbGxDYXJzID0gYXdhaXQgZmV0Y2hDYXJzKHtcbiAgICBtYW51ZmFjdHVyZXI6IHNlYXJjaFBhcmFtcy5tYW51ZmFjdHVyZXIgfHwgXCJcIixcbiAgICB5ZWFyOiBzZWFyY2hQYXJhbXMueWVhciB8fCAyMDIyLFxuICAgIGZ1ZWw6IHNlYXJjaFBhcmFtcy5mdWVsIHx8IFwiXCIsXG4gICAgbGltaXQ6IHNlYXJjaFBhcmFtcy5saW1pdCB8fCAxMCxcbiAgICBtb2RlbDogc2VhcmNoUGFyYW1zLm1vZGVsIHx8IFwiXCIsXG4gIH0pO1xuXG4gIGNvbnN0IGlzRGF0YUVtcHR5ID0gIUFycmF5LmlzQXJyYXkoYWxsQ2FycykgfHwgYWxsQ2Fycy5sZW5ndGggPCAxIHx8ICFhbGxDYXJzO1xuXG4gIHJldHVybiAoXG4gICAgPG1haW4gY2xhc3NOYW1lPSdvdmVyZmxvdy1oaWRkZW4nPlxuICAgICAgPEhlcm8gLz5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9J210LTEyIHBhZGRpbmcteCBwYWRkaW5nLXkgbWF4LXdpZHRoJyBpZD0nZGlzY292ZXInPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT0naG9tZV9fdGV4dC1jb250YWluZXInPlxuICAgICAgICAgIDxoMSBjbGFzc05hbWU9J3RleHQtNHhsIGZvbnQtZXh0cmFib2xkJz5DYXIgQ2F0YWxvZ3VlPC9oMT5cbiAgICAgICAgICA8cD5FeHBsb3JlIG91dCBjYXJzIHlvdSBtaWdodCBsaWtlPC9wPlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT0naG9tZV9fZmlsdGVycyc+XG4gICAgICAgICAgPFNlYXJjaEJhciAvPlxuXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2hvbWVfX2ZpbHRlci1jb250YWluZXInPlxuICAgICAgICAgICAgPEN1c3RvbUZpbHRlciB0aXRsZT0nZnVlbCcgb3B0aW9ucz17ZnVlbHN9IC8+XG4gICAgICAgICAgICA8Q3VzdG9tRmlsdGVyIHRpdGxlPSd5ZWFyJyBvcHRpb25zPXt5ZWFyc09mUHJvZHVjdGlvbn0gLz5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgeyFpc0RhdGFFbXB0eSA/IChcbiAgICAgICAgICA8c2VjdGlvbj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdob21lX19jYXJzLXdyYXBwZXInPlxuICAgICAgICAgICAgICB7YWxsQ2Fycz8ubWFwKChjYXIpID0+IChcbiAgICAgICAgICAgICAgICA8Q2FyQ2FyZCBjYXI9e2Nhcn0gLz5cbiAgICAgICAgICAgICAgKSl9XG4gICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgPFNob3dNb3JlXG4gICAgICAgICAgICAgIHBhZ2VOdW1iZXI9eyhzZWFyY2hQYXJhbXMubGltaXQgfHwgMTApIC8gMTB9XG4gICAgICAgICAgICAgIGlzTmV4dD17KHNlYXJjaFBhcmFtcy5saW1pdCB8fCAxMCkgPiBhbGxDYXJzLmxlbmd0aH1cbiAgICAgICAgICAgIC8+XG4gICAgICAgICAgPC9zZWN0aW9uPlxuICAgICAgICApIDogKFxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdob21lX19lcnJvci1jb250YWluZXInPlxuICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0ndGV4dC1ibGFjayB0ZXh0LXhsIGZvbnQtYm9sZCc+T29wcywgbm8gcmVzdWx0czwvaDI+XG4gICAgICAgICAgICA8cD57YWxsQ2Fycz8ubWVzc2FnZX08L3A+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICl9XG4gICAgICA8L2Rpdj5cbiAgICA8L21haW4+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiZmV0Y2hDYXJzIiwiZnVlbHMiLCJ5ZWFyc09mUHJvZHVjdGlvbiIsIkNhckNhcmQiLCJTaG93TW9yZSIsIlNlYXJjaEJhciIsIkN1c3RvbUZpbHRlciIsIkhlcm8iLCJIb21lIiwic2VhcmNoUGFyYW1zIiwiYWxsQ2FycyIsIm1hbnVmYWN0dXJlciIsInllYXIiLCJmdWVsIiwibGltaXQiLCJtb2RlbCIsImlzRGF0YUVtcHR5IiwiQXJyYXkiLCJpc0FycmF5IiwibGVuZ3RoIiwibWFpbiIsImNsYXNzTmFtZSIsImRpdiIsImlkIiwiaDEiLCJwIiwidGl0bGUiLCJvcHRpb25zIiwic2VjdGlvbiIsIm1hcCIsImNhciIsInBhZ2VOdW1iZXIiLCJpc05leHQiLCJoMiIsIm1lc3NhZ2UiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/page.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./components/CarCard.tsx":
+/*!********************************!*\
+  !*** ./components/CarCard.tsx ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8421);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
-/* __next_internal_client_entry_do_not_use__ default auto */ 
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-const Button = ({ isDisabled , btnType , containerStyles , textStyles , title , rightIcon , handleClick  })=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-        disabled: isDisabled,
-        type: btnType || "button",
-        className: `custom-btn ${containerStyles}`,
-        onClick: handleClick,
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                className: `flex-1 ${textStyles}`,
-                children: title
-            }),
-            rightIcon && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "relative w-6 h-6",
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-                    src: rightIcon,
-                    alt: "arrow_left",
-                    fill: true,
-                    className: "object-contain"
-                })
-            })
-        ]
-    });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Button);
-
-
-/***/ }),
-
-/***/ 4864:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ CustomFilter)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8038);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8421);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9483);
-/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_navigation__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _headlessui_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6565);
-/* harmony import */ var _headlessui_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6235);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8717);
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-
-function CustomFilter({ title , options  }) {
-    const router = (0,next_navigation__WEBPACK_IMPORTED_MODULE_3__.useRouter)();
-    const [selected, setSelected] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(options[0]); // State for storing the selected option
-    // update the URL search parameters and navigate to the new URL
-    const handleUpdateParams = (e)=>{
-        const newPathName = (0,_utils__WEBPACK_IMPORTED_MODULE_4__/* .updateSearchParams */ .aM)(title, e.value.toLowerCase());
-        router.push(newPathName);
-    };
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: "w-fit",
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__/* .Listbox */ .R, {
-            value: selected,
-            onChange: (e)=>{
-                setSelected(e); // Update the selected option in state
-                handleUpdateParams(e); // Update the URL search parameters and navigate to the new URL
-            },
-            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "relative w-fit z-10",
-                children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__/* .Listbox.Button */ .R.Button, {
-                        className: "custom-filter__btn",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "block truncate",
-                                children: selected.title
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                src: "/chevron-up-down.svg",
-                                width: 20,
-                                height: 20,
-                                className: "ml-4 object-contain",
-                                alt: "chevron_up-down"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_headlessui_react__WEBPACK_IMPORTED_MODULE_6__/* .Transition */ .u, {
-                        as: react__WEBPACK_IMPORTED_MODULE_1__.Fragment,
-                        leave: "transition ease-in duration-100",
-                        leaveFrom: "opacity-100",
-                        leaveTo: "opacity-0",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__/* .Listbox.Options */ .R.Options, {
-                            className: "custom-filter__options",
-                            children: options.map((option)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__/* .Listbox.Option */ .R.Option, {
-                                    className: ({ active  })=>`relative cursor-default select-none py-2 px-4 ${active ? "bg-primary-blue text-white" : "text-gray-900"}`,
-                                    value: option,
-                                    children: ({ selected  })=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                className: `block truncate ${selected ? "font-medium" : "font-normal"}`,
-                                                children: option.title
-                                            })
-                                        })
-                                }, option.title))
-                        })
-                    })
-                ]
-            })
-        })
-    });
-}
-
-
-/***/ }),
-
-/***/ 5841:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8421);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4543);
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-const Hero = ()=>{
-    const handleScroll = ()=>{
-        const nextSection = document.getElementById("discover");
-        if (nextSection) {
-            nextSection.scrollIntoView({
-                behavior: "smooth"
-            });
-        }
-    };
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "hero",
-        children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex-1 pt-36 padding-x",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                        className: "hero__title",
-                        children: "Find, book, rent a car—quick and super easy!"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        className: "hero__subtitle",
-                        children: "Streamline your car rental experience with our effortless booking process."
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components__WEBPACK_IMPORTED_MODULE_2__/* .CustomButton */ .op, {
-                        title: "Explore Cars",
-                        containerStyles: "bg-primary-blue text-white rounded-full mt-10",
-                        handleClick: handleScroll
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "hero__image-container",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "hero__image",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-                            src: "/hero.png",
-                            alt: "hero",
-                            fill: true,
-                            className: "object-contain"
-                        })
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "hero__image-overlay"
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero);
-
-
-/***/ }),
-
-/***/ 6789:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ Searchbar)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(8421);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-// EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
-// EXTERNAL MODULE: ./node_modules/next/navigation.js
-var navigation = __webpack_require__(9483);
-// EXTERNAL MODULE: ./node_modules/@headlessui/react/dist/components/combobox/combobox.js + 1 modules
-var combobox = __webpack_require__(3817);
-// EXTERNAL MODULE: ./node_modules/@headlessui/react/dist/components/transitions/transition.js + 4 modules
-var transition = __webpack_require__(6235);
-// EXTERNAL MODULE: ./constants/index.ts
-var constants = __webpack_require__(5368);
-;// CONCATENATED MODULE: ./components/SearchManufacturer.tsx
-
-
-
-
-
-const SearchManufacturer = ({ manufacturer , setManuFacturer  })=>{
-    const [query, setQuery] = (0,react_.useState)("");
-    const filteredManufacturers = query === "" ? constants/* manufacturers */.ui : constants/* manufacturers.filter */.ui.filter((item)=>item.toLowerCase().replace(/\s+/g, "").includes(query.toLowerCase().replace(/\s+/g, "")));
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "search-manufacturer",
-        children: /*#__PURE__*/ jsx_runtime_.jsx(combobox/* Combobox */.h, {
-            value: manufacturer,
-            onChange: setManuFacturer,
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "relative w-full",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(combobox/* Combobox.Button */.h.Button, {
-                        className: "absolute top-[14px]",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: "/car-logo.svg",
-                            width: 20,
-                            height: 20,
-                            className: "ml-4",
-                            alt: "car logo"
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(combobox/* Combobox.Input */.h.Input, {
-                        className: "search-manufacturer__input",
-                        displayValue: (item)=>item,
-                        onChange: (event)=>setQuery(event.target.value),
-                        placeholder: "Volkswagen..."
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(transition/* Transition */.u, {
-                        as: react_.Fragment,
-                        leave: "transition ease-in duration-100",
-                        leaveFrom: "opacity-100",
-                        leaveTo: "opacity-0",
-                        afterLeave: ()=>setQuery(""),
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(combobox/* Combobox.Options */.h.Options, {
-                            className: "absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm",
-                            static: true,
-                            children: filteredManufacturers.length === 0 && query !== "" ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(combobox/* Combobox.Option */.h.Option, {
-                                value: query,
-                                className: "search-manufacturer__option",
-                                children: [
-                                    'Create "',
-                                    query,
-                                    '"'
-                                ]
-                            }) : filteredManufacturers.map((item)=>/*#__PURE__*/ jsx_runtime_.jsx(combobox/* Combobox.Option */.h.Option, {
-                                    className: ({ active  })=>`relative search-manufacturer__option ${active ? "bg-primary-blue text-white" : "text-gray-900"}`,
-                                    value: item,
-                                    children: ({ selected , active  })=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                    className: `block truncate ${selected ? "font-medium" : "font-normal"}`,
-                                                    children: item
-                                                }),
-                                                selected ? /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                    className: `absolute inset-y-0 left-0 flex items-center pl-3 ${active ? "text-white" : "text-pribg-primary-purple"}`
-                                                }) : null
-                                            ]
-                                        })
-                                }, item))
-                        })
-                    })
-                ]
-            })
-        })
-    });
-};
-/* harmony default export */ const components_SearchManufacturer = (SearchManufacturer);
-
-;// CONCATENATED MODULE: ./components/Searchbar.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-const SearchButton = ({ otherClasses  })=>/*#__PURE__*/ jsx_runtime_.jsx("button", {
-        type: "submit",
-        className: `-ml-3 z-10 ${otherClasses}`,
-        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-            src: "/magnifying-glass.svg",
-            alt: "magnifying glass",
-            width: 40,
-            height: 40,
-            className: "object-contain"
-        })
-    });
-const SearchBar = ()=>{
-    const [manufacturer, setManuFacturer] = (0,react_.useState)("");
-    const [model, setModel] = (0,react_.useState)("");
-    const router = (0,navigation.useRouter)();
-    const handleSearch = (e)=>{
-        e.preventDefault();
-        if (manufacturer.trim() === "" && model.trim() === "") {
-            return alert("Please provide some input");
-        }
-        updateSearchParams(model.toLowerCase(), manufacturer.toLowerCase());
-    };
-    const updateSearchParams = (model, manufacturer)=>{
-        // Create a new URLSearchParams object using the current URL search parameters
-        const searchParams = new URLSearchParams(window.location.search);
-        // Update or delete the 'model' search parameter based on the 'model' value
-        if (model) {
-            searchParams.set("model", model);
-        } else {
-            searchParams.delete("model");
-        }
-        // Update or delete the 'manufacturer' search parameter based on the 'manufacturer' value
-        if (manufacturer) {
-            searchParams.set("manufacturer", manufacturer);
-        } else {
-            searchParams.delete("manufacturer");
-        }
-        // Generate the new pathname with the updated search parameters
-        const newPathname = `${window.location.pathname}?${searchParams.toString()}`;
-        router.push(newPathname);
-    };
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
-        className: "searchbar",
-        onSubmit: handleSearch,
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "searchbar__item",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(components_SearchManufacturer, {
-                        manufacturer: manufacturer,
-                        setManuFacturer: setManuFacturer
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(SearchButton, {
-                        otherClasses: "sm:hidden"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "searchbar__item",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: "/model-icon.png",
-                        width: 25,
-                        height: 25,
-                        className: "absolute w-[20px] h-[20px] ml-4",
-                        alt: "car model"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                        type: "text",
-                        name: "model",
-                        value: model,
-                        onChange: (e)=>setModel(e.target.value),
-                        placeholder: "Tiguan...",
-                        className: "searchbar__input"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(SearchButton, {
-                        otherClasses: "sm:hidden"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(SearchButton, {
-                otherClasses: "max-sm:hidden"
-            })
-        ]
-    });
-};
-/* harmony default export */ const Searchbar = (SearchBar);
-
-
-/***/ }),
-
-/***/ 7756:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9483);
-/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_navigation__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8717);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4543);
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-const ShowMore = ({ pageNumber , isNext  })=>{
-    const router = (0,next_navigation__WEBPACK_IMPORTED_MODULE_1__.useRouter)();
-    const handleNavigation = ()=>{
-        // Calculate the new limit based on the page number and navigation type
-        const newLimit = (pageNumber + 1) * 10;
-        // Update the "limit" search parameter in the URL with the new value
-        const newPathname = (0,_utils__WEBPACK_IMPORTED_MODULE_3__/* .updateSearchParams */ .aM)("limit", `${newLimit}`);
-        router.push(newPathname);
-    };
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: "w-full flex-center gap-5 mt-10",
-        children: !isNext && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components__WEBPACK_IMPORTED_MODULE_2__/* .CustomButton */ .op, {
-            btnType: "button",
-            title: "Show More",
-            containerStyles: "bg-primary-blue rounded-full text-white",
-            handleClick: handleNavigation
-        })
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ShowMore);
-
-
-/***/ }),
-
-/***/ 4543:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "op": () => (/* reexport */ components_CustomButton["default"])
-});
-
-// UNUSED EXPORTS: CarCard, CustomFilter, Footer, Hero, NavBar, SearchBar, ShowMore
-
-// EXTERNAL MODULE: ./components/CarCard.tsx + 1 modules
-var CarCard = __webpack_require__(7179);
-// EXTERNAL MODULE: ./components/CustomButton.tsx
-var components_CustomButton = __webpack_require__(7749);
-// EXTERNAL MODULE: ./components/CustomFilter.tsx
-var CustomFilter = __webpack_require__(4864);
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(8421);
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(1621);
-// EXTERNAL MODULE: ./constants/index.ts
-var constants = __webpack_require__(5368);
-;// CONCATENATED MODULE: ./components/Footer.tsx
-
-
-
-
-const Footer = ()=>/*#__PURE__*/ _jsxs("footer", {
-        className: "flex flex-col text-black-100  mt-5 border-t border-gray-100",
-        children: [
-            /*#__PURE__*/ _jsxs("div", {
-                className: "flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10",
-                children: [
-                    /*#__PURE__*/ _jsxs("div", {
-                        className: "flex flex-col justify-start items-start gap-6",
-                        children: [
-                            /*#__PURE__*/ _jsx(Image, {
-                                src: "/logo.svg",
-                                alt: "logo",
-                                width: 118,
-                                height: 18,
-                                className: "object-contain"
-                            }),
-                            /*#__PURE__*/ _jsxs("p", {
-                                className: "text-base text-gray-700",
-                                children: [
-                                    "Carhub 2023 ",
-                                    /*#__PURE__*/ _jsx("br", {}),
-                                    "All Rights Reserved \xa9"
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsx("div", {
-                        className: "footer__links",
-                        children: footerLinks.map((item)=>/*#__PURE__*/ _jsxs("div", {
-                                className: "footer__link",
-                                children: [
-                                    /*#__PURE__*/ _jsx("h3", {
-                                        className: "font-bold",
-                                        children: item.title
-                                    }),
-                                    /*#__PURE__*/ _jsx("div", {
-                                        className: "flex flex-col gap-5",
-                                        children: item.links.map((link)=>/*#__PURE__*/ _jsx(Link, {
-                                                href: link.url,
-                                                className: "text-gray-500",
-                                                children: link.title
-                                            }, link.title))
-                                    })
-                                ]
-                            }, item.title))
-                    })
-                ]
-            }),
-            /*#__PURE__*/ _jsxs("div", {
-                className: "flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10",
-                children: [
-                    /*#__PURE__*/ _jsx("p", {
-                        children: "@2023 CarHub. All rights reserved"
-                    }),
-                    /*#__PURE__*/ _jsxs("div", {
-                        className: "footer__copyrights-link",
-                        children: [
-                            /*#__PURE__*/ _jsx(Link, {
-                                href: "/",
-                                className: "text-gray-500",
-                                children: "Privacy & Policy"
-                            }),
-                            /*#__PURE__*/ _jsx(Link, {
-                                href: "/",
-                                className: "text-gray-500",
-                                children: "Terms & Condition"
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    });
-/* harmony default export */ const components_Footer = ((/* unused pure expression or super */ null && (Footer)));
-
-;// CONCATENATED MODULE: ./components/Navbar.tsx
-
-
-
-
-const NavBar = ()=>/*#__PURE__*/ _jsx("header", {
-        className: "w-full  absolute z-10",
-        children: /*#__PURE__*/ _jsxs("nav", {
-            className: "max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4 bg-transparent",
-            children: [
-                /*#__PURE__*/ _jsx(Link, {
-                    href: "/",
-                    className: "flex justify-center items-center",
-                    children: /*#__PURE__*/ _jsx(Image, {
-                        src: "/logo.svg",
-                        alt: "logo",
-                        width: 118,
-                        height: 18,
-                        className: "object-contain"
-                    })
-                }),
-                /*#__PURE__*/ _jsx(CustomButton, {
-                    title: "Sign in",
-                    btnType: "button",
-                    containerStyles: "text-primary-blue rounded-full bg-white min-w-[130px]"
-                })
-            ]
-        })
-    });
-/* harmony default export */ const Navbar = ((/* unused pure expression or super */ null && (NavBar)));
-
-// EXTERNAL MODULE: ./components/ShowMore.tsx
-var ShowMore = __webpack_require__(7756);
-// EXTERNAL MODULE: ./components/Searchbar.tsx + 1 modules
-var Searchbar = __webpack_require__(6789);
-// EXTERNAL MODULE: ./components/Hero.tsx
-var Hero = __webpack_require__(5841);
-;// CONCATENATED MODULE: ./components/index.ts
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-
-/***/ 5368:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ui": () => (/* binding */ manufacturers)
-/* harmony export */ });
-/* unused harmony exports yearsOfProduction, fuels, footerLinks */
-const manufacturers = [
-    "Acura",
-    "Alfa Romeo",
-    "Aston Martin",
-    "Audi",
-    "Bentley",
-    "BMW",
-    "Buick",
-    "Cadillac",
-    "Chevrolet",
-    "Chrysler",
-    "Citroen",
-    "Dodge",
-    "Ferrari",
-    "Fiat",
-    "Ford",
-    "GMC",
-    "Honda",
-    "Hyundai",
-    "Infiniti",
-    "Jaguar",
-    "Jeep",
-    "Kia",
-    "Lamborghini",
-    "Land Rover",
-    "Lexus",
-    "Lincoln",
-    "Maserati",
-    "Mazda",
-    "McLaren",
-    "Mercedes-Benz",
-    "MINI",
-    "Mitsubishi",
-    "Nissan",
-    "Porsche",
-    "Ram",
-    "Rolls-Royce",
-    "Subaru",
-    "Tesla",
-    "Toyota",
-    "Volkswagen",
-    "Volvo"
-];
-const yearsOfProduction = [
-    {
-        title: "Year",
-        value: ""
-    },
-    {
-        title: "2015",
-        value: "2015"
-    },
-    {
-        title: "2016",
-        value: "2016"
-    },
-    {
-        title: "2017",
-        value: "2017"
-    },
-    {
-        title: "2018",
-        value: "2018"
-    },
-    {
-        title: "2019",
-        value: "2019"
-    },
-    {
-        title: "2020",
-        value: "2020"
-    },
-    {
-        title: "2021",
-        value: "2021"
-    },
-    {
-        title: "2022",
-        value: "2022"
-    },
-    {
-        title: "2023",
-        value: "2023"
-    }
-];
-const fuels = [
-    {
-        title: "Fuel",
-        value: ""
-    },
-    {
-        title: "Gas",
-        value: "Gas"
-    },
-    {
-        title: "Electricity",
-        value: "Electricity"
-    }
-];
-const footerLinks = [
-    {
-        title: "About",
-        links: [
-            {
-                title: "How it works",
-                url: "/"
-            },
-            {
-                title: "Featured",
-                url: "/"
-            },
-            {
-                title: "Partnership",
-                url: "/"
-            },
-            {
-                title: "Bussiness Relation",
-                url: "/"
-            }
-        ]
-    },
-    {
-        title: "Company",
-        links: [
-            {
-                title: "Events",
-                url: "/"
-            },
-            {
-                title: "Blog",
-                url: "/"
-            },
-            {
-                title: "Podcast",
-                url: "/"
-            },
-            {
-                title: "Invite a friend",
-                url: "/"
-            }
-        ]
-    },
-    {
-        title: "Socials",
-        links: [
-            {
-                title: "Discord",
-                url: "/"
-            },
-            {
-                title: "Instagram",
-                url: "/"
-            },
-            {
-                title: "Twitter",
-                url: "/"
-            },
-            {
-                title: "Facebook",
-                url: "/"
-            }
-        ]
-    }
-];
-
-
-/***/ }),
-
-/***/ 8717:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Q_": () => (/* binding */ calculateCarRent),
-/* harmony export */   "aM": () => (/* binding */ updateSearchParams),
-/* harmony export */   "tx": () => (/* binding */ generateCarImageUrl)
-/* harmony export */ });
-/* unused harmony exports deleteSearchParams, fetchCars */
-const calculateCarRent = (city_mpg, year)=>{
-    const basePricePerDay = 50; // Base rental price per day in dollars
-    const mileageFactor = 0.1; // Additional rate per mile driven
-    const ageFactor = 0.05; // Additional rate per year of vehicle age
-    // Calculate additional rate based on mileage and age
-    const mileageRate = city_mpg * mileageFactor;
-    const ageRate = (new Date().getFullYear() - year) * ageFactor;
-    // Calculate total rental rate per day
-    const rentalRatePerDay = basePricePerDay + mileageRate + ageRate;
-    return rentalRatePerDay.toFixed(0);
-};
-const updateSearchParams = (type, value)=>{
-    // Get the current URL search params
-    const searchParams = new URLSearchParams(window.location.search);
-    // Set the specified search parameter to the given value
-    searchParams.set(type, value);
-    // Set the specified search parameter to the given value
-    const newPathname = `${window.location.pathname}?${searchParams.toString()}`;
-    return newPathname;
-};
-const deleteSearchParams = (type)=>{
-    // Set the specified search parameter to the given value
-    const newSearchParams = new URLSearchParams(window.location.search);
-    // Delete the specified search parameter
-    newSearchParams.delete(type.toLocaleLowerCase());
-    // Construct the updated URL pathname with the deleted search parameter
-    const newPathname = `${window.location.pathname}?${newSearchParams.toString()}`;
-    return newPathname;
-};
-async function fetchCars(filters) {
-    const { manufacturer , year , model , limit , fuel  } = filters;
-    // Set the required headers for the API request
-    const headers = {
-        "X-RapidAPI-Key": process.env.NEXT_PUBLIC_RAPID_API_KEY || "b61c12b0e1msha1332f2e9cfc7bep1dfe71jsn91c6d4c30f17",
-        "X-RapidAPI-Host": "cars-by-api-ninjas.p.rapidapi.com"
-    };
-    // Set the required headers for the API request
-    const response = await fetch(`https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?make=${manufacturer}&year=${year}&model=${model}&limit=${limit}&fuel_type=${fuel}`, {
-        headers: headers
-    });
-    // Parse the response as JSON
-    const result = await response.json();
-    return result;
-}
-const generateCarImageUrl = (car, angle)=>{
-    const url = new URL("https://cdn.imagin.studio/getimage");
-    const { make , model , year  } = car;
-    url.searchParams.append("customer", process.env.NEXT_PUBLIC_IMAGIN_API_KEY || "");
-    url.searchParams.append("make", make);
-    url.searchParams.append("modelFamily", model.split(" ")[0]);
-    url.searchParams.append("zoomType", "fullscreen");
-    url.searchParams.append("modelYear", `${year}`);
-    // url.searchParams.append('zoomLevel', zoomLevel);
-    url.searchParams.append("angle", `${angle}`);
-    return `${url}`;
-};
-
-
-/***/ }),
-
-/***/ 5596:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ RootLayout),
-/* harmony export */   "metadata": () => (/* binding */ metadata)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2817);
-/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_globals_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2802);
-
-
-
-const metadata = {
-    title: "Car Hub",
-    description: "Discover world's best car showcase application"
-};
-function RootLayout({ children  }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("html", {
-        lang: "en",
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("body", {
-            className: "relative",
-            children: [
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components__WEBPACK_IMPORTED_MODULE_2__/* .NavBar */ .l2, {}),
-                children,
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components__WEBPACK_IMPORTED_MODULE_2__/* .Footer */ .$_, {})
-            ]
-        })
-    });
-}
-
-
-/***/ }),
-
-/***/ 8484:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ Home)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-;// CONCATENATED MODULE: ./utils/index.ts
-const calculateCarRent = (city_mpg, year)=>{
-    const basePricePerDay = 50; // Base rental price per day in dollars
-    const mileageFactor = 0.1; // Additional rate per mile driven
-    const ageFactor = 0.05; // Additional rate per year of vehicle age
-    // Calculate additional rate based on mileage and age
-    const mileageRate = city_mpg * mileageFactor;
-    const ageRate = (new Date().getFullYear() - year) * ageFactor;
-    // Calculate total rental rate per day
-    const rentalRatePerDay = basePricePerDay + mileageRate + ageRate;
-    return rentalRatePerDay.toFixed(0);
-};
-const updateSearchParams = (type, value)=>{
-    // Get the current URL search params
-    const searchParams = new URLSearchParams(window.location.search);
-    // Set the specified search parameter to the given value
-    searchParams.set(type, value);
-    // Set the specified search parameter to the given value
-    const newPathname = `${window.location.pathname}?${searchParams.toString()}`;
-    return newPathname;
-};
-const deleteSearchParams = (type)=>{
-    // Set the specified search parameter to the given value
-    const newSearchParams = new URLSearchParams(window.location.search);
-    // Delete the specified search parameter
-    newSearchParams.delete(type.toLocaleLowerCase());
-    // Construct the updated URL pathname with the deleted search parameter
-    const newPathname = `${window.location.pathname}?${newSearchParams.toString()}`;
-    return newPathname;
-};
-async function fetchCars(filters) {
-    const { manufacturer , year , model , limit , fuel  } = filters;
-    // Set the required headers for the API request
-    const headers = {
-        "X-RapidAPI-Key": process.env.NEXT_PUBLIC_RAPID_API_KEY || "b61c12b0e1msha1332f2e9cfc7bep1dfe71jsn91c6d4c30f17",
-        "X-RapidAPI-Host": "cars-by-api-ninjas.p.rapidapi.com"
-    };
-    // Set the required headers for the API request
-    const response = await fetch(`https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?make=${manufacturer}&year=${year}&model=${model}&limit=${limit}&fuel_type=${fuel}`, {
-        headers: headers
-    });
-    // Parse the response as JSON
-    const result = await response.json();
-    return result;
-}
-const generateCarImageUrl = (car, angle)=>{
-    const url = new URL("https://cdn.imagin.studio/getimage");
-    const { make , model , year  } = car;
-    url.searchParams.append("customer", process.env.NEXT_PUBLIC_IMAGIN_API_KEY || "");
-    url.searchParams.append("make", make);
-    url.searchParams.append("modelFamily", model.split(" ")[0]);
-    url.searchParams.append("zoomType", "fullscreen");
-    url.searchParams.append("modelYear", `${year}`);
-    // url.searchParams.append('zoomLevel', zoomLevel);
-    url.searchParams.append("angle", `${angle}`);
-    return `${url}`;
-};
-
-// EXTERNAL MODULE: ./constants/index.ts
-var constants = __webpack_require__(4393);
-// EXTERNAL MODULE: ./components/index.ts + 8 modules
-var components = __webpack_require__(2802);
-;// CONCATENATED MODULE: ./app/page.tsx
-
-
-
-
-async function Home({ searchParams  }) {
-    const allCars = await fetchCars({
-        manufacturer: searchParams.manufacturer || "",
-        year: searchParams.year || 2022,
-        fuel: searchParams.fuel || "",
-        limit: searchParams.limit || 10,
-        model: searchParams.model || ""
-    });
-    const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
-        className: "overflow-hidden",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(components/* Hero */.VM, {}),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "mt-12 padding-x padding-y max-width",
-                id: "discover",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "home__text-container",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                className: "text-4xl font-extrabold",
-                                children: "Car Catalogue"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Explore out cars you might like"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "home__filters",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(components/* SearchBar */.E1, {}),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "home__filter-container",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx(components/* CustomFilter */.Xy, {
-                                        title: "fuel",
-                                        options: constants/* fuels */.nQ
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx(components/* CustomFilter */.Xy, {
-                                        title: "year",
-                                        options: constants/* yearsOfProduction */.uY
-                                    })
-                                ]
-                            })
-                        ]
-                    }),
-                    !isDataEmpty ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "home__cars-wrapper",
-                                children: allCars?.map((car)=>/*#__PURE__*/ jsx_runtime_.jsx(components/* CarCard */._h, {
-                                        car: car
-                                    }))
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(components/* ShowMore */.gm, {
-                                pageNumber: (searchParams.limit || 10) / 10,
-                                isNext: (searchParams.limit || 10) > allCars.length
-                            })
-                        ]
-                    }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "home__error-container",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                className: "text-black text-xl font-bold",
-                                children: "Oops, no results"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: allCars?.message
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    });
-}
-
-
-/***/ }),
-
-/***/ 2802:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "_h": () => (/* reexport */ CarCard),
-  "Xy": () => (/* reexport */ CustomFilter),
-  "$_": () => (/* reexport */ components_Footer),
-  "VM": () => (/* reexport */ Hero),
-  "l2": () => (/* reexport */ Navbar),
-  "E1": () => (/* reexport */ Searchbar),
-  "gm": () => (/* reexport */ ShowMore)
-});
-
-// UNUSED EXPORTS: CustomButton
-
-// EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
-var module_proxy = __webpack_require__(5985);
-;// CONCATENATED MODULE: ./components/CarCard.tsx
-
-const proxy = (0,module_proxy.createProxy)(String.raw`D:\code\sportmotor\components\CarCard.tsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/gorudodjoulyane/code/AmorCar/components/CarCard.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1784,413 +353,218 @@ const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
 
-/* harmony default export */ const CarCard = (__default__);
-;// CONCATENATED MODULE: ./components/CustomButton.tsx
-
-const CustomButton_proxy = (0,module_proxy.createProxy)(String.raw`D:\code\sportmotor\components\CustomButton.tsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: CustomButton_esModule, $$typeof: CustomButton_$$typeof } = CustomButton_proxy;
-const CustomButton_default_ = CustomButton_proxy.default;
-
-
-/* harmony default export */ const CustomButton = (CustomButton_default_);
-;// CONCATENATED MODULE: ./components/CustomFilter.tsx
-
-const CustomFilter_proxy = (0,module_proxy.createProxy)(String.raw`D:\code\sportmotor\components\CustomFilter.tsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: CustomFilter_esModule, $$typeof: CustomFilter_$$typeof } = CustomFilter_proxy;
-const CustomFilter_default_ = CustomFilter_proxy.default;
-
-
-/* harmony default export */ const CustomFilter = (CustomFilter_default_);
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(2208);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(2585);
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-// EXTERNAL MODULE: ./constants/index.ts
-var constants = __webpack_require__(4393);
-;// CONCATENATED MODULE: ./components/Footer.tsx
-
-
-
-
-const Footer = ()=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("footer", {
-        className: "flex flex-col text-black-100  mt-5 border-t border-gray-100",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "flex flex-col justify-start items-start gap-6",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                src: "/logo.svg",
-                                alt: "logo",
-                                width: 118,
-                                height: 18,
-                                className: "object-contain"
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                className: "text-base text-gray-700",
-                                children: [
-                                    "Carhub 2023 ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                    "All Rights Reserved \xa9"
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "footer__links",
-                        children: constants/* footerLinks.map */.dk.map((item)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "footer__link",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                        className: "font-bold",
-                                        children: item.title
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "flex flex-col gap-5",
-                                        children: item.links.map((link)=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                href: link.url,
-                                                className: "text-gray-500",
-                                                children: link.title
-                                            }, link.title))
-                                    })
-                                ]
-                            }, item.title))
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: "@2023 CarHub. All rights reserved"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "footer__copyrights-link",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                href: "/",
-                                className: "text-gray-500",
-                                children: "Privacy & Policy"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                href: "/",
-                                className: "text-gray-500",
-                                children: "Terms & Condition"
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    });
-/* harmony default export */ const components_Footer = (Footer);
-
-;// CONCATENATED MODULE: ./components/Navbar.tsx
-
-
-
-
-const NavBar = ()=>/*#__PURE__*/ jsx_runtime_.jsx("header", {
-        className: "w-full  absolute z-10",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
-            className: "max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4 bg-transparent",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                    href: "/",
-                    className: "flex justify-center items-center",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: "/logo.svg",
-                        alt: "logo",
-                        width: 118,
-                        height: 18,
-                        className: "object-contain"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx(CustomButton, {
-                    title: "Sign in",
-                    btnType: "button",
-                    containerStyles: "text-primary-blue rounded-full bg-white min-w-[130px]"
-                })
-            ]
-        })
-    });
-/* harmony default export */ const Navbar = (NavBar);
-
-;// CONCATENATED MODULE: ./components/ShowMore.tsx
-
-const ShowMore_proxy = (0,module_proxy.createProxy)(String.raw`D:\code\sportmotor\components\ShowMore.tsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: ShowMore_esModule, $$typeof: ShowMore_$$typeof } = ShowMore_proxy;
-const ShowMore_default_ = ShowMore_proxy.default;
-
-
-/* harmony default export */ const ShowMore = (ShowMore_default_);
-;// CONCATENATED MODULE: ./components/Searchbar.tsx
-
-const Searchbar_proxy = (0,module_proxy.createProxy)(String.raw`D:\code\sportmotor\components\Searchbar.tsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: Searchbar_esModule, $$typeof: Searchbar_$$typeof } = Searchbar_proxy;
-const Searchbar_default_ = Searchbar_proxy.default;
-
-
-/* harmony default export */ const Searchbar = (Searchbar_default_);
-;// CONCATENATED MODULE: ./components/Hero.tsx
-
-const Hero_proxy = (0,module_proxy.createProxy)(String.raw`D:\code\sportmotor\components\Hero.tsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: Hero_esModule, $$typeof: Hero_$$typeof } = Hero_proxy;
-const Hero_default_ = Hero_proxy.default;
-
-
-/* harmony default export */ const Hero = (Hero_default_);
-;// CONCATENATED MODULE: ./components/index.ts
-
-
-
-
-
-
-
-
-
-
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
 /***/ }),
 
-/***/ 4393:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "dk": () => (/* binding */ footerLinks),
-/* harmony export */   "nQ": () => (/* binding */ fuels),
-/* harmony export */   "uY": () => (/* binding */ yearsOfProduction)
-/* harmony export */ });
-/* unused harmony export manufacturers */
-const manufacturers = (/* unused pure expression or super */ null && ([
-    "Acura",
-    "Alfa Romeo",
-    "Aston Martin",
-    "Audi",
-    "Bentley",
-    "BMW",
-    "Buick",
-    "Cadillac",
-    "Chevrolet",
-    "Chrysler",
-    "Citroen",
-    "Dodge",
-    "Ferrari",
-    "Fiat",
-    "Ford",
-    "GMC",
-    "Honda",
-    "Hyundai",
-    "Infiniti",
-    "Jaguar",
-    "Jeep",
-    "Kia",
-    "Lamborghini",
-    "Land Rover",
-    "Lexus",
-    "Lincoln",
-    "Maserati",
-    "Mazda",
-    "McLaren",
-    "Mercedes-Benz",
-    "MINI",
-    "Mitsubishi",
-    "Nissan",
-    "Porsche",
-    "Ram",
-    "Rolls-Royce",
-    "Subaru",
-    "Tesla",
-    "Toyota",
-    "Volkswagen",
-    "Volvo"
-]));
-const yearsOfProduction = [
-    {
-        title: "Year",
-        value: ""
-    },
-    {
-        title: "2015",
-        value: "2015"
-    },
-    {
-        title: "2016",
-        value: "2016"
-    },
-    {
-        title: "2017",
-        value: "2017"
-    },
-    {
-        title: "2018",
-        value: "2018"
-    },
-    {
-        title: "2019",
-        value: "2019"
-    },
-    {
-        title: "2020",
-        value: "2020"
-    },
-    {
-        title: "2021",
-        value: "2021"
-    },
-    {
-        title: "2022",
-        value: "2022"
-    },
-    {
-        title: "2023",
-        value: "2023"
-    }
-];
-const fuels = [
-    {
-        title: "Fuel",
-        value: ""
-    },
-    {
-        title: "Gas",
-        value: "Gas"
-    },
-    {
-        title: "Electricity",
-        value: "Electricity"
-    }
-];
-const footerLinks = [
-    {
-        title: "About",
-        links: [
-            {
-                title: "How it works",
-                url: "/"
-            },
-            {
-                title: "Featured",
-                url: "/"
-            },
-            {
-                title: "Partnership",
-                url: "/"
-            },
-            {
-                title: "Bussiness Relation",
-                url: "/"
-            }
-        ]
-    },
-    {
-        title: "Company",
-        links: [
-            {
-                title: "Events",
-                url: "/"
-            },
-            {
-                title: "Blog",
-                url: "/"
-            },
-            {
-                title: "Podcast",
-                url: "/"
-            },
-            {
-                title: "Invite a friend",
-                url: "/"
-            }
-        ]
-    },
-    {
-        title: "Socials",
-        links: [
-            {
-                title: "Discord",
-                url: "/"
-            },
-            {
-                title: "Instagram",
-                url: "/"
-            },
-            {
-                title: "Twitter",
-                url: "/"
-            },
-            {
-                title: "Facebook",
-                url: "/"
-            }
-        ]
-    }
-];
-
-
-/***/ }),
-
-/***/ 4756:
+/***/ "(rsc)/./components/CustomButton.tsx":
+/*!*************************************!*\
+  !*** ./components/CustomButton.tsx ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2548);
-/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);
-  
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
-    const imageData = {"type":"image/x-icon","sizes":"any"}
-    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "favicon.ico")
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/gorudodjoulyane/code/AmorCar/components/CustomButton.tsx`)
 
-    return [{
-      ...imageData,
-      url: imageUrl + "",
-    }]
-  });
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
 /***/ }),
 
-/***/ 2817:
-/***/ (() => {
+/***/ "(rsc)/./components/CustomFilter.tsx":
+/*!*************************************!*\
+  !*** ./components/CustomFilter.tsx ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/gorudodjoulyane/code/AmorCar/components/CustomFilter.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
 
 
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
+
+/***/ }),
+
+/***/ "(rsc)/./components/Footer.tsx":
+/*!*******************************!*\
+  !*** ./components/Footer.tsx ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(rsc)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ \"(rsc)/./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @constants */ \"(rsc)/./constants/index.ts\");\n\n\n\n\nconst Footer = ()=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n        className: \"flex flex-col text-black-100  mt-5 border-t border-gray-100\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"flex flex-col justify-start items-start gap-6\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                src: \"/logo.svg\",\n                                alt: \"logo\",\n                                width: 118,\n                                height: 18,\n                                className: \"object-contain\"\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                lineNumber: 10,\n                                columnNumber: 9\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"text-base text-gray-700\",\n                                children: [\n                                    \"AmorCar 2023 \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                        lineNumber: 12,\n                                        columnNumber: 24\n                                    }, undefined),\n                                    \"All Rights Reserved \\xa9\"\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                lineNumber: 11,\n                                columnNumber: 9\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                        lineNumber: 9,\n                        columnNumber: 7\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"footer__links\",\n                        children: _constants__WEBPACK_IMPORTED_MODULE_3__.footerLinks.map((item)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"footer__link\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                        className: \"font-bold\",\n                                        children: item.title\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                        lineNumber: 20,\n                                        columnNumber: 13\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"flex flex-col gap-5\",\n                                        children: item.links.map((link)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                                href: link.url,\n                                                className: \"text-gray-500\",\n                                                children: link.title\n                                            }, link.title, false, {\n                                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                                lineNumber: 23,\n                                                columnNumber: 17\n                                            }, undefined))\n                                    }, void 0, false, {\n                                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                        lineNumber: 21,\n                                        columnNumber: 13\n                                    }, undefined)\n                                ]\n                            }, item.title, true, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                lineNumber: 19,\n                                columnNumber: 11\n                            }, undefined))\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                        lineNumber: 17,\n                        columnNumber: 7\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                lineNumber: 8,\n                columnNumber: 5\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        children: \"@2023 AmorCar. All rights reserved\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                        lineNumber: 38,\n                        columnNumber: 7\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"footer__copyrights-link\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                href: \"/\",\n                                className: \"text-gray-500\",\n                                children: \"Privacy & Policy\"\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                lineNumber: 41,\n                                columnNumber: 9\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                href: \"/\",\n                                className: \"text-gray-500\",\n                                children: \"Terms & Condition\"\n                            }, void 0, false, {\n                                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                                lineNumber: 44,\n                                columnNumber: 9\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                        lineNumber: 40,\n                        columnNumber: 7\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n                lineNumber: 37,\n                columnNumber: 5\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Footer.tsx\",\n        lineNumber: 7,\n        columnNumber: 3\n    }, undefined);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9jb21wb25lbnRzL0Zvb3Rlci50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQStCO0FBQ0Y7QUFFWTtBQUV6QyxNQUFNRyxTQUFTLGtCQUNiLDhEQUFDQztRQUFPQyxXQUFVOzswQkFDaEIsOERBQUNDO2dCQUFJRCxXQUFVOztrQ0FDYiw4REFBQ0M7d0JBQUlELFdBQVU7OzBDQUNiLDhEQUFDTCxtREFBS0E7Z0NBQUNPLEtBQUk7Z0NBQVlDLEtBQUk7Z0NBQU9DLE9BQU87Z0NBQUtDLFFBQVE7Z0NBQUlMLFdBQVU7Ozs7OzswQ0FDcEUsOERBQUNNO2dDQUFFTixXQUFVOztvQ0FBMEI7a0RBQ3hCLDhEQUFDTzs7Ozs7b0NBQUs7Ozs7Ozs7Ozs7Ozs7a0NBS3ZCLDhEQUFDTjt3QkFBSUQsV0FBVTtrQ0FDWkgsbURBQVdBLENBQUNXLEdBQUcsQ0FBQyxDQUFDQyxxQkFDaEIsOERBQUNSO2dDQUFxQkQsV0FBVTs7a0RBQzlCLDhEQUFDVTt3Q0FBR1YsV0FBVTtrREFBYVMsS0FBS0UsS0FBSzs7Ozs7O2tEQUNyQyw4REFBQ1Y7d0NBQUlELFdBQVU7a0RBQ1pTLEtBQUtHLEtBQUssQ0FBQ0osR0FBRyxDQUFDLENBQUNLLHFCQUNmLDhEQUFDakIsa0RBQUlBO2dEQUVIa0IsTUFBTUQsS0FBS0UsR0FBRztnREFDZGYsV0FBVTswREFFVGEsS0FBS0YsS0FBSzsrQ0FKTkUsS0FBS0YsS0FBSzs7Ozs7Ozs7Ozs7K0JBTGJGLEtBQUtFLEtBQUs7Ozs7Ozs7Ozs7Ozs7Ozs7MEJBa0IxQiw4REFBQ1Y7Z0JBQUlELFdBQVU7O2tDQUNiLDhEQUFDTTtrQ0FBRTs7Ozs7O2tDQUVILDhEQUFDTDt3QkFBSUQsV0FBVTs7MENBQ2IsOERBQUNKLGtEQUFJQTtnQ0FBQ2tCLE1BQUs7Z0NBQUlkLFdBQVU7MENBQWdCOzs7Ozs7MENBR3pDLDhEQUFDSixrREFBSUE7Z0NBQUNrQixNQUFLO2dDQUFJZCxXQUFVOzBDQUFnQjs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBUWpELGlFQUFlRixNQUFNQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLy4vY29tcG9uZW50cy9Gb290ZXIudHN4P2E3OWYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEltYWdlIGZyb20gXCJuZXh0L2ltYWdlXCI7XG5pbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XG5cbmltcG9ydCB7IGZvb3RlckxpbmtzIH0gZnJvbSBcIkBjb25zdGFudHNcIjtcblxuY29uc3QgRm9vdGVyID0gKCkgPT4gKFxuICA8Zm9vdGVyIGNsYXNzTmFtZT0nZmxleCBmbGV4LWNvbCB0ZXh0LWJsYWNrLTEwMCAgbXQtNSBib3JkZXItdCBib3JkZXItZ3JheS0xMDAnPlxuICAgIDxkaXYgY2xhc3NOYW1lPSdmbGV4IG1heC1tZDpmbGV4LWNvbCBmbGV4LXdyYXAganVzdGlmeS1iZXR3ZWVuIGdhcC01IHNtOnB4LTE2IHB4LTYgcHktMTAnPlxuICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXggZmxleC1jb2wganVzdGlmeS1zdGFydCBpdGVtcy1zdGFydCBnYXAtNic+XG4gICAgICAgIDxJbWFnZSBzcmM9Jy9sb2dvLnN2ZycgYWx0PSdsb2dvJyB3aWR0aD17MTE4fSBoZWlnaHQ9ezE4fSBjbGFzc05hbWU9J29iamVjdC1jb250YWluJyAvPlxuICAgICAgICA8cCBjbGFzc05hbWU9J3RleHQtYmFzZSB0ZXh0LWdyYXktNzAwJz5cbiAgICAgICAgICBBbW9yQ2FyIDIwMjMgPGJyIC8+XG4gICAgICAgICAgQWxsIFJpZ2h0cyBSZXNlcnZlZCAmY29weTtcbiAgICAgICAgPC9wPlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9vdGVyX19saW5rc1wiPlxuICAgICAgICB7Zm9vdGVyTGlua3MubWFwKChpdGVtKSA9PiAoXG4gICAgICAgICAgPGRpdiBrZXk9e2l0ZW0udGl0bGV9IGNsYXNzTmFtZT1cImZvb3Rlcl9fbGlua1wiPlxuICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT1cImZvbnQtYm9sZFwiPntpdGVtLnRpdGxlfTwvaDM+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggZmxleC1jb2wgZ2FwLTVcIj5cbiAgICAgICAgICAgICAge2l0ZW0ubGlua3MubWFwKChsaW5rKSA9PiAoXG4gICAgICAgICAgICAgICAgPExpbmtcbiAgICAgICAgICAgICAgICAgIGtleT17bGluay50aXRsZX1cbiAgICAgICAgICAgICAgICAgIGhyZWY9e2xpbmsudXJsfVxuICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwidGV4dC1ncmF5LTUwMFwiXG4gICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAge2xpbmsudGl0bGV9XG4gICAgICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICAgICApKX1cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICApKX1cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuXG4gICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciBmbGV4LXdyYXAgbXQtMTAgYm9yZGVyLXQgYm9yZGVyLWdyYXktMTAwIHNtOnB4LTE2IHB4LTYgcHktMTAnPlxuICAgICAgPHA+QDIwMjMgQW1vckNhci4gQWxsIHJpZ2h0cyByZXNlcnZlZDwvcD5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb290ZXJfX2NvcHlyaWdodHMtbGlua1wiPlxuICAgICAgICA8TGluayBocmVmPVwiL1wiIGNsYXNzTmFtZT1cInRleHQtZ3JheS01MDBcIj5cbiAgICAgICAgICBQcml2YWN5ICYgUG9saWN5XG4gICAgICAgIDwvTGluaz5cbiAgICAgICAgPExpbmsgaHJlZj1cIi9cIiBjbGFzc05hbWU9XCJ0ZXh0LWdyYXktNTAwXCI+XG4gICAgICAgICAgVGVybXMgJiBDb25kaXRpb25cbiAgICAgICAgPC9MaW5rPlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gIDwvZm9vdGVyPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgRm9vdGVyO1xuIl0sIm5hbWVzIjpbIkltYWdlIiwiTGluayIsImZvb3RlckxpbmtzIiwiRm9vdGVyIiwiZm9vdGVyIiwiY2xhc3NOYW1lIiwiZGl2Iiwic3JjIiwiYWx0Iiwid2lkdGgiLCJoZWlnaHQiLCJwIiwiYnIiLCJtYXAiLCJpdGVtIiwiaDMiLCJ0aXRsZSIsImxpbmtzIiwibGluayIsImhyZWYiLCJ1cmwiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./components/Footer.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./components/Hero.tsx":
+/*!*****************************!*\
+  !*** ./components/Hero.tsx ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/gorudodjoulyane/code/AmorCar/components/Hero.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
+
+/***/ }),
+
+/***/ "(rsc)/./components/Navbar.tsx":
+/*!*******************************!*\
+  !*** ./components/Navbar.tsx ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ \"(rsc)/./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/image */ \"(rsc)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _CustomButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CustomButton */ \"(rsc)/./components/CustomButton.tsx\");\n\n\n\n\nconst NavBar = ()=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n        className: \"w-full  absolute z-10\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n            className: \"max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4 bg-transparent\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {\n                    href: \"/\",\n                    className: \"flex justify-center items-center\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                        src: \"/logo.svg\",\n                        alt: \"logo\",\n                        width: 118,\n                        height: 18,\n                        className: \"object-contain\"\n                    }, void 0, false, {\n                        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Navbar.tsx\",\n                        lineNumber: 10,\n                        columnNumber: 9\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Navbar.tsx\",\n                    lineNumber: 9,\n                    columnNumber: 7\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_CustomButton__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                    title: \"Sign in\",\n                    btnType: \"button\",\n                    containerStyles: \"text-yellow-500 rounded-full bg-white min-w-[130px]\"\n                }, void 0, false, {\n                    fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Navbar.tsx\",\n                    lineNumber: 19,\n                    columnNumber: 7\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Navbar.tsx\",\n            lineNumber: 8,\n            columnNumber: 5\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/gorudodjoulyane/code/AmorCar/components/Navbar.tsx\",\n        lineNumber: 7,\n        columnNumber: 3\n    }, undefined);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavBar);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9jb21wb25lbnRzL05hdmJhci50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQTZCO0FBQ0U7QUFFVztBQUUxQyxNQUFNRyxTQUFTLGtCQUNiLDhEQUFDQztRQUFPQyxXQUFVO2tCQUNoQiw0RUFBQ0M7WUFBSUQsV0FBVTs7OEJBQ2IsOERBQUNMLGtEQUFJQTtvQkFBQ08sTUFBSztvQkFBSUYsV0FBVTs4QkFDdkIsNEVBQUNKLG1EQUFLQTt3QkFDSk8sS0FBSTt3QkFDSkMsS0FBSTt3QkFDSkMsT0FBTzt3QkFDUEMsUUFBUTt3QkFDUk4sV0FBVTs7Ozs7Ozs7Ozs7OEJBSWQsOERBQUNILHFEQUFZQTtvQkFDWFUsT0FBTTtvQkFDTkMsU0FBUTtvQkFDUkMsaUJBQWdCOzs7Ozs7Ozs7Ozs7Ozs7OztBQU14QixpRUFBZVgsTUFBTUEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2Nhcmh1Yi8uL2NvbXBvbmVudHMvTmF2YmFyLnRzeD8xYjgzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcbmltcG9ydCBJbWFnZSBmcm9tIFwibmV4dC9pbWFnZVwiO1xuXG5pbXBvcnQgQ3VzdG9tQnV0dG9uIGZyb20gXCIuL0N1c3RvbUJ1dHRvblwiO1xuXG5jb25zdCBOYXZCYXIgPSAoKSA9PiAoXG4gIDxoZWFkZXIgY2xhc3NOYW1lPSd3LWZ1bGwgIGFic29sdXRlIHotMTAnPlxuICAgIDxuYXYgY2xhc3NOYW1lPSdtYXgtdy1bMTQ0MHB4XSBteC1hdXRvIGZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciBzbTpweC0xNiBweC02IHB5LTQgYmctdHJhbnNwYXJlbnQnPlxuICAgICAgPExpbmsgaHJlZj0nLycgY2xhc3NOYW1lPSdmbGV4IGp1c3RpZnktY2VudGVyIGl0ZW1zLWNlbnRlcic+XG4gICAgICAgIDxJbWFnZVxuICAgICAgICAgIHNyYz0nL2xvZ28uc3ZnJ1xuICAgICAgICAgIGFsdD0nbG9nbydcbiAgICAgICAgICB3aWR0aD17MTE4fVxuICAgICAgICAgIGhlaWdodD17MTh9XG4gICAgICAgICAgY2xhc3NOYW1lPSdvYmplY3QtY29udGFpbidcbiAgICAgICAgLz5cbiAgICAgIDwvTGluaz5cblxuICAgICAgPEN1c3RvbUJ1dHRvblxuICAgICAgICB0aXRsZT0nU2lnbiBpbidcbiAgICAgICAgYnRuVHlwZT0nYnV0dG9uJ1xuICAgICAgICBjb250YWluZXJTdHlsZXM9J3RleHQteWVsbG93LTUwMCByb3VuZGVkLWZ1bGwgYmctd2hpdGUgbWluLXctWzEzMHB4XSdcbiAgICAgIC8+XG4gICAgPC9uYXY+XG4gIDwvaGVhZGVyPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTmF2QmFyO1xuIl0sIm5hbWVzIjpbIkxpbmsiLCJJbWFnZSIsIkN1c3RvbUJ1dHRvbiIsIk5hdkJhciIsImhlYWRlciIsImNsYXNzTmFtZSIsIm5hdiIsImhyZWYiLCJzcmMiLCJhbHQiLCJ3aWR0aCIsImhlaWdodCIsInRpdGxlIiwiYnRuVHlwZSIsImNvbnRhaW5lclN0eWxlcyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./components/Navbar.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./components/Searchbar.tsx":
+/*!**********************************!*\
+  !*** ./components/Searchbar.tsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/gorudodjoulyane/code/AmorCar/components/Searchbar.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
+
+/***/ }),
+
+/***/ "(rsc)/./components/ShowMore.tsx":
+/*!*********************************!*\
+  !*** ./components/ShowMore.tsx ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/gorudodjoulyane/code/AmorCar/components/ShowMore.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
+
+/***/ }),
+
+/***/ "(rsc)/./components/index.ts":
+/*!*****************************!*\
+  !*** ./components/index.ts ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   CarCard: () => (/* reexport safe */ _CarCard__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   CustomButton: () => (/* reexport safe */ _CustomButton__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   CustomFilter: () => (/* reexport safe */ _CustomFilter__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   Footer: () => (/* reexport safe */ _Footer__WEBPACK_IMPORTED_MODULE_3__[\"default\"]),\n/* harmony export */   Hero: () => (/* reexport safe */ _Hero__WEBPACK_IMPORTED_MODULE_7__[\"default\"]),\n/* harmony export */   NavBar: () => (/* reexport safe */ _Navbar__WEBPACK_IMPORTED_MODULE_4__[\"default\"]),\n/* harmony export */   SearchBar: () => (/* reexport safe */ _Searchbar__WEBPACK_IMPORTED_MODULE_6__[\"default\"]),\n/* harmony export */   ShowMore: () => (/* reexport safe */ _ShowMore__WEBPACK_IMPORTED_MODULE_5__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _CarCard__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CarCard */ \"(rsc)/./components/CarCard.tsx\");\n/* harmony import */ var _CustomButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CustomButton */ \"(rsc)/./components/CustomButton.tsx\");\n/* harmony import */ var _CustomFilter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CustomFilter */ \"(rsc)/./components/CustomFilter.tsx\");\n/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ \"(rsc)/./components/Footer.tsx\");\n/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar */ \"(rsc)/./components/Navbar.tsx\");\n/* harmony import */ var _ShowMore__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ShowMore */ \"(rsc)/./components/ShowMore.tsx\");\n/* harmony import */ var _Searchbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Searchbar */ \"(rsc)/./components/Searchbar.tsx\");\n/* harmony import */ var _Hero__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Hero */ \"(rsc)/./components/Hero.tsx\");\n\n\n\n\n\n\n\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9jb21wb25lbnRzL2luZGV4LnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBZ0M7QUFDVTtBQUNBO0FBQ1o7QUFDQTtBQUNJO0FBQ0U7QUFDVjtBQVd4QiIsInNvdXJjZXMiOlsid2VicGFjazovL2Nhcmh1Yi8uL2NvbXBvbmVudHMvaW5kZXgudHM/ZjJjNCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQ2FyQ2FyZCBmcm9tIFwiLi9DYXJDYXJkXCI7XG5pbXBvcnQgQ3VzdG9tQnV0dG9uIGZyb20gXCIuL0N1c3RvbUJ1dHRvblwiO1xuaW1wb3J0IEN1c3RvbUZpbHRlciBmcm9tIFwiLi9DdXN0b21GaWx0ZXJcIjtcbmltcG9ydCBGb290ZXIgZnJvbSBcIi4vRm9vdGVyXCI7XG5pbXBvcnQgTmF2QmFyIGZyb20gXCIuL05hdmJhclwiO1xuaW1wb3J0IFNob3dNb3JlIGZyb20gXCIuL1Nob3dNb3JlXCI7XG5pbXBvcnQgU2VhcmNoQmFyIGZyb20gXCIuL1NlYXJjaGJhclwiO1xuaW1wb3J0IEhlcm8gZnJvbSBcIi4vSGVyb1wiO1xuXG5leHBvcnQge1xuICBIZXJvLFxuICBDYXJDYXJkLFxuICBDdXN0b21CdXR0b24sXG4gIEN1c3RvbUZpbHRlcixcbiAgRm9vdGVyLFxuICBOYXZCYXIsXG4gIFNob3dNb3JlLFxuICBTZWFyY2hCYXIsXG59O1xuIl0sIm5hbWVzIjpbIkNhckNhcmQiLCJDdXN0b21CdXR0b24iLCJDdXN0b21GaWx0ZXIiLCJGb290ZXIiLCJOYXZCYXIiLCJTaG93TW9yZSIsIlNlYXJjaEJhciIsIkhlcm8iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./components/index.ts\n");
+
+/***/ }),
+
+/***/ "(rsc)/./constants/index.ts":
+/*!****************************!*\
+  !*** ./constants/index.ts ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   footerLinks: () => (/* binding */ footerLinks),\n/* harmony export */   fuels: () => (/* binding */ fuels),\n/* harmony export */   manufacturers: () => (/* binding */ manufacturers),\n/* harmony export */   yearsOfProduction: () => (/* binding */ yearsOfProduction)\n/* harmony export */ });\nconst manufacturers = [\n    \"Acura\",\n    \"Alfa Romeo\",\n    \"Aston Martin\",\n    \"Audi\",\n    \"Bentley\",\n    \"BMW\",\n    \"Buick\",\n    \"Cadillac\",\n    \"Chevrolet\",\n    \"Chrysler\",\n    \"Citroen\",\n    \"Dodge\",\n    \"Ferrari\",\n    \"Fiat\",\n    \"Ford\",\n    \"GMC\",\n    \"Honda\",\n    \"Hyundai\",\n    \"Infiniti\",\n    \"Jaguar\",\n    \"Jeep\",\n    \"Kia\",\n    \"Lamborghini\",\n    \"Land Rover\",\n    \"Lexus\",\n    \"Lincoln\",\n    \"Maserati\",\n    \"Mazda\",\n    \"McLaren\",\n    \"Mercedes-Benz\",\n    \"MINI\",\n    \"Mitsubishi\",\n    \"Nissan\",\n    \"Porsche\",\n    \"Ram\",\n    \"Rolls-Royce\",\n    \"Subaru\",\n    \"Tesla\",\n    \"Toyota\",\n    \"Volkswagen\",\n    \"Volvo\"\n];\nconst yearsOfProduction = [\n    {\n        title: \"Year\",\n        value: \"\"\n    },\n    {\n        title: \"2015\",\n        value: \"2015\"\n    },\n    {\n        title: \"2016\",\n        value: \"2016\"\n    },\n    {\n        title: \"2017\",\n        value: \"2017\"\n    },\n    {\n        title: \"2018\",\n        value: \"2018\"\n    },\n    {\n        title: \"2019\",\n        value: \"2019\"\n    },\n    {\n        title: \"2020\",\n        value: \"2020\"\n    },\n    {\n        title: \"2021\",\n        value: \"2021\"\n    },\n    {\n        title: \"2022\",\n        value: \"2022\"\n    },\n    {\n        title: \"2023\",\n        value: \"2023\"\n    }\n];\nconst fuels = [\n    {\n        title: \"Fuel\",\n        value: \"\"\n    },\n    {\n        title: \"Gas\",\n        value: \"Gas\"\n    },\n    {\n        title: \"Electricity\",\n        value: \"Electricity\"\n    }\n];\nconst footerLinks = [\n    {\n        title: \"About\",\n        links: [\n            {\n                title: \"How it works\",\n                url: \"/\"\n            },\n            {\n                title: \"Featured\",\n                url: \"/\"\n            },\n            {\n                title: \"Partnership\",\n                url: \"/\"\n            },\n            {\n                title: \"Bussiness Relation\",\n                url: \"/\"\n            }\n        ]\n    },\n    {\n        title: \"Company\",\n        links: [\n            {\n                title: \"Events\",\n                url: \"/\"\n            },\n            {\n                title: \"Blog\",\n                url: \"/\"\n            },\n            {\n                title: \"Podcast\",\n                url: \"/\"\n            },\n            {\n                title: \"Invite a friend\",\n                url: \"/\"\n            }\n        ]\n    },\n    {\n        title: \"Socials\",\n        links: [\n            {\n                title: \"Discord\",\n                url: \"/\"\n            },\n            {\n                title: \"Instagram\",\n                url: \"/\"\n            },\n            {\n                title: \"Twitter\",\n                url: \"/\"\n            },\n            {\n                title: \"Facebook\",\n                url: \"/\"\n            }\n        ]\n    }\n];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9jb25zdGFudHMvaW5kZXgudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLGdCQUFnQjtJQUMzQjtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0NBQ0QsQ0FBQztBQUVLLE1BQU1DLG9CQUFvQjtJQUMvQjtRQUFFQyxPQUFPO1FBQVFDLE9BQU87SUFBRztJQUMzQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztJQUMvQjtRQUFFRCxPQUFPO1FBQVFDLE9BQU87SUFBTztDQUNoQyxDQUFDO0FBRUssTUFBTUMsUUFBUTtJQUNuQjtRQUNFRixPQUFPO1FBQ1BDLE9BQU87SUFDVDtJQUNBO1FBQ0VELE9BQU87UUFDUEMsT0FBTztJQUNUO0lBQ0E7UUFDRUQsT0FBTztRQUNQQyxPQUFPO0lBQ1Q7Q0FDRCxDQUFDO0FBRUssTUFBTUUsY0FBYztJQUN6QjtRQUNFSCxPQUFPO1FBQ1BJLE9BQU87WUFDTDtnQkFBRUosT0FBTztnQkFBZ0JLLEtBQUs7WUFBSTtZQUNsQztnQkFBRUwsT0FBTztnQkFBWUssS0FBSztZQUFJO1lBQzlCO2dCQUFFTCxPQUFPO2dCQUFlSyxLQUFLO1lBQUk7WUFDakM7Z0JBQUVMLE9BQU87Z0JBQXNCSyxLQUFLO1lBQUk7U0FDekM7SUFDSDtJQUNBO1FBQ0VMLE9BQU87UUFDUEksT0FBTztZQUNMO2dCQUFFSixPQUFPO2dCQUFVSyxLQUFLO1lBQUk7WUFDNUI7Z0JBQUVMLE9BQU87Z0JBQVFLLEtBQUs7WUFBSTtZQUMxQjtnQkFBRUwsT0FBTztnQkFBV0ssS0FBSztZQUFJO1lBQzdCO2dCQUFFTCxPQUFPO2dCQUFtQkssS0FBSztZQUFJO1NBQ3RDO0lBQ0g7SUFDQTtRQUNFTCxPQUFPO1FBQ1BJLE9BQU87WUFDTDtnQkFBRUosT0FBTztnQkFBV0ssS0FBSztZQUFJO1lBQzdCO2dCQUFFTCxPQUFPO2dCQUFhSyxLQUFLO1lBQUk7WUFDL0I7Z0JBQUVMLE9BQU87Z0JBQVdLLEtBQUs7WUFBSTtZQUM3QjtnQkFBRUwsT0FBTztnQkFBWUssS0FBSztZQUFJO1NBQy9CO0lBQ0g7Q0FDRCxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLy4vY29uc3RhbnRzL2luZGV4LnRzPzY2NGYiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IG1hbnVmYWN0dXJlcnMgPSBbXG4gIFwiQWN1cmFcIixcbiAgXCJBbGZhIFJvbWVvXCIsXG4gIFwiQXN0b24gTWFydGluXCIsXG4gIFwiQXVkaVwiLFxuICBcIkJlbnRsZXlcIixcbiAgXCJCTVdcIixcbiAgXCJCdWlja1wiLFxuICBcIkNhZGlsbGFjXCIsXG4gIFwiQ2hldnJvbGV0XCIsXG4gIFwiQ2hyeXNsZXJcIixcbiAgXCJDaXRyb2VuXCIsXG4gIFwiRG9kZ2VcIixcbiAgXCJGZXJyYXJpXCIsXG4gIFwiRmlhdFwiLFxuICBcIkZvcmRcIixcbiAgXCJHTUNcIixcbiAgXCJIb25kYVwiLFxuICBcIkh5dW5kYWlcIixcbiAgXCJJbmZpbml0aVwiLFxuICBcIkphZ3VhclwiLFxuICBcIkplZXBcIixcbiAgXCJLaWFcIixcbiAgXCJMYW1ib3JnaGluaVwiLFxuICBcIkxhbmQgUm92ZXJcIixcbiAgXCJMZXh1c1wiLFxuICBcIkxpbmNvbG5cIixcbiAgXCJNYXNlcmF0aVwiLFxuICBcIk1hemRhXCIsXG4gIFwiTWNMYXJlblwiLFxuICBcIk1lcmNlZGVzLUJlbnpcIixcbiAgXCJNSU5JXCIsXG4gIFwiTWl0c3ViaXNoaVwiLFxuICBcIk5pc3NhblwiLFxuICBcIlBvcnNjaGVcIixcbiAgXCJSYW1cIixcbiAgXCJSb2xscy1Sb3ljZVwiLFxuICBcIlN1YmFydVwiLFxuICBcIlRlc2xhXCIsXG4gIFwiVG95b3RhXCIsXG4gIFwiVm9sa3N3YWdlblwiLFxuICBcIlZvbHZvXCIsXG5dO1xuXG5leHBvcnQgY29uc3QgeWVhcnNPZlByb2R1Y3Rpb24gPSBbXG4gIHsgdGl0bGU6IFwiWWVhclwiLCB2YWx1ZTogXCJcIiB9LFxuICB7IHRpdGxlOiBcIjIwMTVcIiwgdmFsdWU6IFwiMjAxNVwiIH0sXG4gIHsgdGl0bGU6IFwiMjAxNlwiLCB2YWx1ZTogXCIyMDE2XCIgfSxcbiAgeyB0aXRsZTogXCIyMDE3XCIsIHZhbHVlOiBcIjIwMTdcIiB9LFxuICB7IHRpdGxlOiBcIjIwMThcIiwgdmFsdWU6IFwiMjAxOFwiIH0sXG4gIHsgdGl0bGU6IFwiMjAxOVwiLCB2YWx1ZTogXCIyMDE5XCIgfSxcbiAgeyB0aXRsZTogXCIyMDIwXCIsIHZhbHVlOiBcIjIwMjBcIiB9LFxuICB7IHRpdGxlOiBcIjIwMjFcIiwgdmFsdWU6IFwiMjAyMVwiIH0sXG4gIHsgdGl0bGU6IFwiMjAyMlwiLCB2YWx1ZTogXCIyMDIyXCIgfSxcbiAgeyB0aXRsZTogXCIyMDIzXCIsIHZhbHVlOiBcIjIwMjNcIiB9LFxuXTtcblxuZXhwb3J0IGNvbnN0IGZ1ZWxzID0gW1xuICB7XG4gICAgdGl0bGU6IFwiRnVlbFwiLFxuICAgIHZhbHVlOiBcIlwiLFxuICB9LFxuICB7XG4gICAgdGl0bGU6IFwiR2FzXCIsXG4gICAgdmFsdWU6IFwiR2FzXCIsXG4gIH0sXG4gIHtcbiAgICB0aXRsZTogXCJFbGVjdHJpY2l0eVwiLFxuICAgIHZhbHVlOiBcIkVsZWN0cmljaXR5XCIsXG4gIH0sXG5dO1xuXG5leHBvcnQgY29uc3QgZm9vdGVyTGlua3MgPSBbXG4gIHtcbiAgICB0aXRsZTogXCJBYm91dFwiLFxuICAgIGxpbmtzOiBbXG4gICAgICB7IHRpdGxlOiBcIkhvdyBpdCB3b3Jrc1wiLCB1cmw6IFwiL1wiIH0sXG4gICAgICB7IHRpdGxlOiBcIkZlYXR1cmVkXCIsIHVybDogXCIvXCIgfSxcbiAgICAgIHsgdGl0bGU6IFwiUGFydG5lcnNoaXBcIiwgdXJsOiBcIi9cIiB9LFxuICAgICAgeyB0aXRsZTogXCJCdXNzaW5lc3MgUmVsYXRpb25cIiwgdXJsOiBcIi9cIiB9LFxuICAgIF0sXG4gIH0sXG4gIHtcbiAgICB0aXRsZTogXCJDb21wYW55XCIsXG4gICAgbGlua3M6IFtcbiAgICAgIHsgdGl0bGU6IFwiRXZlbnRzXCIsIHVybDogXCIvXCIgfSxcbiAgICAgIHsgdGl0bGU6IFwiQmxvZ1wiLCB1cmw6IFwiL1wiIH0sXG4gICAgICB7IHRpdGxlOiBcIlBvZGNhc3RcIiwgdXJsOiBcIi9cIiB9LFxuICAgICAgeyB0aXRsZTogXCJJbnZpdGUgYSBmcmllbmRcIiwgdXJsOiBcIi9cIiB9LFxuICAgIF0sXG4gIH0sXG4gIHtcbiAgICB0aXRsZTogXCJTb2NpYWxzXCIsXG4gICAgbGlua3M6IFtcbiAgICAgIHsgdGl0bGU6IFwiRGlzY29yZFwiLCB1cmw6IFwiL1wiIH0sXG4gICAgICB7IHRpdGxlOiBcIkluc3RhZ3JhbVwiLCB1cmw6IFwiL1wiIH0sXG4gICAgICB7IHRpdGxlOiBcIlR3aXR0ZXJcIiwgdXJsOiBcIi9cIiB9LFxuICAgICAgeyB0aXRsZTogXCJGYWNlYm9va1wiLCB1cmw6IFwiL1wiIH0sXG4gICAgXSxcbiAgfSxcbl07XG4iXSwibmFtZXMiOlsibWFudWZhY3R1cmVycyIsInllYXJzT2ZQcm9kdWN0aW9uIiwidGl0bGUiLCJ2YWx1ZSIsImZ1ZWxzIiwiZm9vdGVyTGlua3MiLCJsaW5rcyIsInVybCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./constants/index.ts\n");
+
+/***/ }),
+
+/***/ "(rsc)/./utils/index.ts":
+/*!************************!*\
+  !*** ./utils/index.ts ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   calculateCarRent: () => (/* binding */ calculateCarRent),\n/* harmony export */   deleteSearchParams: () => (/* binding */ deleteSearchParams),\n/* harmony export */   fetchCars: () => (/* binding */ fetchCars),\n/* harmony export */   generateCarImageUrl: () => (/* binding */ generateCarImageUrl),\n/* harmony export */   updateSearchParams: () => (/* binding */ updateSearchParams)\n/* harmony export */ });\nconst calculateCarRent = (city_mpg, year)=>{\n    const basePricePerDay = 50; // Base rental price per day in dollars\n    const mileageFactor = 0.1; // Additional rate per mile driven\n    const ageFactor = 0.05; // Additional rate per year of vehicle age\n    // Calculate additional rate based on mileage and age\n    const mileageRate = city_mpg * mileageFactor;\n    const ageRate = (new Date().getFullYear() - year) * ageFactor;\n    // Calculate total rental rate per day\n    const rentalRatePerDay = basePricePerDay + mileageRate + ageRate;\n    return rentalRatePerDay.toFixed(0);\n};\nconst updateSearchParams = (type, value)=>{\n    // Get the current URL search params\n    const searchParams = new URLSearchParams(window.location.search);\n    // Set the specified search parameter to the given value\n    searchParams.set(type, value);\n    // Set the specified search parameter to the given value\n    const newPathname = `${window.location.pathname}?${searchParams.toString()}`;\n    return newPathname;\n};\nconst deleteSearchParams = (type)=>{\n    // Set the specified search parameter to the given value\n    const newSearchParams = new URLSearchParams(window.location.search);\n    // Delete the specified search parameter\n    newSearchParams.delete(type.toLocaleLowerCase());\n    // Construct the updated URL pathname with the deleted search parameter\n    const newPathname = `${window.location.pathname}?${newSearchParams.toString()}`;\n    return newPathname;\n};\nasync function fetchCars(filters) {\n    const { manufacturer, year, model, limit, fuel } = filters;\n    // Set the required headers for the API request\n    const headers = {\n        \"X-RapidAPI-Key\": process.env.NEXT_PUBLIC_RAPID_API_KEY || \"b61c12b0e1msha1332f2e9cfc7bep1dfe71jsn91c6d4c30f17\",\n        \"X-RapidAPI-Host\": \"cars-by-api-ninjas.p.rapidapi.com\"\n    };\n    // Set the required headers for the API request\n    const response = await fetch(`https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?make=${manufacturer}&year=${year}&model=${model}&limit=${limit}&fuel_type=${fuel}`, {\n        headers: headers\n    });\n    // Parse the response as JSON\n    const result = await response.json();\n    return result;\n}\nconst generateCarImageUrl = (car, angle)=>{\n    const url = new URL(\"https://cdn.imagin.studio/getimage\");\n    const { make, model, year } = car;\n    url.searchParams.append(\"customer\", process.env.NEXT_PUBLIC_IMAGIN_API_KEY || \"\");\n    url.searchParams.append(\"make\", make);\n    url.searchParams.append(\"modelFamily\", model.split(\" \")[0]);\n    url.searchParams.append(\"zoomType\", \"fullscreen\");\n    url.searchParams.append(\"modelYear\", `${year}`);\n    // url.searchParams.append('zoomLevel', zoomLevel);\n    url.searchParams.append(\"angle\", `${angle}`);\n    return `${url}`;\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi91dGlscy9pbmRleC50cyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUVPLE1BQU1BLG1CQUFtQixDQUFDQyxVQUFrQkM7SUFDakQsTUFBTUMsa0JBQWtCLElBQUksdUNBQXVDO0lBQ25FLE1BQU1DLGdCQUFnQixLQUFLLGtDQUFrQztJQUM3RCxNQUFNQyxZQUFZLE1BQU0sMENBQTBDO0lBRWxFLHFEQUFxRDtJQUNyRCxNQUFNQyxjQUFjTCxXQUFXRztJQUMvQixNQUFNRyxVQUFVLENBQUMsSUFBSUMsT0FBT0MsV0FBVyxLQUFLUCxJQUFHLElBQUtHO0lBRXBELHNDQUFzQztJQUN0QyxNQUFNSyxtQkFBbUJQLGtCQUFrQkcsY0FBY0M7SUFFekQsT0FBT0csaUJBQWlCQyxPQUFPLENBQUM7QUFDbEMsRUFBRTtBQUVLLE1BQU1DLHFCQUFxQixDQUFDQyxNQUFjQztJQUMvQyxvQ0FBb0M7SUFDcEMsTUFBTUMsZUFBZSxJQUFJQyxnQkFBZ0JDLE9BQU9DLFFBQVEsQ0FBQ0MsTUFBTTtJQUUvRCx3REFBd0Q7SUFDeERKLGFBQWFLLEdBQUcsQ0FBQ1AsTUFBTUM7SUFFdkIsd0RBQXdEO0lBQ3hELE1BQU1PLGNBQWMsQ0FBQyxFQUFFSixPQUFPQyxRQUFRLENBQUNJLFFBQVEsQ0FBQyxDQUFDLEVBQUVQLGFBQWFRLFFBQVEsR0FBRyxDQUFDO0lBRTVFLE9BQU9GO0FBQ1QsRUFBRTtBQUVLLE1BQU1HLHFCQUFxQixDQUFDWDtJQUNqQyx3REFBd0Q7SUFDeEQsTUFBTVksa0JBQWtCLElBQUlULGdCQUFnQkMsT0FBT0MsUUFBUSxDQUFDQyxNQUFNO0lBRWxFLHdDQUF3QztJQUN4Q00sZ0JBQWdCQyxNQUFNLENBQUNiLEtBQUtjLGlCQUFpQjtJQUU3Qyx1RUFBdUU7SUFDdkUsTUFBTU4sY0FBYyxDQUFDLEVBQUVKLE9BQU9DLFFBQVEsQ0FBQ0ksUUFBUSxDQUFDLENBQUMsRUFBRUcsZ0JBQWdCRixRQUFRLEdBQUcsQ0FBQztJQUUvRSxPQUFPRjtBQUNULEVBQUU7QUFFSyxlQUFlTyxVQUFVQyxPQUFvQjtJQUNsRCxNQUFNLEVBQUVDLFlBQVksRUFBRTVCLElBQUksRUFBRTZCLEtBQUssRUFBRUMsS0FBSyxFQUFFQyxJQUFJLEVBQUUsR0FBR0o7SUFFbkQsK0NBQStDO0lBQy9DLE1BQU1LLFVBQXVCO1FBQzNCLGtCQUFrQkMsUUFBUUMsR0FBRyxDQUFDQyx5QkFBeUIsSUFBSTtRQUMzRCxtQkFBbUI7SUFDckI7SUFFQSwrQ0FBK0M7SUFDL0MsTUFBTUMsV0FBVyxNQUFNQyxNQUNyQixDQUFDLHVEQUF1RCxFQUFFVCxhQUFhLE1BQU0sRUFBRTVCLEtBQUssT0FBTyxFQUFFNkIsTUFBTSxPQUFPLEVBQUVDLE1BQU0sV0FBVyxFQUFFQyxLQUFLLENBQUMsRUFDckk7UUFDRUMsU0FBU0E7SUFDWDtJQUdGLDZCQUE2QjtJQUM3QixNQUFNTSxTQUFTLE1BQU1GLFNBQVNHLElBQUk7SUFFbEMsT0FBT0Q7QUFDVDtBQUVPLE1BQU1FLHNCQUFzQixDQUFDQyxLQUFlQztJQUNqRCxNQUFNQyxNQUFNLElBQUlDLElBQUk7SUFDcEIsTUFBTSxFQUFFQyxJQUFJLEVBQUVoQixLQUFLLEVBQUU3QixJQUFJLEVBQUUsR0FBR3lDO0lBRTlCRSxJQUFJOUIsWUFBWSxDQUFDaUMsTUFBTSxDQUFDLFlBQVliLFFBQVFDLEdBQUcsQ0FBQ2EsMEJBQTBCLElBQUk7SUFDOUVKLElBQUk5QixZQUFZLENBQUNpQyxNQUFNLENBQUMsUUFBUUQ7SUFDaENGLElBQUk5QixZQUFZLENBQUNpQyxNQUFNLENBQUMsZUFBZWpCLE1BQU1tQixLQUFLLENBQUMsSUFBSSxDQUFDLEVBQUU7SUFDMURMLElBQUk5QixZQUFZLENBQUNpQyxNQUFNLENBQUMsWUFBWTtJQUNwQ0gsSUFBSTlCLFlBQVksQ0FBQ2lDLE1BQU0sQ0FBQyxhQUFhLENBQUMsRUFBRTlDLEtBQUssQ0FBQztJQUM5QyxtREFBbUQ7SUFDbkQyQyxJQUFJOUIsWUFBWSxDQUFDaUMsTUFBTSxDQUFDLFNBQVMsQ0FBQyxFQUFFSixNQUFNLENBQUM7SUFFM0MsT0FBTyxDQUFDLEVBQUVDLElBQUksQ0FBQztBQUNqQixFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2FyaHViLy4vdXRpbHMvaW5kZXgudHM/NTZkNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDYXJQcm9wcywgRmlsdGVyUHJvcHMgfSBmcm9tIFwiQHR5cGVzXCI7XG5cbmV4cG9ydCBjb25zdCBjYWxjdWxhdGVDYXJSZW50ID0gKGNpdHlfbXBnOiBudW1iZXIsIHllYXI6IG51bWJlcikgPT4ge1xuICBjb25zdCBiYXNlUHJpY2VQZXJEYXkgPSA1MDsgLy8gQmFzZSByZW50YWwgcHJpY2UgcGVyIGRheSBpbiBkb2xsYXJzXG4gIGNvbnN0IG1pbGVhZ2VGYWN0b3IgPSAwLjE7IC8vIEFkZGl0aW9uYWwgcmF0ZSBwZXIgbWlsZSBkcml2ZW5cbiAgY29uc3QgYWdlRmFjdG9yID0gMC4wNTsgLy8gQWRkaXRpb25hbCByYXRlIHBlciB5ZWFyIG9mIHZlaGljbGUgYWdlXG5cbiAgLy8gQ2FsY3VsYXRlIGFkZGl0aW9uYWwgcmF0ZSBiYXNlZCBvbiBtaWxlYWdlIGFuZCBhZ2VcbiAgY29uc3QgbWlsZWFnZVJhdGUgPSBjaXR5X21wZyAqIG1pbGVhZ2VGYWN0b3I7XG4gIGNvbnN0IGFnZVJhdGUgPSAobmV3IERhdGUoKS5nZXRGdWxsWWVhcigpIC0geWVhcikgKiBhZ2VGYWN0b3I7XG5cbiAgLy8gQ2FsY3VsYXRlIHRvdGFsIHJlbnRhbCByYXRlIHBlciBkYXlcbiAgY29uc3QgcmVudGFsUmF0ZVBlckRheSA9IGJhc2VQcmljZVBlckRheSArIG1pbGVhZ2VSYXRlICsgYWdlUmF0ZTtcblxuICByZXR1cm4gcmVudGFsUmF0ZVBlckRheS50b0ZpeGVkKDApO1xufTtcblxuZXhwb3J0IGNvbnN0IHVwZGF0ZVNlYXJjaFBhcmFtcyA9ICh0eXBlOiBzdHJpbmcsIHZhbHVlOiBzdHJpbmcpID0+IHtcbiAgLy8gR2V0IHRoZSBjdXJyZW50IFVSTCBzZWFyY2ggcGFyYW1zXG4gIGNvbnN0IHNlYXJjaFBhcmFtcyA9IG5ldyBVUkxTZWFyY2hQYXJhbXMod2luZG93LmxvY2F0aW9uLnNlYXJjaCk7XG5cbiAgLy8gU2V0IHRoZSBzcGVjaWZpZWQgc2VhcmNoIHBhcmFtZXRlciB0byB0aGUgZ2l2ZW4gdmFsdWVcbiAgc2VhcmNoUGFyYW1zLnNldCh0eXBlLCB2YWx1ZSk7XG5cbiAgLy8gU2V0IHRoZSBzcGVjaWZpZWQgc2VhcmNoIHBhcmFtZXRlciB0byB0aGUgZ2l2ZW4gdmFsdWVcbiAgY29uc3QgbmV3UGF0aG5hbWUgPSBgJHt3aW5kb3cubG9jYXRpb24ucGF0aG5hbWV9PyR7c2VhcmNoUGFyYW1zLnRvU3RyaW5nKCl9YDtcblxuICByZXR1cm4gbmV3UGF0aG5hbWU7XG59O1xuXG5leHBvcnQgY29uc3QgZGVsZXRlU2VhcmNoUGFyYW1zID0gKHR5cGU6IHN0cmluZykgPT4ge1xuICAvLyBTZXQgdGhlIHNwZWNpZmllZCBzZWFyY2ggcGFyYW1ldGVyIHRvIHRoZSBnaXZlbiB2YWx1ZVxuICBjb25zdCBuZXdTZWFyY2hQYXJhbXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gpO1xuXG4gIC8vIERlbGV0ZSB0aGUgc3BlY2lmaWVkIHNlYXJjaCBwYXJhbWV0ZXJcbiAgbmV3U2VhcmNoUGFyYW1zLmRlbGV0ZSh0eXBlLnRvTG9jYWxlTG93ZXJDYXNlKCkpO1xuXG4gIC8vIENvbnN0cnVjdCB0aGUgdXBkYXRlZCBVUkwgcGF0aG5hbWUgd2l0aCB0aGUgZGVsZXRlZCBzZWFyY2ggcGFyYW1ldGVyXG4gIGNvbnN0IG5ld1BhdGhuYW1lID0gYCR7d2luZG93LmxvY2F0aW9uLnBhdGhuYW1lfT8ke25ld1NlYXJjaFBhcmFtcy50b1N0cmluZygpfWA7XG5cbiAgcmV0dXJuIG5ld1BhdGhuYW1lO1xufTtcblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGZldGNoQ2FycyhmaWx0ZXJzOiBGaWx0ZXJQcm9wcykge1xuICBjb25zdCB7IG1hbnVmYWN0dXJlciwgeWVhciwgbW9kZWwsIGxpbWl0LCBmdWVsIH0gPSBmaWx0ZXJzO1xuXG4gIC8vIFNldCB0aGUgcmVxdWlyZWQgaGVhZGVycyBmb3IgdGhlIEFQSSByZXF1ZXN0XG4gIGNvbnN0IGhlYWRlcnM6IEhlYWRlcnNJbml0ID0ge1xuICAgIFwiWC1SYXBpZEFQSS1LZXlcIjogcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfUkFQSURfQVBJX0tFWSB8fCBcImI2MWMxMmIwZTFtc2hhMTMzMmYyZTljZmM3YmVwMWRmZTcxanNuOTFjNmQ0YzMwZjE3XCIsXG4gICAgXCJYLVJhcGlkQVBJLUhvc3RcIjogXCJjYXJzLWJ5LWFwaS1uaW5qYXMucC5yYXBpZGFwaS5jb21cIixcbiAgfTtcblxuICAvLyBTZXQgdGhlIHJlcXVpcmVkIGhlYWRlcnMgZm9yIHRoZSBBUEkgcmVxdWVzdFxuICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKFxuICAgIGBodHRwczovL2NhcnMtYnktYXBpLW5pbmphcy5wLnJhcGlkYXBpLmNvbS92MS9jYXJzP21ha2U9JHttYW51ZmFjdHVyZXJ9JnllYXI9JHt5ZWFyfSZtb2RlbD0ke21vZGVsfSZsaW1pdD0ke2xpbWl0fSZmdWVsX3R5cGU9JHtmdWVsfWAsXG4gICAge1xuICAgICAgaGVhZGVyczogaGVhZGVycyxcbiAgICB9XG4gICk7XG5cbiAgLy8gUGFyc2UgdGhlIHJlc3BvbnNlIGFzIEpTT05cbiAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcmVzcG9uc2UuanNvbigpO1xuXG4gIHJldHVybiByZXN1bHQ7XG59XG5cbmV4cG9ydCBjb25zdCBnZW5lcmF0ZUNhckltYWdlVXJsID0gKGNhcjogQ2FyUHJvcHMsIGFuZ2xlPzogc3RyaW5nKSA9PiB7XG4gIGNvbnN0IHVybCA9IG5ldyBVUkwoXCJodHRwczovL2Nkbi5pbWFnaW4uc3R1ZGlvL2dldGltYWdlXCIpO1xuICBjb25zdCB7IG1ha2UsIG1vZGVsLCB5ZWFyIH0gPSBjYXI7XG5cbiAgdXJsLnNlYXJjaFBhcmFtcy5hcHBlbmQoJ2N1c3RvbWVyJywgcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfSU1BR0lOX0FQSV9LRVkgfHwgJycpO1xuICB1cmwuc2VhcmNoUGFyYW1zLmFwcGVuZCgnbWFrZScsIG1ha2UpO1xuICB1cmwuc2VhcmNoUGFyYW1zLmFwcGVuZCgnbW9kZWxGYW1pbHknLCBtb2RlbC5zcGxpdChcIiBcIilbMF0pO1xuICB1cmwuc2VhcmNoUGFyYW1zLmFwcGVuZCgnem9vbVR5cGUnLCAnZnVsbHNjcmVlbicpO1xuICB1cmwuc2VhcmNoUGFyYW1zLmFwcGVuZCgnbW9kZWxZZWFyJywgYCR7eWVhcn1gKTtcbiAgLy8gdXJsLnNlYXJjaFBhcmFtcy5hcHBlbmQoJ3pvb21MZXZlbCcsIHpvb21MZXZlbCk7XG4gIHVybC5zZWFyY2hQYXJhbXMuYXBwZW5kKCdhbmdsZScsIGAke2FuZ2xlfWApO1xuXG4gIHJldHVybiBgJHt1cmx9YDtcbn0gXG4iXSwibmFtZXMiOlsiY2FsY3VsYXRlQ2FyUmVudCIsImNpdHlfbXBnIiwieWVhciIsImJhc2VQcmljZVBlckRheSIsIm1pbGVhZ2VGYWN0b3IiLCJhZ2VGYWN0b3IiLCJtaWxlYWdlUmF0ZSIsImFnZVJhdGUiLCJEYXRlIiwiZ2V0RnVsbFllYXIiLCJyZW50YWxSYXRlUGVyRGF5IiwidG9GaXhlZCIsInVwZGF0ZVNlYXJjaFBhcmFtcyIsInR5cGUiLCJ2YWx1ZSIsInNlYXJjaFBhcmFtcyIsIlVSTFNlYXJjaFBhcmFtcyIsIndpbmRvdyIsImxvY2F0aW9uIiwic2VhcmNoIiwic2V0IiwibmV3UGF0aG5hbWUiLCJwYXRobmFtZSIsInRvU3RyaW5nIiwiZGVsZXRlU2VhcmNoUGFyYW1zIiwibmV3U2VhcmNoUGFyYW1zIiwiZGVsZXRlIiwidG9Mb2NhbGVMb3dlckNhc2UiLCJmZXRjaENhcnMiLCJmaWx0ZXJzIiwibWFudWZhY3R1cmVyIiwibW9kZWwiLCJsaW1pdCIsImZ1ZWwiLCJoZWFkZXJzIiwicHJvY2VzcyIsImVudiIsIk5FWFRfUFVCTElDX1JBUElEX0FQSV9LRVkiLCJyZXNwb25zZSIsImZldGNoIiwicmVzdWx0IiwianNvbiIsImdlbmVyYXRlQ2FySW1hZ2VVcmwiLCJjYXIiLCJhbmdsZSIsInVybCIsIlVSTCIsIm1ha2UiLCJhcHBlbmQiLCJORVhUX1BVQkxJQ19JTUFHSU5fQVBJX0tFWSIsInNwbGl0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./utils/index.ts\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__ ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/lib/metadata/get-metadata-route */ \"(rsc)/./node_modules/next/dist/lib/metadata/get-metadata-route.js\");\n/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);\n  \n\n  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {\n    const imageData = {\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}\n    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(\".\", props.params, \"favicon.ico\")\n\n    return [{\n      ...imageData,\n      url: imageUrl + \"\",\n    }]\n  });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LW1ldGFkYXRhLWltYWdlLWxvYWRlci5qcz90eXBlPWZhdmljb24mc2VnbWVudD0mYmFzZVBhdGg9JnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMhLi9hcHAvZmF2aWNvbi5pY28/X19uZXh0X21ldGFkYXRhX18iLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEsRUFBaUY7O0FBRWpGLEVBQUUsaUVBQWU7QUFDakIsdUJBQXVCO0FBQ3ZCLHFCQUFxQiw4RkFBbUI7O0FBRXhDO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTCIsInNvdXJjZXMiOlsid2VicGFjazovL2Nhcmh1Yi8uL2FwcC9mYXZpY29uLmljbz8wOTUyIl0sInNvdXJjZXNDb250ZW50IjpbIiAgaW1wb3J0IHsgZmlsbE1ldGFkYXRhU2VnbWVudCB9IGZyb20gJ25leHQvZGlzdC9saWIvbWV0YWRhdGEvZ2V0LW1ldGFkYXRhLXJvdXRlJ1xuXG4gIGV4cG9ydCBkZWZhdWx0IChwcm9wcykgPT4ge1xuICAgIGNvbnN0IGltYWdlRGF0YSA9IHtcInR5cGVcIjpcImltYWdlL3gtaWNvblwiLFwic2l6ZXNcIjpcIjE2eDE2XCJ9XG4gICAgY29uc3QgaW1hZ2VVcmwgPSBmaWxsTWV0YWRhdGFTZWdtZW50KFwiLlwiLCBwcm9wcy5wYXJhbXMsIFwiZmF2aWNvbi5pY29cIilcblxuICAgIHJldHVybiBbe1xuICAgICAgLi4uaW1hZ2VEYXRhLFxuICAgICAgdXJsOiBpbWFnZVVybCArIFwiXCIsXG4gICAgfV1cbiAgfSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__\n");
 
 /***/ })
 
@@ -2201,7 +575,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [859,477], () => (__webpack_exec__(9036)));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@headlessui","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fgorudodjoulyane%2Fcode%2FAmorCar&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

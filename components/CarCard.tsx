@@ -51,14 +51,14 @@ const CarCard = ({ car }: CarCardProps) => {
           </div>
           <div className="car-card__icon">
             <Image src="/gas.svg" width={20} height={20} alt="seat" />
-            <p className="car-card__icon-text">{city_mpg / 2} L/100</p>
+            <p className="car-card__icon-text">{city_mpg} MPG</p>
           </div>
         </div>
 
         <div className="car-card__btn-container">
           <CustomButton
             title='View More'
-            containerStyles='w-full py-[16px] rounded-full bg-primary-blue'
+            containerStyles='w-full py-[16px] rounded-full bg-yellow-500'
             textStyles='text-white text-[14px] leading-[17px] font-bold'
             rightIcon='/right-arrow.svg'
             handleClick={() => setIsOpen(true)}
