@@ -6,7 +6,7 @@ import NavBar from "./Home/Navbar";
 import ShowMore from "./Home/ShowMore";
 import SearchBar from "./Home/Searchbar";
 import Hero from "./Home/Hero";
-import Login from "./Login/Login";
+import { Login } from "./Login/Login";
 
 export {
   Hero,
